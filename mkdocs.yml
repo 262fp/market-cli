@@ -44,8 +44,8 @@ extra_javascript:
 
 nav:
   - Inicio: index.md
-  - Sílabo 2026-1: silabo_poo_2026_1.md
-  - Sílabo 2026-2: silabo_poo_2026_2.md
+  - Sílabo 2026-1: silabo_fp_2026_1.md
+  - Sílabo 2026-2: silabo_fp_2026_2.md
   - 1. Material heredado de sesiones:
     - Sesion 01: S01_Fundamentos_Estructuras_Datos.md
     - Sesion 02: S02_Clases_Objetos.md
