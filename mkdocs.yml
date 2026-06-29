@@ -1,5 +1,5 @@
-﻿site_name: Fundamentos de ProgramaciÃ³n - Libro digital
-site_description: Cuadernos de programaciÃ³n convertidos a libro digital estÃ¡tico con MkDocs.
+site_name: Fundamentos de Programación - Libro digital
+site_description: Cuadernos de programación convertidos a libro digital estático con MkDocs.
 site_author: UPeU
 copyright: Angel Sullon @asullom - UPeU 2026
 
@@ -48,35 +48,28 @@ extra_javascript:
 
 nav:
   - Inicio: index.md
-  - SÃ­labos:
-      - SÃ­labo 2026-1: silabo_fp_2026_1.md
-      - SÃ­labo 2026-2: silabo_fp_2026_2.md
+  - Sílabos:
+      - Sílabo 2026-1: silabo_fp_2026_1.md
+      - Sílabo 2026-2: silabo_fp_2026_2.md
   - 1. Estructuras secuenciales y condicionales:
       - 1 Algoritmos y datos: S01_Algoritmos_Datos.ipynb
       - 2 Operadores y algoritmo secuencial: S02_Operadores_Algoritmos_Secuenciales.ipynb
       - 3 Decisiones: S03_Decisiones.ipynb
-      - 4 Decisiones mÃºltiples: S04_Decisiones_Multiples.ipynb
-      - 5 EvaluaciÃ³n 1: S05_Evaluacion_1.ipynb
-  - 2. Estructuras repetitivas, modularizacion y procesamiento algoritmico de datos:
+      - 4 Decisiones múltiples: S04_Decisiones_Multiples.ipynb
+      - 5 Evaluación 1: S05_Evaluacion_1.ipynb
+  - 2. Estructuras repetitivas, modularización y procesamiento algorítmico de datos:
       - 6 For y arreglos/listas: S06_For.ipynb
-      - 7 While y menÃº interactivo: S07_While.ipynb
+      - 7 While y menú interactivo: S07_While.ipynb
       - 8 Funciones y recursividad: S08_Funciones_Recursividad.ipynb
-      - 9 BÃºsqueda y ordenaciÃ³n: S09_Busqueda_Ordenacion.ipynb
+      - 9 Búsqueda y ordenación: S09_Busqueda_Ordenacion.ipynb
       - 10 Archivos y CRUD persistente: S10_Archivos_CRUD.ipynb
       - 11 Consultas y reportes: S11_Consultas_Agregacion.ipynb
-      - 12 EvaluaciÃ³n 2: S12_Evaluacion_2.ipynb
-  - 3. Procesamiento algoritmico avanzado e integracion del producto:
+      - 12 Evaluación 2: S12_Evaluacion_2.ipynb
+  - 3. Procesamiento algorítmico avanzado e integración del producto:
       - 13 Matrices y diccionarios: S13_Matrices_Diccionarios.ipynb
-      - 14 Reportes y exportaciÃ³n: S14_Reportes_Exportacion.ipynb
-      - 15 SustentaciÃ³n del producto: S15_Sustentacion_Producto.ipynb
-      - 16 EvaluaciÃ³n final: S16_Evaluacion_Final.ipynb
+      - 14 Reportes y exportación: S14_Reportes_Exportacion.ipynb
+      - 15 Sustentación del producto: S15_Sustentacion_Producto.ipynb
+      - 16 Evaluación final: S16_Evaluacion_Final.ipynb
   - 4. Anexos:
-      - 0 GuÃ­a algoritmo a cÃ³digo: S00_Guia_algoritmo_a_codigo.ipynb
+      - 0 Guía algoritmo a código: S00_Guia_algoritmo_a_codigo.ipynb
       - 17 Equivalencias Java: S17_Java_Equivalencias.ipynb
-
-
-
-
-
-
-
