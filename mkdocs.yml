@@ -1,5 +1,5 @@
-site_name: Fundamentos de Programacion
-site_description: Libro digital de apoyo para el curso de Fundamentos de Programacion - UPeU 2026
+site_name: Fundamentos de Programación - Libro digital
+site_description: Cuadernos de programación convertidos a libro digital estático con MkDocs.
 site_author: UPeU
 copyright: Angel Sullon @asullom - UPeU 2026
 
@@ -21,6 +21,10 @@ theme:
 
 plugins:
   - search
+  - mkdocs-jupyter:
+      execute: false
+      include_source: true
+      ignore_h1_titles: true
 
 markdown_extensions:
   - admonition
@@ -44,27 +48,28 @@ extra_javascript:
 
 nav:
   - Inicio: index.md
-  - Sílabo 2026-1: silabo_fp_2026_1.md
-  - Sílabo 2026-2: silabo_fp_2026_2.md
-  - 1. Material heredado de sesiones:
-    - Sesion 01: S01_Fundamentos_Estructuras_Datos.md
-    - Sesion 02: S02_Clases_Objetos.md
-    - Sesion 03: S03_Encapsulamiento_Relaciones.md
-    - Sesion 04: S04_Herencia_Polimorfismo.md
-    - Sesion 05: S05_CRUD_Memoria_ArrayList.md
-    - Sesion 06: S06_Evaluacion_Unidad_1.md
-  - 2. Material heredado complementario:
-    - Sesion 07: S07_GUI_CRUD_Memoria.md
-    - Sesion 08: S08_Arquitectura_DAO_CRUD_Persistente.md
-    - Sesion 09: S09_Operaciones_Persistentes_Muchos_Muchos.md
-    - Sesion 10: S10_Seguridad_Relacion_Uno_Muchos.md
-    - Sesion 11: S11_Consultas_Integradas_Pruebas.md
-    - Sesion 12: S12_Evaluacion_Unidad_2.md
-  - 3. Material heredado de cierre:
-    - Sesion 13: S13_Proyecto_Integrador_Ensamblaje.md
-    - Sesion 14: S14_Proyecto_Integrador_Refinamiento.md
-    - Sesion 15: S15_Documentacion_Demo.md
-    - Sesion 16: S16_Evaluacion_Final.md
+  - Sílabos:
+      - Sílabo 2026-1: silabo_fp_2026_1.md
+      - Sílabo 2026-2: silabo_fp_2026_2.md
+  - 1. Resolución de problemas secuenciales y condicionales:
+      - 1 Algoritmos y datos: S01_Algoritmos_Datos.ipynb
+      - 2 Operadores y algoritmo secuencial: S02_Operadores_Algoritmos_Secuenciales.ipynb
+      - 3 Decisiones: S03_Decisiones.ipynb
+      - 4 Decisiones múltiples: S04_Decisiones_Multiples.ipynb
+      - 5 Evaluación 1: S05_Evaluacion_1.ipynb
+  - 2. Resolución de problemas iterativos y procesamiento de datos:
+      - 6 Repetición for: S06_For.ipynb
+      - 7 Repetición while: S07_While.ipynb
+      - 8 Listas y cadenas: S08_Listas_Cadenas.ipynb
+      - 9 Búsqueda y ordenación: S09_Busqueda_Ordenacion.ipynb
+      - 10 Matrices: S10_Matrices.ipynb
+      - 11 Diccionarios: S11_Diccionarios.ipynb
+      - 12 Evaluación 2: S12_Evaluacion_2.ipynb
+  - 3. Resolución de problemas estructurados y persistencia básica:
+      - 13 Funciones: S13_Funciones.ipynb
+      - 14 Integración y menús: S14_Integracion_Menus.ipynb
+      - 15 Archivos: S15_Archivos.ipynb
+      - 16 Evaluación final: S16_Evaluacion_Final.ipynb
   - 4. Anexos:
-      - Taller 01 heredado: POOTaller01.md
-      - Taller 02 heredado: POOTaller02.md
+      - 0 Guía algoritmo a código: S00_Guia_algoritmo_a_codigo.ipynb
+      - 17 Equivalencias Java: S17_Java_Equivalencias.ipynb
