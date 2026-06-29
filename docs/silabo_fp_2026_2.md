@@ -117,11 +117,11 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 1 | 16/03/2026-21/03/2026 | Pensamiento algoritmico, datos y variables: algoritmos, entrada-proceso-salida, pseudocodigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos y casos de prueba. | 3 | 4 | Construir un programa base que captura y muestra datos de una entidad inicial del proyecto. | Practicar ejercicios de captura de datos y representar su solucion en pseudocodigo y flujo. |
-| 2 | 22/03/2026-28/03/2026 | Expresiones y secuencia: asignacion, operadores aritmeticos, relacionales y logicos, precedencia, conversion de tipos y estructura secuencial. | 3 | 4 | Desarrollar un registro secuencial con calculos basicos para el caso de negocio. | Resolver ejercicios de secuencia y validar resultados esperados con casos de prueba. |
-| 3 | 29/03/2026-04/04/2026 | Decisiones simples: `if`, `if-else`, condiciones compuestas con `and` y `or`, validacion basica de datos. | 3 | 4 | Integrar validaciones de entrada y reglas condicionales al registro del proyecto. | Reforzar decisiones simples y compuestas con problemas guiados y autoevaluacion. |
-| 4 | 05/04/2026-11/04/2026 | Decisiones multiples y anidadas: `if-elif-else`, control de opciones y menu basico. | 3 | 4 | Implementar menu basico de consola con opciones funcionales del proyecto. | Perfeccionar menu y casos de prueba de navegacion y validacion. |
-| 5 | 12/04/2026-18/04/2026 | Evaluacion Unidad 1: integracion de secuencia, decisiones, validaciones y menu basico. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar el producto de unidad. | Reflexionar y registrar mejoras para la siguiente unidad. |
+| 1 | 10/08/2026-15/08/2026 | Pensamiento algoritmico, datos y variables: algoritmos, entrada-proceso-salida, pseudocodigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos y casos de prueba. | 3 | 4 | Construir un programa base que captura y muestra datos de una entidad inicial del proyecto. | Practicar ejercicios de captura de datos y representar su solucion en pseudocodigo y flujo. |
+| 2 | 16/08/2026-22/08/2026 | Expresiones y secuencia: asignacion, operadores aritmeticos, relacionales y logicos, precedencia, conversion de tipos y estructura secuencial. | 3 | 4 | Desarrollar un registro secuencial con calculos basicos para el caso de negocio. | Resolver ejercicios de secuencia y validar resultados esperados con casos de prueba. |
+| 3 | 23/08/2026-29/08/2026 | Decisiones simples: `if`, `if-else`, condiciones compuestas con `and` y `or`, validacion basica de datos. | 3 | 4 | Integrar validaciones de entrada y reglas condicionales al registro del proyecto. | Reforzar decisiones simples y compuestas con problemas guiados y autoevaluacion. |
+| 4 | 30/08/2026-05/09/2026 | Decisiones multiples y anidadas: `if-elif-else`, control de opciones y menu basico. | 3 | 4 | Implementar menu basico de consola con opciones funcionales del proyecto. | Perfeccionar menu y casos de prueba de navegacion y validacion. |
+| 5 | 06/09/2026-12/09/2026 | Evaluacion Unidad 1: integracion de secuencia, decisiones, validaciones y menu basico. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar el producto de unidad. | Reflexionar y registrar mejoras para la siguiente unidad. |
 
 ### Unidad 2: Estructuras repetitivas, modularizacion y procesamiento de datos
 
@@ -135,13 +135,13 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 6 | 19/04/2026-25/04/2026 | Estructura repetitiva `for` y arreglos/listas: recorrido, contadores y acumuladores. | 3 | 4 | Implementar registrar y listar registros en memoria con listas. | Practicar carga y recorrido de colecciones con ejercicios del proyecto. |
-| 7 | 26/04/2026-02/05/2026 | Estructuras repetitivas `while` y `do-while` conceptual para menu interactivo y validaciones. | 3 | 4 | Construir menu interactivo con condicion de salida y validacion de opciones. | Mejorar robustez de entrada de datos y control de errores de usuario. |
-| 8 | 03/05/2026-09/05/2026 | Subprogramas, parametros, retorno y recursividad aplicada. | 3 | 4 | Modularizar operaciones del sistema y resolver laboratorio recursivo. | Refactorizar funciones y preparar pruebas de caja negra por modulo. |
-| 9 | 10/05/2026-16/05/2026 | Algoritmos de busqueda y ordenacion en registros de consola. | 3 | 4 | Integrar busqueda lineal/binaria conceptual y ordenacion en el CRUD. | Comparar estrategias de busqueda/ordenacion y documentar decisiones. |
-| 10 | 17/05/2026-23/05/2026 | Archivos: guardar y cargar registros (texto/CSV) para persistencia simple. | 3 | 4 | Implementar guardado/carga de datos para mantener estado del CRUD. | Probar persistencia con diferentes escenarios y datos de prueba. |
-| 11 | 24/05/2026-30/05/2026 | Consultas, agregacion y reportes de consola desde datos persistidos. | 3 | 4 | Construir filtros, conteos, sumas, promedios y reportes resumidos. | Ajustar consultas y validar consistencia de resultados. |
-| 12 | 31/05/2026-06/06/2026 | Evaluacion Unidad 2: integracion de CRUD modular, busqueda, ordenacion, archivos y consultas. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar producto U2. | Registrar brechas tecnicas y plan de mejora para cierre del curso. |
+| 6 | 13/09/2026-19/09/2026 | Estructura repetitiva `for` y arreglos/listas: recorrido, contadores y acumuladores. | 3 | 4 | Implementar registrar y listar registros en memoria con listas. | Practicar carga y recorrido de colecciones con ejercicios del proyecto. |
+| 7 | 20/09/2026-26/09/2026 | Estructuras repetitivas `while` y `do-while` conceptual para menu interactivo y validaciones. | 3 | 4 | Construir menu interactivo con condicion de salida y validacion de opciones. | Mejorar robustez de entrada de datos y control de errores de usuario. |
+| 8 | 27/09/2026-03/10/2026 | Subprogramas, parametros, retorno y recursividad aplicada. | 3 | 4 | Modularizar operaciones del sistema y resolver laboratorio recursivo. | Refactorizar funciones y preparar pruebas de caja negra por modulo. |
+| 9 | 04/10/2026-10/10/2026 | Algoritmos de busqueda y ordenacion en registros de consola. | 3 | 4 | Integrar busqueda lineal/binaria conceptual y ordenacion en el CRUD. | Comparar estrategias de busqueda/ordenacion y documentar decisiones. |
+| 10 | 11/10/2026-17/10/2026 | Archivos: guardar y cargar registros (texto/CSV) para persistencia simple. | 3 | 4 | Implementar guardado/carga de datos para mantener estado del CRUD. | Probar persistencia con diferentes escenarios y datos de prueba. |
+| 11 | 18/10/2026-24/10/2026 | Consultas, agregacion y reportes de consola desde datos persistidos. | 3 | 4 | Construir filtros, conteos, sumas, promedios y reportes resumidos. | Ajustar consultas y validar consistencia de resultados. |
+| 12 | 25/10/2026-31/10/2026 | Evaluacion Unidad 2: integracion de CRUD modular, busqueda, ordenacion, archivos y consultas. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar producto U2. | Registrar brechas tecnicas y plan de mejora para cierre del curso. |
 
 ### Unidad 3: Procesamiento algorítmico avanzado e integracion del producto
 
@@ -155,10 +155,10 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 13 | 07/06/2026-13/06/2026 | Matrices y diccionarios para procesamiento avanzado y consultas por clave. | 3 | 4 | Implementar procesamiento con matrices/diccionarios para reportes tabulares. | Practicar organizacion de datos y consultas por clave en casos del proyecto. |
-| 14 | 14/06/2026-20/06/2026 | Generacion de reportes: exportacion a Excel/CSV, PDF/texto e impresion. | 3 | 4 | Generar salidas del sistema para reporte y presentacion de informacion. | Ajustar formato de reportes y verificar calidad de salida final. |
-| 15 | 21/06/2026-27/06/2026 | Sustentacion del producto del curso: demostracion funcional y cierre tecnico. | 3 | 4 | Presentar producto final con evidencias y explicacion de arquitectura y logica. | Preparar defensa tecnica y documentar lecciones aprendidas. |
-| 16 | 28/06/2026-04/07/2026 | Evaluacion final teorico-practica. | 3 | 4 | Resolver examen final individual del curso. | Reflexionar sobre logros y oportunidades de mejora del proceso formativo. |
+| 13 | 01/11/2026-07/11/2026 | Matrices y diccionarios para procesamiento avanzado y consultas por clave. | 3 | 4 | Implementar procesamiento con matrices/diccionarios para reportes tabulares. | Practicar organizacion de datos y consultas por clave en casos del proyecto. |
+| 14 | 08/11/2026-14/11/2026 | Generacion de reportes: exportacion a Excel/CSV, PDF/texto e impresion. | 3 | 4 | Generar salidas del sistema para reporte y presentacion de informacion. | Ajustar formato de reportes y verificar calidad de salida final. |
+| 15 | 15/11/2026-21/11/2026 | Sustentacion del producto del curso: demostracion funcional y cierre tecnico. | 3 | 4 | Presentar producto final con evidencias y explicacion de arquitectura y logica. | Preparar defensa tecnica y documentar lecciones aprendidas. |
+| 16 | 22/11/2026-28/11/2026 | Evaluacion final teorico-practica. | 3 | 4 | Resolver examen final individual del curso. | Reflexionar sobre logros y oportunidades de mejora del proceso formativo. |
 
 ### Evolucion del proyecto
 
@@ -233,11 +233,11 @@ Escenarios de Evaluación:
 
 <table>
   <tr><td>Fecha</td><td>Unidad</td><td>Producto</td><td>Evaluación de proceso y de resultado</td><td>Pesos</td></tr>
-  <tr><td>12/04/2026-18/04/2026</td><td>Unidad 1: Estructuras secuenciales y condicionales</td><td>Menú básico en consola.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td>06/09/2026-12/09/2026</td><td>Unidad 1: Estructuras secuenciales y condicionales</td><td>Menú básico en consola.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>20%</td></tr>
-  <tr><td>24/05/2026-30/05/2026</td><td>Unidad 2: Estructuras repetitivas y subprogramas.</td><td>Aplicación de consola con estructuras repetitivas y subprogramas.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td>25/10/2026-31/10/2026</td><td>Unidad 2: Estructuras repetitivas y subprogramas.</td><td>Aplicación de consola con estructuras repetitivas y subprogramas.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
-  <tr><td>28/06/2026-04/07/2026</td><td>Unidad 3: Estructura de datos (arreglos, archivos) y App de consola</td><td>Aplicación de consola completa (módulo ventas o equivalente). Informe de participación en concurso de programación.</td><td>Evaluación de sesiones</td><td>10%</td></tr>
+  <tr><td>22/11/2026-28/11/2026</td><td>Unidad 3: Estructura de datos (arreglos, archivos) y App de consola</td><td>Aplicación de consola completa (módulo ventas o equivalente). Informe de participación en concurso de programación.</td><td>Evaluación de sesiones</td><td>10%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
   <tr><td></td><td>Competencia General</td><td>SERVICIO Y MISIÓN: Desarrolla su identidad como hijo de Dios y testifica los principios y valores bíblico-cristianos en todas las esferas de la vida, mostrando coherencia entre conocimiento, actitud y conducta, e inspirando a otros a través del liderazgo servicial.</td><td>Competencia General</td><td>10%</td></tr>
   <tr><td></td><td>Total</td><td></td><td></td><td>100%</td></tr>
