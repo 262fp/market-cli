@@ -1,0 +1,70 @@
+site_name: Fundamentos de Programacion
+site_description: Libro digital de apoyo para el curso de Fundamentos de Programacion - UPeU 2026
+site_author: UPeU
+copyright: Angel Sullon @asullom - UPeU 2026
+
+theme:
+  name: material
+  language: es
+  palette:
+    - scheme: default
+      primary: blue grey
+      accent: amber
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - toc.follow
+    - content.code.copy
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+extra_javascript:
+  - https://unpkg.com/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid.js
+
+nav:
+  - Inicio: index.md
+  - Sílabo 2026-1: silabo_poo_2026_1.md
+  - Sílabo 2026-2: silabo_poo_2026_2.md
+  - 1. Material heredado de sesiones:
+    - Sesion 01: S01_Fundamentos_Estructuras_Datos.md
+    - Sesion 02: S02_Clases_Objetos.md
+    - Sesion 03: S03_Encapsulamiento_Relaciones.md
+    - Sesion 04: S04_Herencia_Polimorfismo.md
+    - Sesion 05: S05_CRUD_Memoria_ArrayList.md
+    - Sesion 06: S06_Evaluacion_Unidad_1.md
+  - 2. Material heredado complementario:
+    - Sesion 07: S07_GUI_CRUD_Memoria.md
+    - Sesion 08: S08_Arquitectura_DAO_CRUD_Persistente.md
+    - Sesion 09: S09_Operaciones_Persistentes_Muchos_Muchos.md
+    - Sesion 10: S10_Seguridad_Relacion_Uno_Muchos.md
+    - Sesion 11: S11_Consultas_Integradas_Pruebas.md
+    - Sesion 12: S12_Evaluacion_Unidad_2.md
+  - 3. Material heredado de cierre:
+    - Sesion 13: S13_Proyecto_Integrador_Ensamblaje.md
+    - Sesion 14: S14_Proyecto_Integrador_Refinamiento.md
+    - Sesion 15: S15_Documentacion_Demo.md
+    - Sesion 16: S16_Evaluacion_Final.md
+  - 4. Anexos:
+      - Taller 01 heredado: POOTaller01.md
+      - Taller 02 heredado: POOTaller02.md
