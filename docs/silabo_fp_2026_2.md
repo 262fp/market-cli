@@ -98,59 +98,97 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 ## IV. Resultado de aprendizaje de la asignatura
 
-<table>
-  <tr><td>Resultado de aprendizaje</td><td>Producto Académico</td></tr>
-  <tr><td>Al finalizar el curso el alumno desarrolla una aplicación de consola aplicando lógica computacional, estructuras de control, subprogramas y estructuras básicas de datos, para resolver un problema de negocio simple mediante programación estructurada.</td><td>Nombre: Aplicación de consola para un caso de negocio básico (módulo ventas o equivalente).</td></tr>
-  <tr><td></td><td>Descripción: Aplicación de consola que implementa un menú interactivo y operaciones básicas de un módulo de negocio (ventas u otro equivalente), utilizando estructuras secuenciales, condicionales, repetitivas, subprogramas y estructuras de datos simples.</td></tr>
-</table>
+| Resultado de aprendizaje | Producto Academico |
+|---|---|
+| Al finalizar el curso, el estudiante desarrolla una aplicacion de consola para la gestion de una entidad de negocio o proceso simple, integrando de manera progresiva entrada y salida de datos, operadores, decisiones, menus, estructuras repetitivas, listas, busquedas, ordenacion, funciones, archivos, consultas, matrices, diccionarios y reportes mediante programacion estructurada. | Nombre: Aplicacion de consola para la gestion de una entidad de negocio o proceso simple. |
+|  | Descripcion: Aplicacion de consola desarrollada por unidades, que incorpora menu interactivo, operaciones CRUD en memoria y archivo, procesamiento de datos y generacion de reportes para registrar, consultar, actualizar, eliminar y presentar informacion del caso trabajado. |
 
 ## V. Unidades de aprendizaje
 
-<table>
-  <tr><td colspan="7">Unidad 1: Estructuras secuenciales y condicionales</td></tr>
-  <tr><td colspan="4">Resultado de aprendizaje</td><td colspan="3">Producto</td></tr>
-  <tr><td colspan="4">Aplica estructuras secuenciales y condicionales para resolver problemas simples, representando algoritmos y construyendo programas de consola con control de flujo básico.</td><td colspan="3">Nombre: Menú básico en consola.</td></tr>
-  <tr><td colspan="4">Criterios de evaluación del producto</td><td colspan="3">Descripción del producto</td></tr>
-  <tr><td colspan="4">1 Funcionamiento del menú: que sea claro, permita elegir opciones correctamente y permanezca activo hasta salir.<br>2 Procesamiento de entradas: que solicite datos adecuadamente y valide errores del usuario.<br>3 Uso de estructuras secuenciales y condicionales: aplicación correcta de if, else, switch y lógica coherente.<br>4 Cumplimiento de acciones: que cada opción del menú ejecute correctamente la tarea solicitada.<br>5 Orden y claridad del código: buena indentación, nombres adecuados de variables y comentarios básicos.</td><td colspan="3">Programa de consola que presenta un menú simple, procesa entradas del usuario y ejecuta acciones básicas utilizando estructuras secuenciales y condicionales.</td></tr>
-  <tr><td colspan="7">Sesiones de aprendizaje</td></tr>
-  <tr><td>N°</td><td>Fecha</td><td>Contenido</td><td>HT</td><td>HP</td><td>Actividad práctica</td><td>Actividad autónoma</td></tr>
-  <tr><td>1</td><td>16/03/2026-21/03/2026</td><td>Algoritmos. Formas de representación de un algoritmo. Entorno de trabajo para el desarrollo de software.</td><td>3</td><td>4</td><td>Resolver problemas de algoritmos siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Prepara el ambiente de desarrollo y resuelve ejercicios propuestos.</td></tr>
-  <tr><td>2</td><td>22/03/2026-28/03/2026</td><td>Tipos de datos, operadores aritméticos, relacionales y lógicos, y estructura secuencial de un programa.</td><td>3</td><td>4</td><td>Desarrollar algoritmos secuenciales de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos secuenciales de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
-  <tr><td>3</td><td>29/03/2026-04/04/2026</td><td>Condicionales simples y compuestos (if, if-else)</td><td>3</td><td>4</td><td>Desarrollar algoritmos con condicionales simples y compuestas de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con condicionales simples y compuestas de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
-  <tr><td>4</td><td>05/04/2026-11/04/2026</td><td>Condicionales anidados y múltiples (if anidado, switch)</td><td>3</td><td>4</td><td>Desarrollar algoritmos con condicionales anidados y múltiples de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar un menú básico modo consola que contenga algoritmos condicionales múltiples, anidados u otros para el proyecto final. Cada menú ítem debe implementar los temas avanzados en la unidad.</td></tr>
-  <tr><td>5</td><td>12/04/2026-18/04/2026</td><td>Evaluación de unidad 1: 1. Examen parcial 1: Examen teórico-práctica de algoritmos, tipos de datos, operadores, estructuras secuenciales y condicionales.<br>2. Revisión del producto de unidad: Menú básico en consola.</td><td>3</td><td>4</td><td>Resolver el examen parcial y exponer el producto de unidad.</td><td>Reflexionar sobre los logros y dificultades que tuvo en la evaluación parcial y exposición.</td></tr>
-</table>
+### Unidad 1: Estructuras secuenciales y condicionales
 
-<table>
-  <tr><td colspan="7">Unidad 2: Estructuras repetitivas y subprogramas</td></tr>
-  <tr><td colspan="4">Resultado de aprendizaje</td><td colspan="3">Producto</td></tr>
-  <tr><td colspan="4">Implementa estructuras repetitivas y subprogramas para modularizar soluciones y resolver problemas que requieren iteración y reutilización de código.</td><td colspan="3">Nombre: Aplicación de consola con estructuras repetitivas y subprogramas.</td></tr>
-  <tr><td colspan="4">Criterios de evaluación del producto</td><td colspan="3">Descripción del producto</td></tr>
-  <tr><td colspan="4">1 Comprensión teórica: que el estudiante entienda el funcionamiento de los ciclos (for, while, do-while) y de los subprogramas (métodos o funciones).<br>2 Aplicación correcta: uso adecuado de las estructuras repetitivas según el problema planteado y correcta creación de métodos con parámetros y retorno.<br>3 Lógica y resolución: que el programa resuelva el problema de forma coherente y funcional.<br>4 Modularización: capacidad para dividir el problema en partes usando subprogramas y evitar repetición de código.<br>5 Buenas prácticas: código ordenado, sin errores de sintaxis y con adecuada presentación.</td><td colspan="3">Aplicación de consola que amplía el menú básico incorporando bucles, subprogramas y lógica modular para ejecutar operaciones repetitivas de forma eficiente.</td></tr>
-  <tr><td colspan="7">Sesiones de aprendizaje</td></tr>
-  <tr><td>N°</td><td>Fecha</td><td>Contenido</td><td>HT</td><td>HP</td><td>Actividad práctica</td><td>Actividad autónoma</td></tr>
-  <tr><td>1</td><td>19/04/2026-25/04/2026</td><td>Estructuras repetitivas: While. Acumuladores y contadores.</td><td>3</td><td>4</td><td>Desarrollar algoritmos con estructuras repetitivas: While. Acumuladores y contadores, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con estructuras repetitivas: While. Acumuladores y contadores de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
-  <tr><td>2</td><td>26/04/2026-02/05/2026</td><td>Estructuras repetitivas DoWhile y For.</td><td>3</td><td>4</td><td>Desarrollar algoritmos con estructuras repetitivas: DoWhile y For, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con estructuras repetitivas: DoWhile y For de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
-  <tr><td>3</td><td>03/05/2026-09/05/2026</td><td>Subprogramas: parámetros y retorno</td><td>3</td><td>4</td><td>Desarrollar algoritmos con subprogramas, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con subprogramas, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
-  <tr><td>4</td><td>10/05/2026-16/05/2026</td><td>Recursividad</td><td>3</td><td>4</td><td>Desarrollar algoritmos con recursividad, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con recursividad, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
-  <tr><td>5</td><td>17/05/2026-23/05/2026</td><td>Menú interactivo (integración bucles + condicionales + funciones)</td><td>3</td><td>4</td><td>Desarrollar algoritmos que utilicen menús interactivos, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar un menú interactivo modo consola con ciclo infinito para el proyecto final. Cada menú ítem debe implementar los temas avanzados en la unidad 1 y 2.</td></tr>
-  <tr><td>6</td><td>24/05/2026-30/05/2026</td><td>Evaluación de unidad 2: 1. Examen parcial 2: Examen teórico-práctico de algoritmos, utilizando estructuras de control repetitivas y subprogramas.<br>2. Revisión del producto de unidad: Menú interactivo en consola aplicando condicionales múltiples, anidados, estructuras repetitivas y subprogramas.</td><td>3</td><td>4</td><td>Resolver el examen parcial y exponer el producto de unidad.</td><td>Reflexionar sobre los logros y dificultades que tuvo en la evaluación parcial.</td></tr>
-</table>
+| Resultado de aprendizaje | Producto |
+|---|---|
+| Aplica pensamiento algoritmico, estructuras secuenciales y condicionales para construir la base de una aplicacion de consola orientada a la gestion de una entidad o transaccion simple. | Nombre: Menu basico de gestion en consola con registro, calculos y validaciones iniciales. |
 
-<table>
-  <tr><td colspan="7">Unidad 3: Estructura de datos (arreglos, archivos) y App de consola</td></tr>
-  <tr><td colspan="4">Resultado de aprendizaje</td><td colspan="3">Producto</td></tr>
-  <tr><td colspan="4">Integra estructuras de datos básicas y manejo de archivos en una aplicación de consola completa, resolviendo un caso de negocio simple de forma estructurada.</td><td colspan="3">Nombre: Aplicación de consola completa (módulo ventas o equivalente).</td></tr>
-  <tr><td colspan="4">Criterios de evaluación del producto</td><td colspan="3">Descripción del producto</td></tr>
-  <tr><td colspan="4">1 Comprensión conceptual: que el estudiante entienda qué son los arreglos y los archivos, y cómo se utilizan para almacenar y gestionar información.<br>2 Uso correcto de arreglos: declaración adecuada, recorrido correcto (uso de ciclos), almacenamiento y recuperación de datos sin errores.<br>3 Manejo de archivos: creación, lectura y escritura de datos correctamente, controlando posibles errores básicos.<br>4 Funcionamiento de la App de consola: que el programa interactúe correctamente con el usuario (menú, opciones, entradas y salidas claras).<br>5 Lógica y organización: programa estructurado, con buena modularización, código ordenado y sin errores de compilación.<br>6 Resolución correcta del caso de negocio.<br>7 Sustentación técnica del programa.</td><td colspan="3">Aplicación de consola que integra menús, subprogramas, arreglos y archivos para gestionar información básica del negocio, permitiendo registrar, listar y procesar datos de forma persistente.</td></tr>
-  <tr><td colspan="7">Sesiones de aprendizaje</td></tr>
-  <tr><td>N°</td><td>Fecha</td><td>Contenido</td><td>HT</td><td>HP</td><td>Actividad práctica</td><td>Actividad autónoma</td></tr>
-  <tr><td>1</td><td>31/05/2026-06/06/2026</td><td>Arreglos</td><td>3</td><td>4</td><td>Desarrollar el CRUD y operaciones transaccionales de un caso de negocio usando arreglos. Participación en concurso de programación (viaje de estudios en caso se requiera).</td><td>Implementar arreglos en la aplicación de consola para un caso de negocio básico (módulo ventas o equivalente).</td></tr>
-  <tr><td>2</td><td>07/06/2026-13/06/2026</td><td>Archivos</td><td>3</td><td>4</td><td>Implementar la exportación de información, almacenados en los arreglos implementados del caso académico.</td><td>Implementar la exportación de información en la aplicación de consola para un caso de negocio básico (módulo ventas o equivalente).</td></tr>
-  <tr><td>3</td><td>14/06/2026-20/06/2026</td><td>Refinamiento final del proyecto</td><td>3</td><td>4</td><td>Revisar y mejorar el proyecto final.</td><td>Ajustes finales y preparar sustentación.</td></tr>
-  <tr><td>4</td><td>21/06/2026-27/06/2026</td><td>Sustentación del Producto del curso: App de consola</td><td>3</td><td>4</td><td>Presentar su proyecto final, aplicando tópicos de la materia.</td><td>Reflexionar sobre los logros y dificultades que tuvo en el desarrollo de la aplicación.</td></tr>
-  <tr><td>5</td><td>28/06/2026-04/07/2026</td><td>Examen final</td><td>3</td><td>4</td><td>Evaluación final.</td><td>Reflexionar sobre los logros y dificultades que tuvo en el examen final.</td></tr>
-</table>
+| Criterios de evaluacion del producto | Descripcion del producto |
+|---|---|
+| 1 Funcionamiento del menu y navegacion de opciones.<br>2 Registro y validacion inicial de datos de entrada.<br>3 Uso correcto de secuencia y decisiones (`if`, `if-else`, `if-elif-else`).<br>4 Coherencia de reglas de negocio y salidas mostradas.<br>5 Orden, legibilidad y buenas practicas basicas de codigo. | Programa de consola base que captura datos, ejecuta calculos y valida reglas mediante decisiones para soportar un menu inicial del proyecto. |
+
+| N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
+|---|---|---|---|---|---|---|
+| 1 | 16/03/2026-21/03/2026 | Pensamiento algoritmico, datos y variables: algoritmos, entrada-proceso-salida, pseudocodigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos y casos de prueba. | 3 | 4 | Construir un programa base que captura y muestra datos de una entidad inicial del proyecto. | Practicar ejercicios de captura de datos y representar su solucion en pseudocodigo y flujo. |
+| 2 | 22/03/2026-28/03/2026 | Expresiones y secuencia: asignacion, operadores aritmeticos, relacionales y logicos, precedencia, conversion de tipos y estructura secuencial. | 3 | 4 | Desarrollar un registro secuencial con calculos basicos para el caso de negocio. | Resolver ejercicios de secuencia y validar resultados esperados con casos de prueba. |
+| 3 | 29/03/2026-04/04/2026 | Decisiones simples: `if`, `if-else`, condiciones compuestas con `and` y `or`, validacion basica de datos. | 3 | 4 | Integrar validaciones de entrada y reglas condicionales al registro del proyecto. | Reforzar decisiones simples y compuestas con problemas guiados y autoevaluacion. |
+| 4 | 05/04/2026-11/04/2026 | Decisiones multiples y anidadas: `if-elif-else`, control de opciones y menu basico. | 3 | 4 | Implementar menu basico de consola con opciones funcionales del proyecto. | Perfeccionar menu y casos de prueba de navegacion y validacion. |
+| 5 | 12/04/2026-18/04/2026 | Evaluacion Unidad 1: integracion de secuencia, decisiones, validaciones y menu basico. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar el producto de unidad. | Reflexionar y registrar mejoras para la siguiente unidad. |
+
+### Unidad 2: Estructuras repetitivas, modularizacion y procesamiento de datos
+
+| Resultado de aprendizaje | Producto |
+|---|---|
+| Implementa estructuras repetitivas, listas, funciones, busqueda, ordenacion, archivos y consultas para desarrollar una aplicacion de consola con CRUD modular, persistencia basica y procesamiento inicial de datos. | Nombre: Aplicacion de consola con CRUD modular, memoria, archivos basicos y consultas. |
+
+| Criterios de evaluacion del producto | Descripcion del producto |
+|---|---|
+| 1 Uso correcto de `for`, `while` y control de flujo del menu interactivo.<br>2 Implementacion de CRUD en memoria con listas y validaciones.<br>3 Modularizacion con funciones, parametros y retorno.<br>4 Aplicacion de busqueda y ordenacion sobre registros.<br>5 Persistencia basica en archivos y consultas con agregaciones. | Aplicacion de consola que evoluciona el menu basico hacia un CRUD modular con almacenamiento en memoria y archivo, incluyendo procesamiento y consulta de informacion. |
+
+| N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
+|---|---|---|---|---|---|---|
+| 6 | 19/04/2026-25/04/2026 | Estructura repetitiva `for` y arreglos/listas: recorrido, contadores y acumuladores. | 3 | 4 | Implementar registrar y listar registros en memoria con listas. | Practicar carga y recorrido de colecciones con ejercicios del proyecto. |
+| 7 | 26/04/2026-02/05/2026 | Estructuras repetitivas `while` y `do-while` conceptual para menu interactivo y validaciones. | 3 | 4 | Construir menu interactivo con condicion de salida y validacion de opciones. | Mejorar robustez de entrada de datos y control de errores de usuario. |
+| 8 | 03/05/2026-09/05/2026 | Subprogramas, parametros, retorno y recursividad aplicada. | 3 | 4 | Modularizar operaciones del sistema y resolver laboratorio recursivo. | Refactorizar funciones y preparar pruebas de caja negra por modulo. |
+| 9 | 10/05/2026-16/05/2026 | Algoritmos de busqueda y ordenacion en registros de consola. | 3 | 4 | Integrar busqueda lineal/binaria conceptual y ordenacion en el CRUD. | Comparar estrategias de busqueda/ordenacion y documentar decisiones. |
+| 10 | 17/05/2026-23/05/2026 | Archivos: guardar y cargar registros (texto/CSV) para persistencia simple. | 3 | 4 | Implementar guardado/carga de datos para mantener estado del CRUD. | Probar persistencia con diferentes escenarios y datos de prueba. |
+| 11 | 24/05/2026-30/05/2026 | Consultas, agregacion y reportes de consola desde datos persistidos. | 3 | 4 | Construir filtros, conteos, sumas, promedios y reportes resumidos. | Ajustar consultas y validar consistencia de resultados. |
+| 12 | 31/05/2026-06/06/2026 | Evaluacion Unidad 2: integracion de CRUD modular, busqueda, ordenacion, archivos y consultas. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar producto U2. | Registrar brechas tecnicas y plan de mejora para cierre del curso. |
+
+### Unidad 3: Procesamiento algorítmico avanzado e integracion del producto
+
+| Resultado de aprendizaje | Producto |
+|---|---|
+| Integra estructuras de procesamiento algorítmico avanzado y generacion de salidas en la aplicacion desarrollada durante el curso para consolidar el producto final. | Nombre: Aplicacion de consola completa para la gestion de una entidad. |
+
+| Criterios de evaluacion del producto | Descripcion del producto |
+|---|---|
+| 1 Uso de matrices y diccionarios para procesar informacion.<br>2 Generacion de reportes en formatos de salida del curso (Excel/CSV, PDF/texto, impresion).<br>3 Integracion funcional de modulos y flujo completo del sistema.<br>4 Sustentacion tecnica con evidencia de funcionamiento.<br>5 Dominio conceptual en evaluacion final teorico-practica. | Aplicacion de consola completa que consolida CRUD, persistencia, procesamiento avanzado y reportes, con demostracion funcional y defensa tecnica del producto. |
+
+| N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
+|---|---|---|---|---|---|---|
+| 13 | 07/06/2026-13/06/2026 | Matrices y diccionarios para procesamiento avanzado y consultas por clave. | 3 | 4 | Implementar procesamiento con matrices/diccionarios para reportes tabulares. | Practicar organizacion de datos y consultas por clave en casos del proyecto. |
+| 14 | 14/06/2026-20/06/2026 | Generacion de reportes: exportacion a Excel/CSV, PDF/texto e impresion. | 3 | 4 | Generar salidas del sistema para reporte y presentacion de informacion. | Ajustar formato de reportes y verificar calidad de salida final. |
+| 15 | 21/06/2026-27/06/2026 | Sustentacion del producto del curso: demostracion funcional y cierre tecnico. | 3 | 4 | Presentar producto final con evidencias y explicacion de arquitectura y logica. | Preparar defensa tecnica y documentar lecciones aprendidas. |
+| 16 | 28/06/2026-04/07/2026 | Evaluacion final teorico-practica. | 3 | 4 | Resolver examen final individual del curso. | Reflexionar sobre logros y oportunidades de mejora del proceso formativo. |
+
+### Evolucion del proyecto
+
+**Unidad 1**
+
+- Entidad o transaccion inicial definida.
+- Entrada, proceso y salida.
+- Registro basico.
+- Calculos secuenciales.
+- Validaciones con decisiones.
+- Menu basico.
+
+**Unidad 2**
+
+- CRUD basico en memoria.
+- Arreglos/listas.
+- Menu interactivo.
+- Funciones y recursividad.
+- Busqueda y ordenacion.
+- Persistencia en archivos.
+- Consultas y agregaciones.
+
+**Unidad 3**
+
+- Matrices y diccionarios.
+- Procesamiento avanzado y reportes tabulares.
+- Exportacion a Excel/CSV.
+- Generacion de PDF o reporte de texto.
+- Impresion de comprobantes o reportes.
+- Sustentacion y evaluacion final.
 
 ## VI. Estrategias metodológicas
 
