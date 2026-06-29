@@ -26,48 +26,48 @@ Aplica pensamiento algorítmico, estructuras secuenciales y condicionales para c
 
 ---
 
-# UNIDAD 2 - Procesamiento de datos y estructuras básicas
+# UNIDAD 2 - Procesamiento de datos y programación modular
 
-> **U2 = U1 + almacenamiento en memoria + procesamiento de colecciones**
+> **U2 = U1 + CRUD en memoria + modularización + procesamiento de datos**
 
 ### Resultado de aprendizaje
 
-Implementa estructuras repetitivas y estructuras de datos básicas para desarrollar una aplicación de consola con registros en memoria, recorrido de datos, búsqueda, ordenación y consultas simples.
+Implementa estructuras repetitivas, arreglos/listas, búsqueda, ordenación, subprogramas, recursividad, matrices, diccionarios y consultas para desarrollar una aplicación de consola con CRUD en memoria y procesamiento de información.
 
 ### Producto de la unidad
 
-**Aplicación de consola con gestión de registros en memoria y procesamiento de información.**
+**Aplicación de consola con CRUD en memoria y procesamiento de datos.**
 
 | Sesión | Tema | Producto de sesión |
 |--------|------|--------------------|
-| **S6** | **Repetición definida con `for`:** recorridos, contadores, acumuladores, procesamiento de varios datos y cálculo de resúmenes. | Módulo que procesa varios registros o ítems del proyecto usando `for`, contadores y acumuladores. |
-| **S7** | **Repetición condicionada con `while`:** condiciones de parada, centinelas, validación repetitiva, menús interactivos y control del flujo. | Menú interactivo que permanece activo hasta salir y valida entradas repetidamente. |
-| **S8** | **Listas, cadenas y procesamiento de colecciones:** listas, índices, recorridos, operaciones con texto, conteos y transformaciones. | Registro en memoria usando listas y operaciones básicas para listar, contar o transformar información del proyecto. |
-| **S9** | **Búsqueda secuencial y ordenación básica:** búsqueda por código/nombre, comparaciones, intercambio, ordenamiento simple y presentación de resultados. | Módulo de búsqueda y ordenación de registros del proyecto en memoria. |
-| **S10** | **Matrices y organización tabular de información:** tablas, filas, columnas, recorridos bidimensionales y resúmenes por fila o columna. | Reporte tabular o matriz de resumen aplicada a datos del proyecto. |
-| **S11** | **Diccionarios, organización clave-valor y consulta de datos:** registros con claves, consulta, actualización, conteos y agrupaciones simples. | Módulo de consulta y actualización usando diccionarios para organizar información clave del proyecto. |
-| **S12** | **Evaluación Unidad 2:** integración de menús, repetición, listas, búsqueda, ordenación, matrices y diccionarios. | **Producto U2:** aplicación de consola con registros en memoria, búsquedas, ordenación y consultas básicas. |
+| **S6** | **Estructura repetitiva `for` y arreglos/listas:** de variables sueltas a colecciones lineales, almacenamiento de varios registros, recorrido, contadores y acumuladores. | CRUD básico utilizando arreglos/listas: registrar y listar registros del proyecto. |
+| **S7** | **Estructuras repetitivas `while` y `do-while` conceptual:** menú interactivo, validación de entradas, condición de salida y control del flujo. | Menú interactivo con validaciones que integra las opciones principales del proyecto. |
+| **S8** | **Subprogramas, parámetros, retorno y recursividad:** modularización del CRUD, funciones para operaciones del sistema y laboratorio de algoritmos recursivos. | CRUD modular y laboratorio de algoritmos recursivos. |
+| **S9** | **Algoritmos de búsqueda y ordenación:** búsqueda lineal, búsqueda binaria conceptual, ordenación básica y aplicación sobre registros en memoria. | CRUD modular con búsqueda y ordenación de registros. |
+| **S10** | **Matrices y diccionarios como estructuras para problemas específicos:** organización tabular, estructuras clave-valor, consultas por clave y representación alternativa de datos. | Procesamiento de datos utilizando matrices y diccionarios. |
+| **S11** | **Consultas, agregación y procesamiento de datos:** filtros, conteos, sumas, promedios, mínimos, máximos, agrupaciones básicas, estadísticas descriptivas y reportes. | Aplicación con consultas, agregaciones y procesamiento de datos. |
+| **S12** | **Evaluación Unidad 2:** integración de CRUD en memoria, menú interactivo, búsqueda, ordenación, modularización, matrices, diccionarios, consultas y reportes. | **Producto U2:** aplicación de consola con CRUD en memoria y procesamiento de datos. |
 
 ---
 
-# UNIDAD 3 - Modularización, persistencia e integración final
+# UNIDAD 3 - Persistencia e integración del producto
 
-> **U3 = U1 + U2 + funciones + archivos + sustentación**
+> **U3 = U1 + U2 + integración final**
 
 ### Resultado de aprendizaje
 
-Integra funciones, menús, colecciones y archivos para completar una aplicación de consola modular, persistente y sustentable.
+Integra persistencia de datos y generación de salidas en la aplicación desarrollada durante el curso.
 
 ### Producto de la unidad
 
-**Aplicación de consola completa para la gestión de una entidad o proceso simple.**
+**Aplicación de consola completa para la gestión de una entidad.**
 
 | Sesión | Tema | Producto de sesión |
 |--------|------|--------------------|
-| **S13** | **Funciones, parámetros, retorno y modularización:** descomposición del problema, funciones con parámetros, retorno de valores, reutilización y orden del código. | Proyecto reorganizado en funciones claras para registrar, consultar, procesar y mostrar información. |
-| **S14** | **Integración de funciones, colecciones y menús:** menú principal, submenús, operaciones CRUD en memoria, validaciones y flujo completo de uso. | Aplicación modular con menú integrado y operaciones principales funcionando en memoria. |
-| **S15** | **Persistencia básica de información:** escritura, lectura y actualización de archivos, carga inicial de datos y guardado de cambios. | Aplicación con persistencia en archivos para conservar y recuperar la información del proyecto. |
-| **S16** | **Evaluación final y sustentación del producto:** prueba integral, evidencias, explicación técnica, mejoras finales y cierre del curso. | **Producto final:** aplicación de consola completa sustentada, con menú, gestión de datos, procesamiento, persistencia y evidencias de funcionamiento. |
+| **S13** | **Archivos, lectura y escritura:** persistencia mediante almacenamiento, recuperación, actualización y carga inicial de información. | Aplicación con persistencia de datos. |
+| **S14** | **Generación de reportes:** exportación de información a Excel/CSV, generación de reportes PDF o texto imprimible e impresión de comprobantes o reportes. | Reportes generados en Excel/CSV, PDF/texto e impresión de información. |
+| **S15** | **Sustentación del producto del curso:** presentación técnica, demostración funcional, evidencias, explicación del código y cierre del producto. | **Producto final:** aplicación de consola completa sustentada. |
+| **S16** | **Evaluación final:** evaluación teórico-práctica individual sobre los contenidos del curso y el producto desarrollado. | Examen final. |
 
 ---
 
@@ -82,19 +82,22 @@ Integra funciones, menús, colecciones y archivos para completar una aplicación
 - Menu basico.
 
 ## Unidad 2
-- Registros en memoria.
-- Recorridos con `for` y `while`.
-- Listas y cadenas.
+- CRUD básico en memoria.
+- Arreglos/listas.
+- Menú interactivo.
+- Validaciones repetitivas.
+- Funciones.
+- Recursividad.
 - Búsqueda.
 - Ordenación.
 - Matrices.
 - Diccionarios.
-- Consultas y resúmenes.
+- Consultas, agregaciones y reportes.
 
 ## Unidad 3
-- Funciones.
-- Modularización.
-- Menu integrado.
-- CRUD en memoria.
 - Persistencia en archivos.
-- Sustentación del producto final.
+- Exportación a Excel/CSV.
+- Generación de PDF o reporte de texto.
+- Impresión de reportes o comprobantes.
+- Sustentación del producto.
+- Evaluación final.

@@ -58,17 +58,17 @@ nav:
       - 4 Decisiones múltiples: S04_Decisiones_Multiples.ipynb
       - 5 Evaluación 1: S05_Evaluacion_1.ipynb
   - 2. Resolución de problemas iterativos y procesamiento de datos:
-      - 6 Repetición for: S06_For.ipynb
-      - 7 Repetición while: S07_While.ipynb
-      - 8 Listas y cadenas: S08_Listas_Cadenas.ipynb
+      - 6 For y arreglos/listas: S06_For.ipynb
+      - 7 While y menú interactivo: S07_While.ipynb
+      - 8 Funciones y recursividad: S08_Funciones_Recursividad.ipynb
       - 9 Búsqueda y ordenación: S09_Busqueda_Ordenacion.ipynb
-      - 10 Matrices: S10_Matrices.ipynb
-      - 11 Diccionarios: S11_Diccionarios.ipynb
+      - 10 Matrices y diccionarios: S10_Matrices_Diccionarios.ipynb
+      - 11 Consultas y agregación: S11_Consultas_Agregacion.ipynb
       - 12 Evaluación 2: S12_Evaluacion_2.ipynb
   - 3. Resolución de problemas estructurados y persistencia básica:
-      - 13 Funciones: S13_Funciones.ipynb
-      - 14 Integración y menús: S14_Integracion_Menus.ipynb
-      - 15 Archivos: S15_Archivos.ipynb
+      - 13 Archivos: S13_Archivos.ipynb
+      - 14 Reportes y exportación: S14_Reportes_Exportacion.ipynb
+      - 15 Sustentación del producto: S15_Sustentacion_Producto.ipynb
       - 16 Evaluación final: S16_Evaluacion_Final.ipynb
   - 4. Anexos:
       - 0 Guía algoritmo a código: S00_Guia_algoritmo_a_codigo.ipynb
