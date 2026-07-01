@@ -1,0 +1,2130 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Cuadernos de programación convertidos a libro digital estático con MkDocs.">
+      
+      
+        <meta name="author" content="UPeU">
+      
+      
+      
+        <link rel="prev" href="..">
+      
+      
+        <link rel="next" href="../silabo_fp_2026_1/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Guía del proyecto - Fundamentos de Programación - Libro digital</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#proyecto-sello-de-fundamentos-de-programacion" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Fundamentos de Programación - Libro digital" class="md-header__button md-logo" aria-label="Fundamentos de Programación - Libro digital" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Fundamentos de Programación - Libro digital
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guía del proyecto
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Fundamentos de Programación - Libro digital" class="md-nav__button md-logo" aria-label="Fundamentos de Programación - Libro digital" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Fundamentos de Programación - Libro digital
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto Sello
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyecto Sello
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía del proyecto
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía del proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-proposito" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Propósito
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-el-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. El Proyecto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-evolucion-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Evolución del Proyecto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Evolución del Proyecto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alineamiento-por-sesiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alineamiento por sesiones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-cronograma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Cronograma
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-producto-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Producto Final
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Producto Final">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repositorio-academico-y-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repositorio académico y topics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Evaluación
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Evaluación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subaspectos-de-la-sustentacion-integral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subaspectos de la sustentación integral
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-sustentacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Sustentación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-resultado-esperado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anexo-secuencia-sugerida-de-presentacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anexo. Secuencia sugerida de presentación
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sílabos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sílabos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../silabo_fp_2026_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sílabo 2026-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../silabo_fp_2026_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sílabo 2026-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Estructuras secuenciales y condicionales
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Estructuras secuenciales y condicionales
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S01_Algoritmos_Datos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1 Algoritmos y datos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S02_Operadores_Algoritmos_Secuenciales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2 Operadores y algoritmo secuencial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S03_Decisiones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3 Decisiones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S04_Decisiones_Multiples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4 Decisiones múltiples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S05_Evaluacion_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5 Evaluación 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Estructuras repetitivas, modularización y procesamiento algorítmico de datos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Estructuras repetitivas, modularización y procesamiento algorítmico de datos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S06_For/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6 For y arreglos/listas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S07_While/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7 While y menú interactivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S08_Funciones_Recursividad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8 Funciones y recursividad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S09_Busqueda_Ordenacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9 Búsqueda y ordenación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S10_Archivos_CRUD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 Archivos y CRUD persistente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S11_Consultas_Agregacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11 Consultas y reportes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S12_Evaluacion_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12 Evaluación 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Procesamiento algorítmico avanzado e integración del producto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Procesamiento algorítmico avanzado e integración del producto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S13_Matrices_Diccionarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13 Matrices y diccionarios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S14_Reportes_Exportacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14 Reportes y exportación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S15_Sustentacion_Producto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15 Sustentación del producto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S16_Evaluacion_Final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16 Evaluación final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Anexos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. Anexos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S00_Guia_algoritmo_a_codigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0 Guía algoritmo a código
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S17_Java_Equivalencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    17 Equivalencias Java
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-proposito" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Propósito
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-el-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. El Proyecto
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-evolucion-del-proyecto" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Evolución del Proyecto
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Evolución del Proyecto">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alineamiento-por-sesiones" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alineamiento por sesiones
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-cronograma" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Cronograma
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-producto-final" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Producto Final
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Producto Final">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#repositorio-academico-y-topics" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Repositorio académico y topics
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Evaluación
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="6. Evaluación">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#subaspectos-de-la-sustentacion-integral" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Subaspectos de la sustentación integral
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-sustentacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Sustentación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-resultado-esperado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Resultado Esperado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#anexo-secuencia-sugerida-de-presentacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Anexo. Secuencia sugerida de presentación
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="proyecto-sello-de-fundamentos-de-programacion">Proyecto Sello de Fundamentos de Programación<a class="headerlink" href="#proyecto-sello-de-fundamentos-de-programacion" title="Permanent link">&para;</a></h1>
+<h2 id="1-proposito">1. Propósito<a class="headerlink" href="#1-proposito" title="Permanent link">&para;</a></h2>
+<p>El Proyecto Sello integra las sesiones de <strong>Fundamentos de Programación</strong> alrededor de una misma aplicación CLI desarrollada de forma progresiva. Durante el semestre no se construyen ejercicios independientes; cada nuevo tema fortalece el mismo proyecto hasta convertirlo en una solución funcional, sencilla y sustentable.</p>
+<p>El objetivo es demostrar que el estudiante puede analizar un problema, diseñar una solución, implementarla y explicar su funcionamiento utilizando los fundamentos de programación.</p>
+<div class="highlight"><pre><span></span><code>Problema -&gt; Algoritmo -&gt; Código -&gt; CRUD -&gt; Persistencia -&gt; Consultas -&gt; Reportes -&gt; Sustentación
+</code></pre></div>
+<h2 id="2-el-proyecto">2. El Proyecto<a class="headerlink" href="#2-el-proyecto" title="Permanent link">&para;</a></h2>
+<p>Durante el semestre desarrollarás una <strong>aplicación CLI</strong> que resuelva un problema simple de negocio, gestión o control de información.</p>
+<p>El proyecto debe estar basado en una <strong>entidad principal</strong> y puede incorporar <strong>datos relacionados simples</strong>, como cliente, producto, servicio, curso, fecha, estado, categoría o detalle de una operación. No se busca construir un sistema grande, sino una aplicación bien delimitada que permita registrar, consultar, actualizar, eliminar, procesar y reportar información.</p>
+<p>El proyecto debe cumplir estas condiciones:</p>
+<ul>
+<li>Resolver un problema concreto.</li>
+<li>Tener una entidad principal claramente definida.</li>
+<li>Incorporar datos relacionados solo cuando ayuden al problema.</li>
+<li>Ejecutarse como aplicación CLI desde la terminal.</li>
+<li>Crecer de manera progresiva durante el curso.</li>
+<li>Integrar los temas desarrollados en clase.</li>
+<li>Ser sustentado por todos los integrantes del equipo.</li>
+</ul>
+<p>Antes de programar, define el problema con claridad:</p>
+<div class="highlight"><pre><span></span><code>En [contexto], se necesita gestionar [proceso o entidad principal] para registrar, consultar y reportar [información importante], evitando [problema actual].
+</code></pre></div>
+<p>Ejemplos válidos:</p>
+<ul>
+<li>Gestión de productos e inventario básico.</li>
+<li>Gestión de ventas simples.</li>
+<li>Gestión de préstamos.</li>
+<li>Gestión de reservas o citas.</li>
+<li>Gestión de clientes.</li>
+<li>Gestión de notas o asistencia.</li>
+</ul>
+<p>No se considera Proyecto Sello:</p>
+<ul>
+<li>Un conjunto de ejercicios independientes.</li>
+<li>Un menú que solo llama ejemplos de clase.</li>
+<li>Un programa sin entidad principal ni problema claro.</li>
+<li>Una aplicación con datos fijos que no permite registrar información.</li>
+<li>Un proyecto copiado sin personalización del dominio, datos, reglas y reportes.</li>
+<li>Una solución que el estudiante no puede explicar durante la sustentación.</li>
+</ul>
+<h2 id="3-evolucion-del-proyecto">3. Evolución del Proyecto<a class="headerlink" href="#3-evolucion-del-proyecto" title="Permanent link">&para;</a></h2>
+<p>Cada unidad incorpora nuevas capacidades al producto.</p>
+<table>
+<thead>
+<tr>
+<th>Unidad</th>
+<th>Temas principales</th>
+<th>Evolución del proyecto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Unidad 1</td>
+<td>Variables, operadores, entrada/salida, condicionales y menús.</td>
+<td>Primera versión funcional con captura de datos, cálculos, validaciones y menú básico.</td>
+</tr>
+<tr>
+<td>Unidad 2</td>
+<td>Listas/arreglos, bucles, funciones, búsqueda, ordenación y archivos.</td>
+<td>CRUD modular con varios registros, organización del código y persistencia básica.</td>
+</tr>
+<tr>
+<td>Unidad 3</td>
+<td>Consultas, reportes, matrices y diccionarios.</td>
+<td>Procesamiento de información, generación de reportes y versión final sustentada.</td>
+</tr>
+</tbody>
+</table>
+<pre class="mermaid"><code>flowchart TB
+    A[Problema] --&gt; B[Entidad principal]
+    B --&gt; C[Registro]
+    C --&gt; D[Validaciones]
+    D --&gt; E[Menú]
+    E --&gt; F[CRUD]
+    F --&gt; G[Funciones]
+    G --&gt; H[Búsqueda y ordenación]
+    H --&gt; I[Archivos]
+    I --&gt; J[Consultas]
+    J --&gt; K[Reportes]
+    K --&gt; L[Sustentación]</code></pre>
+<h3 id="alineamiento-por-sesiones">Alineamiento por sesiones<a class="headerlink" href="#alineamiento-por-sesiones" title="Permanent link">&para;</a></h3>
+<p>Este alineamiento muestra cómo cada bloque de sesiones agrega capacidades al mismo proyecto CLI y prepara al estudiante para trabajar luego con proyectos más estructurados.</p>
+<table>
+<thead>
+<tr>
+<th>Sesiones</th>
+<th>Contenido central</th>
+<th>Avance del proyecto</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S1-S2</td>
+<td>Datos, variables, entrada/salida, operadores y secuencia.</td>
+<td>Brief inicial, entidad principal, datos relacionados y primer registro secuencial.</td>
+</tr>
+<tr>
+<td>S3-S4</td>
+<td>Condicionales, validaciones y menú básico.</td>
+<td>Reglas iniciales del caso, control de opciones y menú CLI.</td>
+</tr>
+<tr>
+<td>S5</td>
+<td>Evaluación U1.</td>
+<td>Primera versión funcional con registro, cálculos, validaciones y menú.</td>
+</tr>
+<tr>
+<td>S6-S7</td>
+<td>Listas/arreglos, <code>for</code>, <code>while</code> y menú interactivo.</td>
+<td>CRUD en memoria con varios registros y navegación repetitiva.</td>
+</tr>
+<tr>
+<td>S8-S9</td>
+<td>Funciones, recursividad, búsqueda y ordenación.</td>
+<td>Modularización del CRUD, consulta y organización de registros.</td>
+</tr>
+<tr>
+<td>S10-S11</td>
+<td>Archivos, consultas, agregaciones y reportes.</td>
+<td>Persistencia básica, filtros, conteos, promedios y reportes por terminal.</td>
+</tr>
+<tr>
+<td>S12</td>
+<td>Evaluación U2.</td>
+<td>CRUD modular con memoria, archivos, búsqueda, ordenación y consultas.</td>
+</tr>
+<tr>
+<td>S13-S14</td>
+<td>Matrices, diccionarios, reportes y exportación.</td>
+<td>Procesamiento final y salidas del sistema.</td>
+</tr>
+<tr>
+<td>S15-S16</td>
+<td>Sustentación y evaluación final.</td>
+<td>Producto CLI sustentado y evaluación individual.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="4-cronograma">4. Cronograma<a class="headerlink" href="#4-cronograma" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th>Hito</th>
+<th>Momento</th>
+<th>Producto esperado</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>S2</td>
+<td>Aprobación del brief</td>
+<td>Problema, contexto, entidad principal, datos relacionados, operaciones iniciales y alcance.</td>
+</tr>
+<tr>
+<td>S5</td>
+<td>Base funcional</td>
+<td>Registro inicial, cálculos, validaciones y menú básico.</td>
+</tr>
+<tr>
+<td>S12</td>
+<td>Producto intermedio</td>
+<td>CRUD modular con listas/arreglos, funciones, búsqueda, ordenación, archivos y consultas.</td>
+</tr>
+<tr>
+<td>S15</td>
+<td>Producto final</td>
+<td>Aplicación CLI completa, reportes, evidencias y sustentación técnica.</td>
+</tr>
+<tr>
+<td>S16</td>
+<td>Cierre individual</td>
+<td>Evaluación teórico-práctica y recuperación de competencias pendientes.</td>
+</tr>
+</tbody>
+</table>
+<p>El brief de la semana 2 es obligatorio. Su propósito es validar que el proyecto tiene un problema claro, un alcance viable y una entidad principal adecuada para FP antes de avanzar con el desarrollo.</p>
+<h2 id="5-producto-final">5. Producto Final<a class="headerlink" href="#5-producto-final" title="Permanent link">&para;</a></h2>
+<h3 id="repositorio-academico-y-topics">Repositorio académico y topics<a class="headerlink" href="#repositorio-academico-y-topics" title="Permanent link">&para;</a></h3>
+<p>Desde la primera presentación del proyecto, el repositorio debe estar creado y configurado con los topics académicos mínimos. Esta configuración es obligatoria porque permite identificar campus, semestre, línea, tipo de proyecto, curso, sección y grupo.</p>
+<p>El detalle oficial del estándar se encuentra en <a href="https://upeuoficial.github.io/planb/anexos/estandar-topics-repositorios/">Estándar transversal de topics para repositorios académicos</a>.</p>
+<p>Ejemplo base para FP:</p>
+<div class="highlight"><pre><span></span><code>campus-juliaca
+semestre-2026-2
+linea-software
+tipo-ps
+fp
+seccion-g1
+grupo-&lt;numero&gt;-&lt;nombre-proyecto&gt;
+</code></pre></div>
+<p>Al finalizar el curso, la aplicación debe incorporar como mínimo:</p>
+<ul>
+<li>Menú interactivo.</li>
+<li>Registro de información.</li>
+<li>Listado o consulta de registros.</li>
+<li>Búsqueda.</li>
+<li>Edición.</li>
+<li>Eliminación.</li>
+<li>Validaciones.</li>
+<li>Funciones.</li>
+<li>Listas o arreglos.</li>
+<li>Ordenación.</li>
+<li>Persistencia en archivos.</li>
+<li>Consultas y agregaciones.</li>
+<li>Reportes por terminal o archivo.</li>
+<li>Uso pertinente de matrices o diccionarios cuando el problema lo justifique.</li>
+</ul>
+<p>Artefactos mínimos de entrega:</p>
+<ul>
+<li>Código fuente de la aplicación CLI.</li>
+<li>Archivo o carpeta de datos.</li>
+<li>Descripción breve del problema resuelto.</li>
+<li>Descripción de la entidad principal y datos relacionados.</li>
+<li>Casos de prueba básicos.</li>
+<li>Evidencia de ejecución.</li>
+<li>Reporte o resumen del proyecto.</li>
+<li>Sustentación técnica.</li>
+</ul>
+<p>Cada componente debe estar conectado con el problema elegido. Por ejemplo, si el proyecto gestiona productos, las búsquedas, validaciones, reportes y archivos deben trabajar con productos, stock, categorías o movimientos reales del caso.</p>
+<h2 id="6-evaluacion">6. Evaluación<a class="headerlink" href="#6-evaluacion" title="Permanent link">&para;</a></h2>
+<p>El producto final se evalúa como una aplicación completa, no como una suma de ejercicios. La nota debe reflejar qué tan bien el estudiante convierte un problema simple en una solución CLI funcional, ordenada y sustentable.</p>
+<p>Los criterios se organizan según una matriz común de evaluación de proyectos académicos: problema, funcionalidad, diseño o estructura, implementación, datos, integración, calidad, validación y sustentación. Cada criterio se adapta al nivel inicial de FP y se verifica mediante evidencias del producto, el repositorio y la demostración.</p>
+<table>
+<thead>
+<tr>
+<th>Dimensión común</th>
+<th>Criterio del PS</th>
+<th>Qué se observa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Problema y alcance</td>
+<td>Problema y alcance</td>
+<td>El proyecto responde a una necesidad clara, gestiona un proceso simple con entidad principal y datos relacionados, y mantiene un alcance adecuado para FP.</td>
+</tr>
+<tr>
+<td>Requerimientos o funcionalidad esperada</td>
+<td>Funcionalidad</td>
+<td>La aplicación permite registrar, listar, buscar, editar, eliminar, consultar y generar reportes básicos según el problema elegido.</td>
+</tr>
+<tr>
+<td>Diseño, modelo o arquitectura</td>
+<td>Estructura de la solución</td>
+<td>El programa define una organización inicial clara del menú, los datos y el flujo general de la aplicación CLI.</td>
+</tr>
+<tr>
+<td>Implementación técnica</td>
+<td>Aplicación de fundamentos</td>
+<td>El código evidencia uso correcto de variables, operadores, condicionales, bucles, listas/arreglos, funciones, archivos, búsqueda, ordenación y estructuras auxiliares cuando corresponda.</td>
+</tr>
+<tr>
+<td>Datos, persistencia o procesamiento</td>
+<td>Manejo de datos</td>
+<td>Los registros se almacenan, recuperan y procesan correctamente; la persistencia permite cerrar y volver a ejecutar la aplicación sin perder la información principal.</td>
+</tr>
+<tr>
+<td>Integración del producto</td>
+<td>Integración del producto</td>
+<td>Las sesiones aportan al mismo proyecto; no hay módulos inconexos ni ejercicios pegados sin relación con el dominio.</td>
+</tr>
+<tr>
+<td>Calidad técnica</td>
+<td>Organización del código</td>
+<td>Las funciones separan responsabilidades, reducen repetición y permiten entender el flujo principal del programa.</td>
+</tr>
+<tr>
+<td>Validación, pruebas o resultados</td>
+<td>Validaciones y pruebas</td>
+<td>La aplicación controla entradas incorrectas, opciones inválidas, datos incompletos y casos básicos; además se presentan pruebas de las operaciones principales.</td>
+</tr>
+<tr>
+<td>Sustentación técnica y profesional</td>
+<td>Sustentación integral</td>
+<td>Se evalúa mediante subaspectos de defensa técnica, comunicación, presentación personal, aporte individual, repositorio, documentación publicada y apertura ejecutiva según el nivel inicial de FP.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="subaspectos-de-la-sustentacion-integral">Subaspectos de la sustentación integral<a class="headerlink" href="#subaspectos-de-la-sustentacion-integral" title="Permanent link">&para;</a></h3>
+<p>La sustentación integral debe representar como mínimo el 30% de la evaluación del proyecto. Se revisa mediante los siguientes subaspectos:</p>
+<table>
+<thead>
+<tr>
+<th>Subaspecto</th>
+<th>Qué observa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Defensa técnica</td>
+<td>Explicación del problema, estructura de la solución, código, decisiones, limitaciones y evidencias generadas.</td>
+</tr>
+<tr>
+<td>Comunicación y orden</td>
+<td>Claridad, estructura, tiempo y lenguaje técnico.</td>
+</tr>
+<tr>
+<td>Presentación personal y actitud</td>
+<td>Puntualidad, vestimenta limpia y adecuada, higiene, cabello ordenado y actitud profesional.</td>
+</tr>
+<tr>
+<td>Aporte individual</td>
+<td>Cada integrante demuestra lo que hizo.</td>
+</tr>
+<tr>
+<td>Repositorio y estándares</td>
+<td>Topics, organización, commits, documentación y reproducibilidad.</td>
+</tr>
+<tr>
+<td>MkDocs o equivalente</td>
+<td>Documentación publicada, navegable y alineada al producto, si aplica al nivel del curso.</td>
+</tr>
+<tr>
+<td>Introducción/demo ejecutiva</td>
+<td>Introducción oral clara del problema, solución y valor, seguida de una demo funcional.</td>
+</tr>
+</tbody>
+</table>
+<p>La sustentación profesional forma parte de la evaluación porque el producto final no solo debe funcionar; también debe ser presentado, explicado y defendido con responsabilidad académica.</p>
+<h2 id="7-sustentacion">7. Sustentación<a class="headerlink" href="#7-sustentacion" title="Permanent link">&para;</a></h2>
+<p>La sustentación no consiste únicamente en hablar del programa ni en mostrar diapositivas. El estudiante debe demostrar que comprende lo que construyó, ejecutar el producto en vivo y explicar cómo evolucionó durante el curso.</p>
+<p>La sustentación inicia con una introducción oral breve de 1 a 3 minutos para presentar el problema, la solución, el valor del producto y la participación del equipo o estudiante.</p>
+<table>
+<thead>
+<tr>
+<th>Momento</th>
+<th style="text-align: right;">Tiempo sugerido</th>
+<th>Propósito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exposición técnica</td>
+<td style="text-align: right;">10 minutos</td>
+<td>Presentar el problema, alcance, estructura de la solución, componentes principales y evidencias del avance.</td>
+</tr>
+<tr>
+<td>Demostración en vivo</td>
+<td style="text-align: right;">5 minutos</td>
+<td>Ejecutar la aplicación CLI y comprobar que las funciones principales trabajan con datos reales del proyecto.</td>
+</tr>
+</tbody>
+</table>
+<p>Durante la sustentación se debe:</p>
+<ul>
+<li>Presentar el problema, la entidad principal y los datos relacionados.</li>
+<li>Explicar las principales funciones de la aplicación CLI.</li>
+<li>Mostrar registro, consulta/listado, búsqueda, edición o eliminación.</li>
+<li>Evidenciar carga y guardado de información en archivos.</li>
+<li>Mostrar una consulta, agregación o reporte relacionado con el problema.</li>
+<li>Explicar al menos una validación y una decisión importante del código.</li>
+<li>Reconocer limitaciones del producto y posibles mejoras.</li>
+</ul>
+<p>Si el proyecto es grupal, cada integrante debe mostrar en vivo la parte que desarrolló o explicar una sección concreta del código. No basta con que una sola persona ejecute toda la aplicación mientras los demás observan.</p>
+<p>Para la exposición, el estudiante o equipo debe preparar:</p>
+<ul>
+<li>Aplicación lista para ejecutarse.</li>
+<li>Código fuente organizado.</li>
+<li>Archivo de datos con registros de prueba.</li>
+<li>Casos de prueba mínimos.</li>
+<li>Diapositivas breves o guía visual de apoyo.</li>
+<li>Evidencia del avance por hitos: S2, S5, S12 y S15.</li>
+<li>Distribución clara de responsabilidades por integrante.</li>
+</ul>
+<p>La presentación personal también comunica responsabilidad y respeto por el trabajo realizado. No se evalúa la marca de la ropa ni el estilo personal, pero sí se espera una apariencia limpia, ordenada y adecuada para una exposición académica.</p>
+<p>Para la sustentación se recomienda:</p>
+<ul>
+<li>Usar vestimenta limpia, ordenada y apropiada para una presentación académica.</li>
+<li>Evitar ropa deportiva, buzos, sandalias o prendas demasiado informales.</li>
+<li>Mantener el cabello limpio y ordenado.</li>
+<li>Cuidar la higiene personal.</li>
+<li>Evitar accesorios, gorras o elementos que distraigan durante la exposición.</li>
+<li>Presentarse con actitud profesional, puntualidad y disposición para responder preguntas.</li>
+</ul>
+<h2 id="8-resultado-esperado">8. Resultado Esperado<a class="headerlink" href="#8-resultado-esperado" title="Permanent link">&para;</a></h2>
+<p>Al finalizar el curso, el estudiante debe demostrar que puede transformar un problema simple en una aplicación CLI funcional utilizando los fundamentos de programación.</p>
+<div class="highlight"><pre><span></span><code>Problema
+  ↓
+Análisis
+  ↓
+Algoritmo
+  ↓
+Programación
+  ↓
+CRUD
+  ↓
+Persistencia
+  ↓
+Consultas
+  ↓
+Reportes
+  ↓
+Aplicación CLI funcional
+  ↓
+Sustentación
+</code></pre></div>
+<p>El Proyecto Sello representa la integración de los conocimientos adquiridos durante el curso. Más que desarrollar un sistema complejo, el propósito es evidenciar la capacidad para analizar un problema, implementar una solución coherente y explicar técnicamente las decisiones tomadas durante su construcción.</p>
+<h2 id="anexo-secuencia-sugerida-de-presentacion">Anexo. Secuencia sugerida de presentación<a class="headerlink" href="#anexo-secuencia-sugerida-de-presentacion" title="Permanent link">&para;</a></h2>
+<p>La presentación puede organizarse con una secuencia breve de apoyo visual. En FP no se exige video pitch; la apertura se realiza mediante una introducción oral breve.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Orden</th>
+<th>Slide o momento</th>
+<th>Propósito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td>Título del proyecto y equipo</td>
+<td>Identificar el proyecto, integrantes y dominio elegido.</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td>Problema y contexto</td>
+<td>Explicar qué necesidad simple se busca resolver.</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td>Solución propuesta</td>
+<td>Presentar la aplicación CLI y su alcance.</td>
+</tr>
+<tr>
+<td style="text-align: right;">4</td>
+<td>Evolución del proyecto</td>
+<td>Mostrar cómo creció desde las primeras sesiones hasta el producto final.</td>
+</tr>
+<tr>
+<td style="text-align: right;">5</td>
+<td>Funcionalidades principales</td>
+<td>Resumir registro, listado, búsqueda, edición, eliminación, consultas o reportes.</td>
+</tr>
+<tr>
+<td style="text-align: right;">6</td>
+<td>Datos y persistencia</td>
+<td>Explicar qué datos se guardan, cómo se cargan y cómo se procesan.</td>
+</tr>
+<tr>
+<td style="text-align: right;">7</td>
+<td>Organización del código</td>
+<td>Mostrar funciones, archivos y decisiones básicas de estructura.</td>
+</tr>
+<tr>
+<td style="text-align: right;">8</td>
+<td>Validaciones y pruebas</td>
+<td>Presentar casos probados, entradas inválidas y resultados esperados.</td>
+</tr>
+<tr>
+<td style="text-align: right;">9</td>
+<td>Demo en vivo</td>
+<td>Ejecutar el flujo principal de la aplicación.</td>
+</tr>
+<tr>
+<td style="text-align: right;">10</td>
+<td>Aporte individual</td>
+<td>Indicar qué hizo cada integrante, si el proyecto es grupal.</td>
+</tr>
+<tr>
+<td style="text-align: right;">11</td>
+<td>Repositorio y estándares</td>
+<td>Mostrar repositorio, topics, estructura, documentación publicada en MkDocs o equivalente, y forma de ejecución.</td>
+</tr>
+<tr>
+<td style="text-align: right;">12</td>
+<td>Limitaciones y mejoras</td>
+<td>Reconocer límites del producto y mejoras posibles.</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Angel Sullon @asullom - UPeU 2026
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "toc.follow", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../javascripts/mermaid.js"></script>
+      
+    
+  </body>
+</html>

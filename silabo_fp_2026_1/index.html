@@ -1,0 +1,1858 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Cuadernos de programación convertidos a libro digital estático con MkDocs.">
+      
+      
+        <meta name="author" content="UPeU">
+      
+      
+      
+        <link rel="prev" href="../proyecto-sello/">
+      
+      
+        <link rel="next" href="../silabo_fp_2026_2/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Sílabo 2026-1 - Fundamentos de Programación - Libro digital</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#silabo-fundamentos-de-programacion" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href=".." title="Fundamentos de Programación - Libro digital" class="md-header__button md-logo" aria-label="Fundamentos de Programación - Libro digital" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Fundamentos de Programación - Libro digital
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Sílabo 2026-1
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="blue-grey" data-md-color-accent="amber"  aria-hidden="true"  type="radio" name="__palette" id="__palette_0">
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Fundamentos de Programación - Libro digital" class="md-nav__button md-logo" aria-label="Fundamentos de Programación - Libro digital" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Fundamentos de Programación - Libro digital
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Proyecto Sello
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Proyecto Sello
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../proyecto-sello/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guía del proyecto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sílabos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Sílabos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sílabo 2026-1
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sílabo 2026-1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#i-informacion-general-de-asignatura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        I. Información General de Asignatura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ii-sumilla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        II. Sumilla
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iii-competencia-del-perfil-de-egreso-con-relacion-a-la-asignatura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        III. Competencia del perfil de egreso con relación a la asignatura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iv-resultado-de-aprendizaje-de-la-asignatura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IV. Resultado de aprendizaje de la asignatura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v-unidades-de-aprendizaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        V. Unidades de aprendizaje
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vi-estrategias-metodologicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VI. Estrategias metodológicas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vii-recursos-medios-y-materiales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VII. Recursos, medios y materiales
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viii-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VIII. Evaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ix-referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IX. Referencias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IX. Referencias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basica-fuentes-primarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Básica (Fuentes primarias)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complementaria-fuentes-secundarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Complementaria (Fuentes secundarias)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enlaces-de-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enlaces de internet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../silabo_fp_2026_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sílabo 2026-2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1. Estructuras secuenciales y condicionales
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    1. Estructuras secuenciales y condicionales
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S01_Algoritmos_Datos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    1 Algoritmos y datos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S02_Operadores_Algoritmos_Secuenciales/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2 Operadores y algoritmo secuencial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S03_Decisiones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3 Decisiones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S04_Decisiones_Multiples/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4 Decisiones múltiples
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S05_Evaluacion_1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    5 Evaluación 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    2. Estructuras repetitivas, modularización y procesamiento algorítmico de datos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    2. Estructuras repetitivas, modularización y procesamiento algorítmico de datos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S06_For/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    6 For y arreglos/listas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S07_While/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    7 While y menú interactivo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S08_Funciones_Recursividad/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    8 Funciones y recursividad
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S09_Busqueda_Ordenacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    9 Búsqueda y ordenación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S10_Archivos_CRUD/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 Archivos y CRUD persistente
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S11_Consultas_Agregacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    11 Consultas y reportes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S12_Evaluacion_2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    12 Evaluación 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    3. Procesamiento algorítmico avanzado e integración del producto
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    3. Procesamiento algorítmico avanzado e integración del producto
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S13_Matrices_Diccionarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    13 Matrices y diccionarios
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S14_Reportes_Exportacion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    14 Reportes y exportación
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S15_Sustentacion_Producto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    15 Sustentación del producto
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S16_Evaluacion_Final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    16 Evaluación final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    4. Anexos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    4. Anexos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S00_Guia_algoritmo_a_codigo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    0 Guía algoritmo a código
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../S17_Java_Equivalencias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    17 Equivalencias Java
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#i-informacion-general-de-asignatura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        I. Información General de Asignatura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ii-sumilla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        II. Sumilla
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iii-competencia-del-perfil-de-egreso-con-relacion-a-la-asignatura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        III. Competencia del perfil de egreso con relación a la asignatura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#iv-resultado-de-aprendizaje-de-la-asignatura" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IV. Resultado de aprendizaje de la asignatura
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v-unidades-de-aprendizaje" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        V. Unidades de aprendizaje
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vi-estrategias-metodologicas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VI. Estrategias metodológicas
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#vii-recursos-medios-y-materiales" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VII. Recursos, medios y materiales
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#viii-evaluacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        VIII. Evaluación
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ix-referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IX. Referencias
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="IX. Referencias">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#basica-fuentes-primarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Básica (Fuentes primarias)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#complementaria-fuentes-secundarias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Complementaria (Fuentes secundarias)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#enlaces-de-internet" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Enlaces de internet
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<!-- Transcripción fiel generada desde: Ciclo 1 Fundamentos de programacion Nelida Huaman ultimo (2).docx -->
+
+<p>Universidad Peruana Unión
+Carret. Central km. 19.5 Ñaña. Telf. 01-6186300 Casilla 3564 Lima 1, Perú</p>
+<h1 id="silabo-fundamentos-de-programacion">Silabo: Fundamentos de Programación<a class="headerlink" href="#silabo-fundamentos-de-programacion" title="Permanent link">&para;</a></h1>
+<h2 id="i-informacion-general-de-asignatura">I. Información General de Asignatura<a class="headerlink" href="#i-informacion-general-de-asignatura" title="Permanent link">&para;</a></h2>
+<table>
+  <tr>
+    <td>01</td>
+    <td>Facultad/EGP</td>
+    <td>Facultad de Ingeniería y Arquitectura</td>
+    <td>09</td>
+    <td>Año de plan de estudio</td>
+    <td>2026-1</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>10</td>
+    <td>Ciclo de estudio</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>02</td>
+    <td>Programa de estudio</td>
+    <td>EP Ingeniería de Sistemas</td>
+    <td>11</td>
+    <td>Código de asignatura</td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>03</td>
+    <td>Tipo de estudio</td>
+    <td>Especialidad</td>
+    <td>12</td>
+    <td>Número de créditos</td>
+    <td>5</td>
+  </tr>
+  <tr>
+    <td>04</td>
+    <td>Nombre de asignatura</td>
+    <td>Fundamentos de Programación</td>
+    <td>13</td>
+    <td>Nota mínima probatoria</td>
+    <td>13</td>
+  </tr>
+  <tr>
+    <td>05</td>
+    <td>Duración</td>
+    <td></td>
+    <td>14</td>
+    <td>Año y semestre académico</td>
+    <td>2026-1</td>
+  </tr>
+  <tr>
+    <td>06</td>
+    <td>Horas de la asignatura</td>
+    <td colspan="4">H. Te. Pract 3 H. Prc. Pres 4 H. Te. On. Sin H. Te. On. Asin H. Pr. On. Sin H. Pr. On. Asin</td>
+  </tr>
+  <tr>
+    <td>07</td>
+    <td>Docente</td>
+    <td>Huamán Paco Nélida</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>08</td>
+    <td>Prerequisito</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+
+<h2 id="ii-sumilla">II. Sumilla<a class="headerlink" href="#ii-sumilla" title="Permanent link">&para;</a></h2>
+<p>La asignatura de Fundamentos de programación es de carácter teórico-práctico, y pertenece al área de estudio de especialidad de tipo obligatorio. Aporta al perfil de egreso en las competencias generales de desarrollo espiritual en la subcompetencia de aprendizaje del servicio enfocado en la misión, la competencia general pensamiento de orden superior y la competencia específica de gestión y desarrollo de software en el nivel 1. Tiene como propósito que el estudiante construya algoritmos eficientes para la solución de problemas de actividad humana, a través del uso de buenas prácticas de producción de software. Los contenidos de la asignatura a desarrollar son los siguientes: Condicionales, estructuras repetitivas, subprogramas, estructuras de datos.</p>
+<h2 id="iii-competencia-del-perfil-de-egreso-con-relacion-a-la-asignatura">III. Competencia del perfil de egreso con relación a la asignatura<a class="headerlink" href="#iii-competencia-del-perfil-de-egreso-con-relacion-a-la-asignatura" title="Permanent link">&para;</a></h2>
+<table>
+  <tr><td colspan="2">General</td></tr>
+  <tr><td colspan="2">SERVICIO Y MISIÓN: Desarrolla su identidad como hijo de Dios y testifica los principios y valores bíblico-cristianos en todas las esferas de la vida, mostrando coherencia entre conocimiento, actitud y conducta, e inspirando a otros a través del liderazgo servicial.</td></tr>
+  <tr><td colspan="2">Dimensiones</td></tr>
+  <tr><td>1.1</td><td>LIDERAZGO: Lidera usando sus capacidades y/o habilidades de acuerdo con los principios y valores bíblico-cristianos para mejorar la calidad de vida y el entorno.</td></tr>
+  <tr><td colspan="2">Específica</td></tr>
+  <tr><td colspan="2">INGENIERÍA DE SOFTWARE: Gestiona y desarrolla software de manera eficiente y efectiva, basándose en estándares internacionales de calidad a fin de lograr el control y aseguramiento de la calidad según el contexto de la organización.</td></tr>
+  <tr><td colspan="2">Dimensiones</td></tr>
+  <tr><td>1.1</td><td>PROGRAMACIÓN: Desarrolla aplicaciones de escritorio, web y móvil.</td></tr>
+</table>
+
+<h2 id="iv-resultado-de-aprendizaje-de-la-asignatura">IV. Resultado de aprendizaje de la asignatura<a class="headerlink" href="#iv-resultado-de-aprendizaje-de-la-asignatura" title="Permanent link">&para;</a></h2>
+<table>
+  <tr><td>Resultado de aprendizaje</td><td>Producto Académico</td></tr>
+  <tr><td>Al finalizar el curso el alumno desarrolla una aplicación de consola aplicando lógica computacional, estructuras de control, subprogramas y estructuras básicas de datos, para resolver un problema de negocio simple mediante programación estructurada.</td><td>Nombre: Aplicación de consola para un caso de negocio básico (módulo ventas o equivalente).</td></tr>
+  <tr><td></td><td>Descripción: Aplicación de consola que implementa un menú interactivo y operaciones básicas de un módulo de negocio (ventas u otro equivalente), utilizando estructuras secuenciales, condicionales, repetitivas, subprogramas y estructuras de datos simples.</td></tr>
+</table>
+
+<h2 id="v-unidades-de-aprendizaje">V. Unidades de aprendizaje<a class="headerlink" href="#v-unidades-de-aprendizaje" title="Permanent link">&para;</a></h2>
+<table>
+  <tr><td colspan="7">Unidad 1: Estructuras secuenciales y condicionales</td></tr>
+  <tr><td colspan="4">Resultado de aprendizaje</td><td colspan="3">Producto</td></tr>
+  <tr><td colspan="4">Aplica estructuras secuenciales y condicionales para resolver problemas simples, representando algoritmos y construyendo programas de consola con control de flujo básico.</td><td colspan="3">Nombre: Menú básico en consola.</td></tr>
+  <tr><td colspan="4">Criterios de evaluación del producto</td><td colspan="3">Descripción del producto</td></tr>
+  <tr><td colspan="4">1 Funcionamiento del menú: que sea claro, permita elegir opciones correctamente y permanezca activo hasta salir.<br>2 Procesamiento de entradas: que solicite datos adecuadamente y valide errores del usuario.<br>3 Uso de estructuras secuenciales y condicionales: aplicación correcta de if, else, switch y lógica coherente.<br>4 Cumplimiento de acciones: que cada opción del menú ejecute correctamente la tarea solicitada.<br>5 Orden y claridad del código: buena indentación, nombres adecuados de variables y comentarios básicos.</td><td colspan="3">Programa de consola que presenta un menú simple, procesa entradas del usuario y ejecuta acciones básicas utilizando estructuras secuenciales y condicionales.</td></tr>
+  <tr><td colspan="7">Sesiones de aprendizaje</td></tr>
+  <tr><td>N°</td><td>Fecha</td><td>Contenido</td><td>HT</td><td>HP</td><td>Actividad práctica</td><td>Actividad autónoma</td></tr>
+  <tr><td>1</td><td>16/03/2026-21/03/2026</td><td>Algoritmos. Formas de representación de un algoritmo. Entorno de trabajo para el desarrollo de software.</td><td>3</td><td>4</td><td>Resolver problemas de algoritmos siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Prepara el ambiente de desarrollo y resuelve ejercicios propuestos.</td></tr>
+  <tr><td>2</td><td>22/03/2026-28/03/2026</td><td>Tipos de datos, operadores aritméticos, relacionales y lógicos, y estructura secuencial de un programa.</td><td>3</td><td>4</td><td>Desarrollar algoritmos secuenciales de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos secuenciales de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
+  <tr><td>3</td><td>29/03/2026-04/04/2026</td><td>Condicionales simples y compuestos (if, if-else)</td><td>3</td><td>4</td><td>Desarrollar algoritmos con condicionales simples y compuestas de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con condicionales simples y compuestas de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
+  <tr><td>4</td><td>05/04/2026-11/04/2026</td><td>Condicionales anidados y múltiples (if anidado, switch)</td><td>3</td><td>4</td><td>Desarrollar algoritmos con condicionales anidados y múltiples de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar un menú básico modo consola que contenga algoritmos condicionales múltiples, anidados u otros para el proyecto final. Cada menú ítem debe implementar los temas avanzados en la unidad.</td></tr>
+  <tr><td>5</td><td>12/04/2026-18/04/2026</td><td>Evaluación de unidad 1: 1. Examen parcial 1: Examen teórico-práctica de algoritmos, tipos de datos, operadores, estructuras secuenciales y condicionales.<br>2. Revisión del producto de unidad: Menú básico en consola.</td><td>3</td><td>4</td><td>Resolver el examen parcial y exponer el producto de unidad.</td><td>Reflexionar sobre los logros y dificultades que tuvo en la evaluación parcial y exposición.</td></tr>
+</table>
+
+<table>
+  <tr><td colspan="7">Unidad 2: Estructuras repetitivas y subprogramas</td></tr>
+  <tr><td colspan="4">Resultado de aprendizaje</td><td colspan="3">Producto</td></tr>
+  <tr><td colspan="4">Implementa estructuras repetitivas y subprogramas para modularizar soluciones y resolver problemas que requieren iteración y reutilización de código.</td><td colspan="3">Nombre: Aplicación de consola con estructuras repetitivas y subprogramas.</td></tr>
+  <tr><td colspan="4">Criterios de evaluación del producto</td><td colspan="3">Descripción del producto</td></tr>
+  <tr><td colspan="4">1 Comprensión teórica: que el estudiante entienda el funcionamiento de los ciclos (for, while, do-while) y de los subprogramas (métodos o funciones).<br>2 Aplicación correcta: uso adecuado de las estructuras repetitivas según el problema planteado y correcta creación de métodos con parámetros y retorno.<br>3 Lógica y resolución: que el programa resuelva el problema de forma coherente y funcional.<br>4 Modularización: capacidad para dividir el problema en partes usando subprogramas y evitar repetición de código.<br>5 Buenas prácticas: código ordenado, sin errores de sintaxis y con adecuada presentación.</td><td colspan="3">Aplicación de consola que amplía el menú básico incorporando bucles, subprogramas y lógica modular para ejecutar operaciones repetitivas de forma eficiente.</td></tr>
+  <tr><td colspan="7">Sesiones de aprendizaje</td></tr>
+  <tr><td>N°</td><td>Fecha</td><td>Contenido</td><td>HT</td><td>HP</td><td>Actividad práctica</td><td>Actividad autónoma</td></tr>
+  <tr><td>1</td><td>19/04/2026-25/04/2026</td><td>Estructuras repetitivas: While. Acumuladores y contadores.</td><td>3</td><td>4</td><td>Desarrollar algoritmos con estructuras repetitivas: While. Acumuladores y contadores, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con estructuras repetitivas: While. Acumuladores y contadores de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
+  <tr><td>2</td><td>26/04/2026-02/05/2026</td><td>Estructuras repetitivas DoWhile y For.</td><td>3</td><td>4</td><td>Desarrollar algoritmos con estructuras repetitivas: DoWhile y For, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con estructuras repetitivas: DoWhile y For de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
+  <tr><td>3</td><td>03/05/2026-09/05/2026</td><td>Subprogramas: parámetros y retorno</td><td>3</td><td>4</td><td>Desarrollar algoritmos con subprogramas, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con subprogramas, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
+  <tr><td>4</td><td>10/05/2026-16/05/2026</td><td>Recursividad</td><td>3</td><td>4</td><td>Desarrollar algoritmos con recursividad, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar otros algoritmos con recursividad, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td></tr>
+  <tr><td>5</td><td>17/05/2026-23/05/2026</td><td>Menú interactivo (integración bucles + condicionales + funciones)</td><td>3</td><td>4</td><td>Desarrollar algoritmos que utilicen menús interactivos, de libros, banco de preguntas de olimpiadas y concursos de programación, siguiendo la metodología de resolución de problemas algorítmicos.</td><td>Desarrollar un menú interactivo modo consola con ciclo infinito para el proyecto final. Cada menú ítem debe implementar los temas avanzados en la unidad 1 y 2.</td></tr>
+  <tr><td>6</td><td>24/05/2026-30/05/2026</td><td>Evaluación de unidad 2: 1. Examen parcial 2: Examen teórico-práctico de algoritmos, utilizando estructuras de control repetitivas y subprogramas.<br>2. Revisión del producto de unidad: Menú interactivo en consola aplicando condicionales múltiples, anidados, estructuras repetitivas y subprogramas.</td><td>3</td><td>4</td><td>Resolver el examen parcial y exponer el producto de unidad.</td><td>Reflexionar sobre los logros y dificultades que tuvo en la evaluación parcial.</td></tr>
+</table>
+
+<table>
+  <tr><td colspan="7">Unidad 3: Estructura de datos (arreglos, archivos) y App de consola</td></tr>
+  <tr><td colspan="4">Resultado de aprendizaje</td><td colspan="3">Producto</td></tr>
+  <tr><td colspan="4">Integra estructuras de datos básicas y manejo de archivos en una aplicación de consola completa, resolviendo un caso de negocio simple de forma estructurada.</td><td colspan="3">Nombre: Aplicación de consola completa (módulo ventas o equivalente).</td></tr>
+  <tr><td colspan="4">Criterios de evaluación del producto</td><td colspan="3">Descripción del producto</td></tr>
+  <tr><td colspan="4">1 Comprensión conceptual: que el estudiante entienda qué son los arreglos y los archivos, y cómo se utilizan para almacenar y gestionar información.<br>2 Uso correcto de arreglos: declaración adecuada, recorrido correcto (uso de ciclos), almacenamiento y recuperación de datos sin errores.<br>3 Manejo de archivos: creación, lectura y escritura de datos correctamente, controlando posibles errores básicos.<br>4 Funcionamiento de la App de consola: que el programa interactúe correctamente con el usuario (menú, opciones, entradas y salidas claras).<br>5 Lógica y organización: programa estructurado, con buena modularización, código ordenado y sin errores de compilación.<br>6 Resolución correcta del caso de negocio.<br>7 Sustentación técnica del programa.</td><td colspan="3">Aplicación de consola que integra menús, subprogramas, arreglos y archivos para gestionar información básica del negocio, permitiendo registrar, listar y procesar datos de forma persistente.</td></tr>
+  <tr><td colspan="7">Sesiones de aprendizaje</td></tr>
+  <tr><td>N°</td><td>Fecha</td><td>Contenido</td><td>HT</td><td>HP</td><td>Actividad práctica</td><td>Actividad autónoma</td></tr>
+  <tr><td>1</td><td>31/05/2026-06/06/2026</td><td>Arreglos</td><td>3</td><td>4</td><td>Desarrollar el CRUD y operaciones transaccionales de un caso de negocio usando arreglos. Participación en concurso de programación (viaje de estudios en caso se requiera).</td><td>Implementar arreglos en la aplicación de consola para un caso de negocio básico (módulo ventas o equivalente).</td></tr>
+  <tr><td>2</td><td>07/06/2026-13/06/2026</td><td>Archivos</td><td>3</td><td>4</td><td>Implementar la exportación de información, almacenados en los arreglos implementados del caso académico.</td><td>Implementar la exportación de información en la aplicación de consola para un caso de negocio básico (módulo ventas o equivalente).</td></tr>
+  <tr><td>3</td><td>14/06/2026-20/06/2026</td><td>Refinamiento final del proyecto</td><td>3</td><td>4</td><td>Revisar y mejorar el proyecto final.</td><td>Ajustes finales y preparar sustentación.</td></tr>
+  <tr><td>4</td><td>21/06/2026-27/06/2026</td><td>Sustentación del Producto del curso: App de consola</td><td>3</td><td>4</td><td>Presentar su proyecto final, aplicando tópicos de la materia.</td><td>Reflexionar sobre los logros y dificultades que tuvo en el desarrollo de la aplicación.</td></tr>
+  <tr><td>5</td><td>28/06/2026-04/07/2026</td><td>Examen final</td><td>3</td><td>4</td><td>Evaluación final.</td><td>Reflexionar sobre los logros y dificultades que tuvo en el examen final.</td></tr>
+</table>
+
+<h2 id="vi-estrategias-metodologicas">VI. Estrategias metodológicas<a class="headerlink" href="#vi-estrategias-metodologicas" title="Permanent link">&para;</a></h2>
+<table>
+  <tr><td>N°</td><td>Estrategias de enseñanza y de aprendizaje que se aplicarán en la asignatura</td></tr>
+  <tr><td>1.1</td><td>Aprendizaje Basado en Problemas: Centra el aprendizaje en la resolución de problemas reales, una habilidad esencial en casi todas las profesiones. Estimula el pensamiento crítico y la colaboración, elementos clave en el desarrollo de competencias.</td></tr>
+  <tr><td>1.2</td><td>Estudios de caso: Desarrolla el pensamiento crítico y la toma de decisiones al analizar situaciones complejas, preparando a los estudiantes para enfrentar problemas similares en sus futuras carreras profesionales.</td></tr>
+  <tr><td>1.3</td><td>Proyectos: Fomentan habilidades de investigación, gestión del tiempo y trabajo en equipo, todas cruciales en el mundo profesional.</td></tr>
+</table>
+
+<h2 id="vii-recursos-medios-y-materiales">VII. Recursos, medios y materiales<a class="headerlink" href="#vii-recursos-medios-y-materiales" title="Permanent link">&para;</a></h2>
+<table>
+  <tr><td>N°</td><td>Recursos medios y materiales</td></tr>
+  <tr><td>1</td><td>Guías y/o tutoriales</td></tr>
+  <tr><td>2</td><td>Laboratorios</td></tr>
+  <tr><td>3</td><td>Internet - Wifi</td></tr>
+  <tr><td>4</td><td>Proyector y/o TV Smart</td></tr>
+</table>
+
+<h2 id="viii-evaluacion">VIII. Evaluación<a class="headerlink" href="#viii-evaluacion" title="Permanent link">&para;</a></h2>
+<p>La evaluación de los estudiantes se rige por el Reglamento de Estudios, disponible en: <a href="https://upeu.edu.pe/reglamentos/evaluacion">https://upeu.edu.pe/reglamentos/evaluacion</a>.</p>
+<p>La estructura evaluativa comprende componentes formativos y/o de procesos, de producto y genéricos, reflejando un enfoque integral.</p>
+<p>Componentes de Evaluación y Ponderación:</p>
+<p>a. Evaluación de Sesiones (ES): Es el promedio de las evaluaciones aplicadas a los estudiantes para verificar su proceso de aprendizaje durante las sesiones de las unidades. Su contribución a la nota final es de hasta el 20%.</p>
+<p>b. Evaluación de Productos (EP): Es el promedio ponderado de las evaluaciones de los productos entregados en cada unidad. Este componente representa un mínimo del 70% de la nota final.</p>
+<p>c. Evaluación de Competencias Generales (ECG): Esta evaluación aporta hasta un 10% al cálculo de la nota final.</p>
+<p>d. Cálculo de la Nota Final (NF):</p>
+<p>Escenarios de Evaluación:</p>
+<p>(*) EP Mayor a 12.5: Si el promedio ponderado de la evaluación de los productos es superior a 12.5, la nota final se calcula utilizando la fórmula general de promedio ponderado.</p>
+<p>(**) EP Menor a 12.5: Si el promedio ponderado de la evaluación de los productos es inferior a 12.5, la nota final corresponde directamente al promedio ponderado de las evaluaciones de productos.</p>
+<table>
+  <tr><td>Fecha</td><td>Unidad</td><td>Producto</td><td>Evaluación de proceso y de resultado</td><td>Pesos</td></tr>
+  <tr><td>12/04/2026-18/04/2026</td><td>Unidad 1: Estructuras secuenciales y condicionales</td><td>Menú básico en consola.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>20%</td></tr>
+  <tr><td>24/05/2026-30/05/2026</td><td>Unidad 2: Estructuras repetitivas y subprogramas.</td><td>Aplicación de consola con estructuras repetitivas y subprogramas.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
+  <tr><td>28/06/2026-04/07/2026</td><td>Unidad 3: Estructura de datos (arreglos, archivos) y App de consola</td><td>Aplicación de consola completa (módulo ventas o equivalente). Informe de participación en concurso de programación.</td><td>Evaluación de sesiones</td><td>10%</td></tr>
+  <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
+  <tr><td></td><td>Competencia General</td><td>SERVICIO Y MISIÓN: Desarrolla su identidad como hijo de Dios y testifica los principios y valores bíblico-cristianos en todas las esferas de la vida, mostrando coherencia entre conocimiento, actitud y conducta, e inspirando a otros a través del liderazgo servicial.</td><td>Competencia General</td><td>10%</td></tr>
+  <tr><td></td><td>Total</td><td></td><td></td><td>100%</td></tr>
+</table>
+
+<table>
+  <tr><td>Evaluación de sesiones</td><td>20%</td></tr>
+  <tr><td>Evaluación del producto</td><td>70%</td></tr>
+  <tr><td>Evaluación de competencia genérica</td><td>10%</td></tr>
+  <tr><td>Total</td><td>100%</td></tr>
+</table>
+
+<h2 id="ix-referencias">IX. Referencias<a class="headerlink" href="#ix-referencias" title="Permanent link">&para;</a></h2>
+<h3 id="basica-fuentes-primarias">Básica (Fuentes primarias)<a class="headerlink" href="#basica-fuentes-primarias" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Joyanes Aguilar, Luis. Madrid. 2012. <em>Fundamentos de programación: algoritmos, estructura de datos y objetos</em>. McGraw-Hill. México.</li>
+<li>Hernández Yáñez, L. <em>Fundamentos de la programación</em>. Libro en PDF gratuito con fundamentos y ejercicios. URL: InfoLibros / Educalix.</li>
+<li>Lévano Rodríguez, D., &amp; Cerdán León, F. E. (2025). <em>Fundamentos de programación con Java</em>. Universidad Peruana Unión. ISBN 978-612-304-792-4.</li>
+<li>Villalobos, R. W. M. (s. f.). <em>Fundamentos de Programación Java - Más 100 Algoritmos codificados</em>. Empresa Editora Macro. ISBN 978-6123042387.</li>
+<li>García Pérez Schofield, B. <em>Fundamentos de Programación</em>. PDF/EPUB gratis (temas de pseudocódigo, estructuras de control, funciones). URL: PortalLibro.com.</li>
+<li>Jiménez, J., Alvarado, L., &amp; Jiménez, E. (2014). <em>Fundamentos de Programación</em>. Editorial Alfaomega. 1.ª ed. ISBN 9786076222577. <a href="https://www.alfaomegacloud.com/library/publication/fundamentos-de-programacion-diagramas-de-flujo-diagramas-n-spseudocodigo-y-java">https://www.alfaomegacloud.com/library/publication/fundamentos-de-programacion-diagramas-de-flujo-diagramas-n-spseudocodigo-y-java</a></li>
+<li>Sznajdleder, Pablo Augusto. (2018). <em>Algoritmos a fondo con implementaciones en C y Java</em> (1.ª ed.). Editorial Alfaomega. ISBN 9786077079576. <a href="https://www.alfaomegacloud.com/reader/algoritmos-a-fondo-conimplementaciones-en-c-y-java?location=2">https://www.alfaomegacloud.com/reader/algoritmos-a-fondo-conimplementaciones-en-c-y-java?location=2</a></li>
+<li>Reina Valera. (1960). <em>La Santa Biblia</em>. Sociedades Bíblicas Unidas.</li>
+</ol>
+<h3 id="complementaria-fuentes-secundarias">Complementaria (Fuentes secundarias)<a class="headerlink" href="#complementaria-fuentes-secundarias" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Martín Sierra, Antonio. (2018). <em>Java curso práctico de formación</em> (1.ª ed.). Editorial RC Alfaomega. ISBN 9789587784282. <a href="https://www.alfaomegacloud.com/reader/java-cursopractico-de-formacion?location=3">https://www.alfaomegacloud.com/reader/java-cursopractico-de-formacion?location=3</a></li>
+<li>Chacón Terrones de Vargas, Jackeline, &amp; Chacón Terrones, Lizeth. (2017). <em>Implementación de los módulos de digitalización, digitación y registro de omisos para la Oficina Nacional de Procesos Electorales</em>. Tesis de pregrado. Universidad Peruana Unión, Lima, Perú.</li>
+<li>Jiménez, J., Alvarado, L., &amp; Jiménez, E. (2014). <em>Fundamentos de Programación</em>. Editorial Alfaomega. 1.ª ed. ISBN 9786076222577. <a href="https://www.alfaomegacloud.com/library/publication/fundamentos-de-programacion-diagramas-deflujo-diagramas-n-spseudocodigo-y-java">https://www.alfaomegacloud.com/library/publication/fundamentos-de-programacion-diagramas-deflujo-diagramas-n-spseudocodigo-y-java</a></li>
+<li><a href="https://www.tesuva.edu.co/phocadownloadpap/Fundamentos%20de%20programcion%20en%20Java.pdf">https://www.tesuva.edu.co/phocadownloadpap/Fundamentos%20de%20programcion%20en%20Java.pdf</a></li>
+</ol>
+<h3 id="enlaces-de-internet">Enlaces de internet<a class="headerlink" href="#enlaces-de-internet" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Java Curso Práctico: <a href="https://www.alphaeditorialcloud.com/library/publication/java-curso-practico-1628023063">https://www.alphaeditorialcloud.com/library/publication/java-curso-practico-1628023063</a></li>
+<li><a href="https://www.youtube.com/watch?v=u5TvGxd-T7c">https://www.youtube.com/watch?v=u5TvGxd-T7c</a></li>
+<li>Java curso práctico de formación: <a href="https://www.alphaeditorialcloud.com/library/publication/java-curso-practico-de-formacion">https://www.alphaeditorialcloud.com/library/publication/java-curso-practico-de-formacion</a></li>
+<li>PSeInt: <a href="https://pseint.sourceforge.net/">https://pseint.sourceforge.net/</a></li>
+<li><a href="https://drive.google.com/file/d/0B6KFGgUgaOpvMThpNklxVTdSaW8/view?resourcekey=0-u9E1-_7rlVDDEAd43DaLbg">https://drive.google.com/file/d/0B6KFGgUgaOpvMThpNklxVTdSaW8/view?resourcekey=0-u9E1-_7rlVDDEAd43DaLbg</a></li>
+<li><a href="https://repository.upb.edu.co/bitstream/handle/20.500.11912/4143/Fundamento%20de%20Programacion.pdf?sequence=1&amp;isAllowed=y">https://repository.upb.edu.co/bitstream/handle/20.500.11912/4143/Fundamento%20de%20Programacion.pdf?sequence=1&amp;isAllowed=y</a></li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Volver al principio
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Angel Sullon @asullom - UPeU 2026
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.expand", "navigation.top", "toc.follow", "content.code.copy", "search.suggest", "search.highlight"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="../javascripts/mermaid.js"></script>
+      
+    
+  </body>
+</html>
