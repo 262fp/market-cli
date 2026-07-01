@@ -1,6 +1,6 @@
 ﻿# Proyecto Sello de Fundamentos de Programación
 
-## Propósito
+## 1. Propósito
 
 El Proyecto Sello integra las sesiones de **Fundamentos de Programación** alrededor de una misma aplicación CLI desarrollada de forma progresiva. Durante el semestre no se construyen ejercicios independientes; cada nuevo tema fortalece el mismo proyecto hasta convertirlo en una solución funcional, sencilla y sustentable.
 
@@ -10,7 +10,7 @@ El objetivo es demostrar que el estudiante puede analizar un problema, diseñar 
 Problema -> Algoritmo -> Código -> CRUD -> Persistencia -> Consultas -> Reportes -> Sustentación
 ```
 
-## El Proyecto
+## 2. El Proyecto
 
 Durante el semestre desarrollarás una **aplicación CLI** que resuelva un problema simple de negocio, gestión o control de información.
 
@@ -50,7 +50,7 @@ No se considera Proyecto Sello:
 - Un proyecto copiado sin personalización del dominio, datos, reglas y reportes.
 - Una solución que el estudiante no puede explicar durante la sustentación.
 
-## Evolución del Proyecto
+## 3. Evolución del Proyecto
 
 Cada unidad incorpora nuevas capacidades al producto.
 
@@ -61,7 +61,7 @@ Cada unidad incorpora nuevas capacidades al producto.
 | Unidad 3 | Consultas, reportes, matrices y diccionarios. | Procesamiento de información, generación de reportes y versión final sustentada. |
 
 ```mermaid
-flowchart LR
+flowchart TB
     A[Problema] --> B[Entidad principal]
     B --> C[Registro]
     C --> D[Validaciones]
@@ -75,7 +75,23 @@ flowchart LR
     K --> L[Sustentación]
 ```
 
-## Cronograma
+### Alineamiento por sesiones
+
+Este alineamiento muestra cómo cada bloque de sesiones agrega capacidades al mismo proyecto CLI y prepara al estudiante para trabajar luego con proyectos más estructurados.
+
+| Sesiones | Contenido central | Avance del proyecto |
+|---|---|---|
+| S1-S2 | Datos, variables, entrada/salida, operadores y secuencia. | Brief inicial, entidad principal, datos relacionados y primer registro secuencial. |
+| S3-S4 | Condicionales, validaciones y menú básico. | Reglas iniciales del caso, control de opciones y menú CLI. |
+| S5 | Evaluación U1. | Primera versión funcional con registro, cálculos, validaciones y menú. |
+| S6-S7 | Listas/arreglos, `for`, `while` y menú interactivo. | CRUD en memoria con varios registros y navegación repetitiva. |
+| S8-S9 | Funciones, recursividad, búsqueda y ordenación. | Modularización del CRUD, consulta y organización de registros. |
+| S10-S11 | Archivos, consultas, agregaciones y reportes. | Persistencia básica, filtros, conteos, promedios y reportes por terminal. |
+| S12 | Evaluación U2. | CRUD modular con memoria, archivos, búsqueda, ordenación y consultas. |
+| S13-S14 | Matrices, diccionarios, reportes y exportación. | Procesamiento final y salidas del sistema. |
+| S15-S16 | Sustentación y evaluación final. | Producto CLI sustentado y evaluación individual. |
+
+## 4. Cronograma
 
 | Hito | Momento | Producto esperado |
 |---|---|---|
@@ -87,7 +103,7 @@ flowchart LR
 
 El brief de la semana 2 es obligatorio. Su propósito es validar que el proyecto tiene un problema claro, un alcance viable y una entidad principal adecuada para FP antes de avanzar con el desarrollo.
 
-## Producto Final
+## 5. Producto Final
 
 Al finalizar el curso, la aplicación debe incorporar como mínimo:
 
@@ -119,7 +135,7 @@ Artefactos mínimos de entrega:
 
 Cada componente debe estar conectado con el problema elegido. Por ejemplo, si el proyecto gestiona productos, las búsquedas, validaciones, reportes y archivos deben trabajar con productos, stock, categorías o movimientos reales del caso.
 
-## Evaluación
+## 6. Evaluación
 
 El producto final se evalúa como una aplicación completa, no como una suma de ejercicios. La nota debe reflejar qué tan bien el estudiante convierte un problema simple en una solución CLI funcional, ordenada y sustentable.
 
@@ -139,7 +155,7 @@ El producto final se evalúa como una aplicación completa, no como una suma de 
 
 La sustentación profesional forma parte de la evaluación porque el producto final no solo debe funcionar; también debe ser presentado, explicado y defendido con responsabilidad académica.
 
-## Sustentación
+## 7. Sustentación
 
 La sustentación no consiste únicamente en hablar del programa ni en mostrar diapositivas. El estudiante debe demostrar que comprende lo que construyó, ejecutar el producto en vivo y explicar cómo evolucionó durante el curso.
 
@@ -181,7 +197,7 @@ Para la sustentación se recomienda:
 - Evitar accesorios, gorras o elementos que distraigan durante la exposición.
 - Presentarse con actitud profesional, puntualidad y disposición para responder preguntas.
 
-## Resultado Esperado
+## 8. Resultado Esperado
 
 Al finalizar el curso, el estudiante debe demostrar que puede transformar un problema simple en una aplicación CLI funcional utilizando los fundamentos de programación.
 
@@ -208,3 +224,4 @@ Sustentación
 ```
 
 El Proyecto Sello representa la integración de los conocimientos adquiridos durante el curso. Más que desarrollar un sistema complejo, el propósito es evidenciar la capacidad para analizar un problema, implementar una solución coherente y explicar técnicamente las decisiones tomadas durante su construcción.
+
