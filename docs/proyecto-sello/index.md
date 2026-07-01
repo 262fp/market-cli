@@ -148,6 +148,19 @@ No se considera proyecto sello:
 
 ## Hitos del Proyecto
 
+### Hito S2: Aprobación del brief del proyecto
+
+Al finalizar la sesión 2, el estudiante o equipo debe presentar y aprobar el brief del proyecto. Este hito valida que el proyecto tiene un problema claro, un alcance viable y una entidad principal adecuada para FP.
+
+| Componente | Evidencia |
+|---|---|
+| Problema | Situación concreta que se desea resolver. |
+| Contexto | Usuario, negocio o proceso donde se aplicará la solución. |
+| Entidad principal | Datos básicos que serán registrados y gestionados. |
+| Datos relacionados | Información adicional necesaria sin ampliar demasiado el sistema. |
+| Operaciones iniciales | Registro, consulta o cálculo básico que tendrá sentido para el caso. |
+| Alcance | Límites claros de lo que el proyecto sí hará y no hará. |
+
 ### Hito S5: Base funcional
 
 Al finalizar la sesión 5, el estudiante debe contar con una primera versión ejecutable del proyecto.
