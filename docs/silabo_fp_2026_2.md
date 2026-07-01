@@ -100,8 +100,8 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 | Resultado de aprendizaje | Producto Academico |
 |---|---|
-| Al finalizar el curso, el estudiante desarrolla una aplicacion de consola para la gestion de una entidad de negocio o proceso simple, integrando de manera progresiva entrada y salida de datos, operadores, decisiones, menus, estructuras repetitivas, listas, busquedas, ordenacion, funciones, archivos, consultas, matrices, diccionarios y reportes mediante programacion estructurada. | Nombre: Aplicacion de consola para la gestion de una entidad de negocio o proceso simple. |
-|  | Descripcion: Aplicacion de consola desarrollada por unidades, que incorpora menu interactivo, operaciones CRUD en memoria y archivo, procesamiento de datos y generacion de reportes para registrar, consultar, actualizar, eliminar y presentar informacion del caso trabajado. |
+| Al finalizar el curso, el estudiante desarrolla una aplicacion CLI para la gestion de un proceso simple de negocio o informacion, basado en una entidad principal y datos relacionados, integrando de manera progresiva entrada y salida de datos, operadores, decisiones, menus, estructuras repetitivas, listas, busquedas, ordenacion, funciones, archivos, consultas, matrices, diccionarios y reportes mediante programacion estructurada. | Nombre: Aplicacion CLI para la gestion de un proceso simple con entidad principal y datos relacionados. |
+|  | Descripcion: Aplicacion CLI desarrollada por unidades, que incorpora menu interactivo, operaciones CRUD en memoria y archivo, procesamiento de datos y generacion de reportes para registrar, consultar, actualizar, eliminar y presentar informacion del caso trabajado. |
 
 ## V. Unidades de aprendizaje
 
@@ -109,49 +109,49 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| Aplica pensamiento algoritmico, estructuras secuenciales y condicionales para construir la base de una aplicacion de consola orientada a la gestion de una entidad o transaccion simple. | Nombre: Menu basico de gestion en consola con registro, calculos y validaciones iniciales. |
+| Aplica pensamiento algoritmico, estructuras secuenciales y condicionales para construir la base de una aplicacion CLI orientada a la gestion de un proceso simple, una entidad principal y datos relacionados. | Nombre: Menu basico de gestion CLI con registro, calculos y validaciones iniciales. |
 
 | Criterios de evaluacion del producto | Descripcion del producto |
 |---|---|
-| 1 Funcionamiento del menu y navegacion de opciones.<br>2 Registro y validacion inicial de datos de entrada.<br>3 Uso correcto de secuencia y decisiones (`if`, `if-else`, `if-elif-else`).<br>4 Coherencia de reglas de negocio y salidas mostradas.<br>5 Orden, legibilidad y buenas practicas basicas de codigo. | Programa de consola base que captura datos, ejecuta calculos y valida reglas mediante decisiones para soportar un menu inicial del proyecto. |
+| 1 Funcionamiento del menu y navegacion de opciones.<br>2 Registro y validacion inicial de datos de entrada.<br>3 Uso correcto de secuencia y decisiones (`if`, `if-else`, `if-elif-else`).<br>4 Coherencia de reglas de negocio y salidas mostradas.<br>5 Orden, legibilidad y buenas practicas basicas de codigo. | Programa CLI base que captura datos, ejecuta calculos y valida reglas mediante decisiones para soportar un menu inicial del proyecto. |
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 1 | 10/08/2026-15/08/2026 | Pensamiento algoritmico, datos y variables: algoritmos, entrada-proceso-salida, pseudocodigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos y casos de prueba. | 3 | 4 | Construir un programa base que captura y muestra datos de una entidad inicial del proyecto. | Practicar ejercicios de captura de datos y representar su solucion en pseudocodigo y flujo. |
-| 2 | 16/08/2026-22/08/2026 | Expresiones y secuencia: asignacion, operadores aritmeticos, relacionales y logicos, precedencia, conversion de tipos y estructura secuencial. | 3 | 4 | Desarrollar un registro secuencial con calculos basicos para el caso de negocio. | Resolver ejercicios de secuencia y validar resultados esperados con casos de prueba. |
+| 1 | 10/08/2026-15/08/2026 | Pensamiento algoritmico, datos y variables: algoritmos, entrada-proceso-salida, pseudocodigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos y casos de prueba. | 3 | 4 | Construir un programa base que captura y muestra datos de la entidad principal del proyecto. | Practicar ejercicios de captura de datos y representar su solucion en pseudocodigo y flujo. |
+| 2 | 16/08/2026-22/08/2026 | Expresiones y secuencia: asignacion, operadores aritmeticos, relacionales y logicos, precedencia, conversion de tipos y estructura secuencial. | 3 | 4 | Desarrollar un registro secuencial con calculos basicos para la entidad principal o una operacion simple del caso de negocio. | Resolver ejercicios de secuencia y validar resultados esperados con casos de prueba. |
 | 3 | 23/08/2026-29/08/2026 | Decisiones simples: `if`, `if-else`, condiciones compuestas con `and` y `or`, validacion basica de datos. | 3 | 4 | Integrar validaciones de entrada y reglas condicionales al registro del proyecto. | Reforzar decisiones simples y compuestas con problemas guiados y autoevaluacion. |
-| 4 | 30/08/2026-05/09/2026 | Decisiones multiples y anidadas: `if-elif-else`, control de opciones y menu basico. | 3 | 4 | Implementar menu basico de consola con opciones funcionales del proyecto. | Perfeccionar menu y casos de prueba de navegacion y validacion. |
+| 4 | 30/08/2026-05/09/2026 | Decisiones multiples y anidadas: `if-elif-else`, control de opciones y menu basico. | 3 | 4 | Implementar menu basico CLI con opciones funcionales del proyecto. | Perfeccionar menu y casos de prueba de navegacion y validacion. |
 | 5 | 06/09/2026-12/09/2026 | Evaluacion Unidad 1: integracion de secuencia, decisiones, validaciones y menu basico. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar el producto de unidad. | Reflexionar y registrar mejoras para la siguiente unidad. |
 
 ### Unidad 2: Estructuras repetitivas, modularizacion y procesamiento de datos
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| Implementa estructuras repetitivas, listas, funciones, busqueda, ordenacion, archivos y consultas para desarrollar una aplicacion de consola con CRUD modular, persistencia basica y procesamiento inicial de datos. | Nombre: Aplicacion de consola con CRUD modular, memoria, archivos basicos y consultas. |
+| Implementa estructuras repetitivas, listas, funciones, busqueda, ordenacion, archivos y consultas para desarrollar una aplicacion CLI con CRUD modular, persistencia basica y procesamiento inicial de datos. | Nombre: Aplicacion CLI con CRUD modular, memoria, archivos basicos y consultas. |
 
 | Criterios de evaluacion del producto | Descripcion del producto |
 |---|---|
-| 1 Uso correcto de `for`, `while` y control de flujo del menu interactivo.<br>2 Implementacion de CRUD en memoria con listas y validaciones.<br>3 Modularizacion con funciones, parametros y retorno.<br>4 Aplicacion de busqueda y ordenacion sobre registros.<br>5 Persistencia basica en archivos y consultas con agregaciones. | Aplicacion de consola que evoluciona el menu basico hacia un CRUD modular con almacenamiento en memoria y archivo, incluyendo procesamiento y consulta de informacion. |
+| 1 Uso correcto de `for`, `while` y control de flujo del menu interactivo.<br>2 Implementacion de CRUD en memoria con listas y validaciones.<br>3 Modularizacion con funciones, parametros y retorno.<br>4 Aplicacion de busqueda y ordenacion sobre registros.<br>5 Persistencia basica en archivos y consultas con agregaciones. | Aplicacion CLI que evoluciona el menu basico hacia un CRUD modular con almacenamiento en memoria y archivo, incluyendo procesamiento y consulta de informacion. |
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
 | 6 | 13/09/2026-19/09/2026 | Estructura repetitiva `for` y arreglos/listas: recorrido, contadores y acumuladores. | 3 | 4 | Implementar registrar y listar registros en memoria con listas. | Practicar carga y recorrido de colecciones con ejercicios del proyecto. |
 | 7 | 20/09/2026-26/09/2026 | Estructuras repetitivas `while` y `do-while` conceptual para menu interactivo y validaciones. | 3 | 4 | Construir menu interactivo con condicion de salida y validacion de opciones. | Mejorar robustez de entrada de datos y control de errores de usuario. |
 | 8 | 27/09/2026-03/10/2026 | Subprogramas, parametros, retorno y recursividad aplicada. | 3 | 4 | Modularizar operaciones del sistema y resolver laboratorio recursivo. | Refactorizar funciones y preparar pruebas de caja negra por modulo. |
-| 9 | 04/10/2026-10/10/2026 | Algoritmos de busqueda y ordenacion en registros de consola. | 3 | 4 | Integrar busqueda lineal/binaria conceptual y ordenacion en el CRUD. | Comparar estrategias de busqueda/ordenacion y documentar decisiones. |
+| 9 | 04/10/2026-10/10/2026 | Algoritmos de busqueda y ordenacion en registros del proyecto. | 3 | 4 | Integrar busqueda lineal/binaria conceptual y ordenacion en el CRUD. | Comparar estrategias de busqueda/ordenacion y documentar decisiones. |
 | 10 | 11/10/2026-17/10/2026 | Archivos: guardar y cargar registros (texto/CSV) para persistencia simple. | 3 | 4 | Implementar guardado/carga de datos para mantener estado del CRUD. | Probar persistencia con diferentes escenarios y datos de prueba. |
-| 11 | 18/10/2026-24/10/2026 | Consultas, agregacion y reportes de consola desde datos persistidos. | 3 | 4 | Construir filtros, conteos, sumas, promedios y reportes resumidos. | Ajustar consultas y validar consistencia de resultados. |
+| 11 | 18/10/2026-24/10/2026 | Consultas, agregacion y reportes por terminal desde datos persistidos. | 3 | 4 | Construir filtros, conteos, sumas, promedios y reportes resumidos. | Ajustar consultas y validar consistencia de resultados. |
 | 12 | 25/10/2026-31/10/2026 | Evaluacion Unidad 2: integracion de CRUD modular, busqueda, ordenacion, archivos y consultas. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar producto U2. | Registrar brechas tecnicas y plan de mejora para cierre del curso. |
 
 ### Unidad 3: Procesamiento algorítmico avanzado e integracion del producto
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| Integra estructuras de procesamiento algorítmico avanzado y generacion de salidas en la aplicacion desarrollada durante el curso para consolidar el producto final. | Nombre: Aplicacion de consola completa para la gestion de una entidad. |
+| Integra estructuras de procesamiento algorítmico avanzado y generacion de salidas en la aplicacion desarrollada durante el curso para consolidar el producto final. | Nombre: Aplicacion CLI completa para la gestion de un proceso simple con entidad principal y datos relacionados. |
 
 | Criterios de evaluacion del producto | Descripcion del producto |
 |---|---|
-| 1 Uso de matrices y diccionarios para procesar informacion.<br>2 Generacion de reportes en formatos de salida del curso (Excel/CSV, PDF/texto, impresion).<br>3 Integracion funcional de modulos y flujo completo del sistema.<br>4 Sustentacion tecnica con evidencia de funcionamiento.<br>5 Dominio conceptual en evaluacion final teorico-practica. | Aplicacion de consola completa que consolida CRUD, persistencia, procesamiento avanzado y reportes, con demostracion funcional y defensa tecnica del producto. |
+| 1 Uso de matrices y diccionarios para procesar informacion.<br>2 Generacion de reportes en formatos de salida del curso (Excel/CSV, PDF/texto, impresion).<br>3 Integracion funcional de modulos y flujo completo del sistema.<br>4 Sustentacion tecnica con evidencia de funcionamiento.<br>5 Dominio conceptual en evaluacion final teorico-practica. | Aplicacion CLI completa que consolida CRUD, persistencia, procesamiento avanzado y reportes, con demostracion funcional y defensa tecnica del producto. |
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
@@ -164,7 +164,7 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 **Unidad 1**
 
-- Entidad o transaccion inicial definida.
+- Proceso, entidad principal y datos relacionados definidos.
 - Entrada, proceso y salida.
 - Registro basico.
 - Calculos secuenciales.
@@ -233,11 +233,11 @@ Escenarios de Evaluación:
 
 <table>
   <tr><td>Fecha</td><td>Unidad</td><td>Producto</td><td>Evaluación de proceso y de resultado</td><td>Pesos</td></tr>
-  <tr><td>06/09/2026-12/09/2026</td><td>Unidad 1: Estructuras secuenciales y condicionales</td><td>Menú básico en consola.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td>06/09/2026-12/09/2026</td><td>Unidad 1: Estructuras secuenciales y condicionales</td><td>Menú básico de gestión CLI.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>20%</td></tr>
-  <tr><td>25/10/2026-31/10/2026</td><td>Unidad 2: Estructuras repetitivas y subprogramas.</td><td>Aplicación de consola con estructuras repetitivas y subprogramas.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td>25/10/2026-31/10/2026</td><td>Unidad 2: Estructuras repetitivas y subprogramas.</td><td>Aplicación CLI con CRUD modular, memoria, archivos básicos y consultas.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
-  <tr><td>22/11/2026-28/11/2026</td><td>Unidad 3: Estructura de datos (arreglos, archivos) y App de consola</td><td>Aplicación de consola completa (módulo ventas o equivalente). Informe de participación en concurso de programación.</td><td>Evaluación de sesiones</td><td>10%</td></tr>
+  <tr><td>22/11/2026-28/11/2026</td><td>Unidad 3: Procesamiento algorítmico avanzado e integración del producto</td><td>Aplicación CLI completa para la gestión de un proceso simple con entidad principal y datos relacionados.</td><td>Evaluación de sesiones</td><td>10%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
   <tr><td></td><td>Competencia General</td><td>SERVICIO Y MISIÓN: Desarrolla su identidad como hijo de Dios y testifica los principios y valores bíblico-cristianos en todas las esferas de la vida, mostrando coherencia entre conocimiento, actitud y conducta, e inspirando a otros a través del liderazgo servicial.</td><td>Competencia General</td><td>10%</td></tr>
   <tr><td></td><td>Total</td><td></td><td></td><td>100%</td></tr>

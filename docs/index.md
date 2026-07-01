@@ -2,7 +2,7 @@
 
 ## Producto del curso
 
-**Aplicación de consola para la gestión de una entidad de negocio o proceso simple, desarrollada de manera progresiva con programación estructurada. La aplicación integra entrada y salida de datos, operadores, decisiones, menús, estructuras repetitivas, listas, búsquedas, ordenación, funciones, archivos, consultas, matrices, diccionarios y reportes para registrar, consultar, actualizar, eliminar, procesar y presentar información.**
+**Aplicación CLI para la gestión de un proceso simple de negocio o información, basado en una entidad principal y datos relacionados, desarrollada de manera progresiva con programación estructurada. La aplicación integra entrada y salida de datos, operadores, decisiones, menús, estructuras repetitivas, listas, búsquedas, ordenación, funciones, archivos, consultas, matrices, diccionarios y reportes para registrar, consultar, actualizar, eliminar, procesar y presentar información.**
 
 ---
 
@@ -10,19 +10,19 @@
 
 ### Resultado de aprendizaje
 
-Aplica pensamiento algorítmico, estructuras secuenciales y condicionales para construir la base de una aplicación de consola orientada a la gestión de una entidad o transacción simple.
+Aplica pensamiento algorítmico, estructuras secuenciales y condicionales para construir la base de una aplicación CLI orientada a la gestión de un proceso simple, una entidad principal y datos relacionados.
 
 ### Producto de la unidad
 
-**Menú básico de gestión en consola con registro, cálculos y validaciones iniciales.**
+**Menú básico de gestión CLI con registro, cálculos y validaciones iniciales.**
 
 | Sesión | Tema | Producto de sesión |
 |--------|------|--------------------|
-| **S1** | **Pensamiento algorítmico, datos y variables:** algoritmos, entrada-proceso-salida, lenguaje natural, pseudocódigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos, variables, constantes y casos de prueba. | Programa básico que captura y muestra datos estructurados de una entidad inicial del proyecto. |
-| **S2** | **Expresiones y secuencia en la solución de problemas:** asignación, operadores aritméticos, relacionales y lógicos, expresiones, precedencia, conversión con `int()` y `float()`, estructura secuencial y verificación de resultados. | Programa secuencial que registra datos de una entidad o transacción simple y calcula resultados básicos del negocio. |
+| **S1** | **Pensamiento algorítmico, datos y variables:** algoritmos, entrada-proceso-salida, lenguaje natural, pseudocódigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos, variables, constantes y casos de prueba. | Programa básico que captura y muestra datos estructurados de la entidad principal del proyecto. |
+| **S2** | **Expresiones y secuencia en la solución de problemas:** asignación, operadores aritméticos, relacionales y lógicos, expresiones, precedencia, conversión con `int()` y `float()`, estructura secuencial y verificación de resultados. | Programa secuencial que registra datos de la entidad principal o de una operación simple y calcula resultados básicos del negocio. |
 | **S3** | **Decisiones simples en la lógica del programa:** expresiones condicionales, `if`, `if-else`, condiciones compuestas con `and` y `or`, validación básica de datos y casos de prueba. | Programa que responde de manera diferente según las condiciones de entrada e incorpora validaciones básicas al registro del proyecto. |
-| **S4** | **Decisiones múltiples, anidadas y menú básico:** `if-elif-else`, condicionales anidados, selección de opciones, reglas de negocio y control inicial del flujo del programa. | Menú básico de consola que permite elegir opciones del proyecto y ejecutar acciones según reglas condicionales. |
-| **S5** | **Evaluación Unidad 1:** integración de algoritmos secuenciales, entrada/salida, decisiones, validaciones y menú básico. | **Producto U1:** menú básico de gestión en consola con registro, cálculos y validaciones iniciales. |
+| **S4** | **Decisiones múltiples, anidadas y menú básico:** `if-elif-else`, condicionales anidados, selección de opciones, reglas de negocio y control inicial del flujo del programa. | Menú básico CLI que permite elegir opciones del proyecto y ejecutar acciones según reglas condicionales. |
+| **S5** | **Evaluación Unidad 1:** integración de algoritmos secuenciales, entrada/salida, decisiones, validaciones y menú básico. | **Producto U1:** menú básico de gestión CLI con registro, cálculos y validaciones iniciales. |
 
 ---
 
@@ -32,11 +32,11 @@ Aplica pensamiento algorítmico, estructuras secuenciales y condicionales para c
 
 ### Resultado de aprendizaje
 
-Implementa estructuras repetitivas, arreglos/listas, funciones, búsqueda, ordenación, archivos y consultas para desarrollar una aplicación de consola con CRUD modular, persistencia básica y procesamiento algorítmico inicial de información.
+Implementa estructuras repetitivas, arreglos/listas, funciones, búsqueda, ordenación, archivos y consultas para desarrollar una aplicación CLI con CRUD modular, persistencia básica y procesamiento algorítmico inicial de información.
 
 ### Producto de la unidad
 
-**Aplicación de consola con CRUD modular, memoria, archivos básicos y consultas.**
+**Aplicación CLI con CRUD modular, memoria, archivos básicos y consultas.**
 
 | Sesión | Tema | Producto de sesión |
 |--------|------|--------------------|
@@ -45,8 +45,8 @@ Implementa estructuras repetitivas, arreglos/listas, funciones, búsqueda, orden
 | **S8** | **Subprogramas, parámetros, retorno y recursividad:** modularización del CRUD, funciones para operaciones del sistema y laboratorio de algoritmos recursivos. | CRUD modular y laboratorio de algoritmos recursivos. |
 | **S9** | **Algoritmos de búsqueda y ordenación:** búsqueda lineal, búsqueda binaria conceptual, ordenación básica y aplicación sobre registros en memoria. | CRUD modular con búsqueda y ordenación de registros. |
 | **S10** | **Archivos: guardar y cargar registros:** lectura y escritura de archivos de texto/CSV, carga inicial, guardado de cambios y persistencia simple del CRUD. | CRUD persistente en archivos: registrar, listar, buscar, editar y eliminar registros, guardando y cargando información desde archivo. |
-| **S11** | **Consultas, agregación y reportes desde datos persistidos:** filtros, conteos, sumas, promedios, mínimos, máximos, agrupaciones básicas y reportes de consola. | Aplicación con consultas, agregaciones y reportes generados desde registros cargados desde archivo. |
-| **S12** | **Evaluación Unidad 2:** integración de CRUD modular, listas, menú interactivo, búsqueda, ordenación, archivos básicos, consultas y reportes. | **Producto U2:** aplicación de consola con CRUD modular, memoria, archivos básicos y consultas. |
+| **S11** | **Consultas, agregación y reportes desde datos persistidos:** filtros, conteos, sumas, promedios, mínimos, máximos, agrupaciones básicas y reportes por terminal. | Aplicación con consultas, agregaciones y reportes generados desde registros cargados desde archivo. |
+| **S12** | **Evaluación Unidad 2:** integración de CRUD modular, listas, menú interactivo, búsqueda, ordenación, archivos básicos, consultas y reportes. | **Producto U2:** aplicación CLI con CRUD modular, memoria, archivos básicos y consultas. |
 
 ---
 
@@ -60,13 +60,13 @@ Integra estructuras de procesamiento algorítmico avanzado y generación de sali
 
 ### Producto de la unidad
 
-**Aplicación de consola completa para la gestión de una entidad.**
+**Aplicación CLI completa para la gestión de un proceso simple con entidad principal y datos relacionados.**
 
 | Sesión | Tema | Producto de sesión |
 |--------|------|--------------------|
 | **S13** | **Matrices y diccionarios para procesamiento algorítmico avanzado:** organización tabular, estructuras clave-valor, índices simples, consultas por clave y reportes tabulares. | Aplicación que procesa información con matrices y diccionarios para consultas o reportes algorítmicos avanzados. |
 | **S14** | **Generación de reportes:** exportación de información a Excel/CSV, generación de reportes PDF o texto imprimible e impresión de comprobantes o reportes. | Reportes generados en Excel/CSV, PDF/texto e impresión de información. |
-| **S15** | **Sustentación del producto del curso:** presentación técnica, demostración funcional, evidencias, explicación del código y cierre del producto. | **Producto final:** aplicación de consola completa sustentada. |
+| **S15** | **Sustentación del producto del curso:** presentación técnica, demostración funcional, evidencias, explicación del código y cierre del producto. | **Producto final:** aplicación CLI completa sustentada. |
 | **S16** | **Evaluación final:** evaluación teórico-práctica individual sobre los contenidos del curso y el producto desarrollado. | Examen final. |
 
 ---
@@ -74,7 +74,7 @@ Integra estructuras de procesamiento algorítmico avanzado y generación de sali
 # Evolución del proyecto
 
 ## Unidad 1
-- Entidad o transacción inicial definida.
+- Proceso, entidad principal y datos relacionados definidos.
 - Entrada, proceso y salida.
 - Registro básico.
 - Cálculos secuenciales.
