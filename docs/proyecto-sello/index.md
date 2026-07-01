@@ -105,6 +105,24 @@ El brief de la semana 2 es obligatorio. Su propósito es validar que el proyecto
 
 ## 5. Producto Final
 
+### Repositorio académico y topics
+
+Desde la primera presentación del proyecto, el repositorio debe estar creado y configurado con los topics académicos mínimos. Esta configuración es obligatoria porque permite identificar campus, semestre, línea, tipo de proyecto, curso, sección y grupo.
+
+El detalle oficial del estándar se encuentra en [Estándar transversal de topics para repositorios académicos](https://upeuoficial.github.io/planb/anexos/estandar-topics-repositorios/).
+
+Ejemplo base para FP:
+
+```text
+campus-juliaca
+semestre-2026-2
+linea-software
+tipo-ps
+fp
+seccion-g1
+grupo-<numero>-<nombre-proyecto>
+```
+
 Al finalizar el curso, la aplicación debe incorporar como mínimo:
 
 - Menú interactivo.
@@ -149,9 +167,8 @@ El producto final se evalúa como una aplicación completa, no como una suma de 
 | Validaciones y control de errores | La aplicación controla entradas incorrectas, opciones inválidas, datos incompletos y casos básicos que podrían romper la ejecución. |
 | Organización del código | Las funciones separan responsabilidades, reducen repetición y permiten entender el flujo principal del programa. |
 | Pruebas y evidencia | El estudiante presenta casos de prueba básicos que demuestran las operaciones principales y situaciones límite simples. |
-| Reportes | Las consultas o reportes muestran información útil para el usuario, no solo datos impresos sin propósito. |
 | Sustentación técnica | El estudiante explica el problema, el diseño de la solución, el código, las decisiones tomadas y las limitaciones del producto. |
-| Sustentación profesional | El estudiante realiza una exposición ordenada, respeta los tiempos, participa activamente si el trabajo es grupal, demuestra en vivo su aporte, responde preguntas y mantiene una presentación personal adecuada al contexto académico. |
+| Sustentación profesional | El estudiante realiza una exposición ordenada, respeta los tiempos, participa activamente si el trabajo es grupal, demuestra en vivo su aporte, responde preguntas, mantiene una presentación personal adecuada y presenta el repositorio académico disponible desde la primera presentación con los topics mínimos configurados correctamente y evidencia el cumplimiento de estándares básicos de programación, organización del repositorio, documentación y reproducibilidad. |
 
 La sustentación profesional forma parte de la evaluación porque el producto final no solo debe funcionar; también debe ser presentado, explicado y defendido con responsabilidad académica.
 
@@ -224,4 +241,3 @@ Sustentación
 ```
 
 El Proyecto Sello representa la integración de los conocimientos adquiridos durante el curso. Más que desarrollar un sistema complejo, el propósito es evidenciar la capacidad para analizar un problema, implementar una solución coherente y explicar técnicamente las decisiones tomadas durante su construcción.
-
