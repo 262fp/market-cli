@@ -169,14 +169,29 @@ Los criterios se organizan según una matriz común de evaluación de proyectos 
 | Integración del producto | Integración del producto | Las sesiones aportan al mismo proyecto; no hay módulos inconexos ni ejercicios pegados sin relación con el dominio. |
 | Calidad técnica | Organización del código | Las funciones separan responsabilidades, reducen repetición y permiten entender el flujo principal del programa. |
 | Validación, pruebas o resultados | Validaciones y pruebas | La aplicación controla entradas incorrectas, opciones inválidas, datos incompletos y casos básicos; además se presentan pruebas de las operaciones principales. |
-| Sustentación técnica | Sustentación técnica | El estudiante explica el problema, la estructura de la solución, el código, las decisiones tomadas, las limitaciones y las evidencias generadas. |
-| Sustentación profesional | Sustentación profesional | El estudiante realiza una exposición ordenada, demuestra en vivo su aporte, responde preguntas y evidencia comunicación clara, puntualidad, vestimenta limpia y adecuada, cabello ordenado, higiene personal y actitud profesional; además presenta el repositorio académico disponible desde la primera presentación con los topics mínimos configurados correctamente y evidencia el cumplimiento de estándares básicos de programación, organización del repositorio, documentación y reproducibilidad. |
+| Sustentación técnica y profesional | Sustentación integral | Se evalúa mediante subaspectos de defensa técnica, comunicación, presentación personal, aporte individual, repositorio, documentación publicada y apertura ejecutiva según el nivel inicial de FP. |
+
+### Subaspectos de la sustentación integral
+
+La sustentación integral debe representar como mínimo el 30% de la evaluación del proyecto. Se revisa mediante los siguientes subaspectos:
+
+| Subaspecto | Qué observa |
+|---|---|
+| Defensa técnica | Explicación del problema, estructura de la solución, código, decisiones, limitaciones y evidencias generadas. |
+| Comunicación y orden | Claridad, estructura, tiempo y lenguaje técnico. |
+| Presentación personal y actitud | Puntualidad, vestimenta limpia y adecuada, higiene, cabello ordenado y actitud profesional. |
+| Aporte individual | Cada integrante demuestra lo que hizo. |
+| Repositorio y estándares | Topics, organización, commits, documentación y reproducibilidad. |
+| MkDocs o equivalente | Documentación publicada, navegable y alineada al producto, si aplica al nivel del curso. |
+| Introducción/demo ejecutiva | Introducción oral clara del problema, solución y valor, seguida de una demo funcional. |
 
 La sustentación profesional forma parte de la evaluación porque el producto final no solo debe funcionar; también debe ser presentado, explicado y defendido con responsabilidad académica.
 
 ## 7. Sustentación
 
 La sustentación no consiste únicamente en hablar del programa ni en mostrar diapositivas. El estudiante debe demostrar que comprende lo que construyó, ejecutar el producto en vivo y explicar cómo evolucionó durante el curso.
+
+La sustentación inicia con una introducción oral breve de 1 a 3 minutos para presentar el problema, la solución, el valor del producto y la participación del equipo o estudiante.
 
 | Momento | Tiempo sugerido | Propósito |
 |---|---:|---|
@@ -243,3 +258,22 @@ Sustentación
 ```
 
 El Proyecto Sello representa la integración de los conocimientos adquiridos durante el curso. Más que desarrollar un sistema complejo, el propósito es evidenciar la capacidad para analizar un problema, implementar una solución coherente y explicar técnicamente las decisiones tomadas durante su construcción.
+
+## Anexo. Secuencia sugerida de presentación
+
+La presentación puede organizarse con una secuencia breve de apoyo visual. En FP no se exige video pitch; la apertura se realiza mediante una introducción oral breve.
+
+| Orden | Slide o momento | Propósito |
+|---:|---|---|
+| 1 | Título del proyecto y equipo | Identificar el proyecto, integrantes y dominio elegido. |
+| 2 | Problema y contexto | Explicar qué necesidad simple se busca resolver. |
+| 3 | Solución propuesta | Presentar la aplicación CLI y su alcance. |
+| 4 | Evolución del proyecto | Mostrar cómo creció desde las primeras sesiones hasta el producto final. |
+| 5 | Funcionalidades principales | Resumir registro, listado, búsqueda, edición, eliminación, consultas o reportes. |
+| 6 | Datos y persistencia | Explicar qué datos se guardan, cómo se cargan y cómo se procesan. |
+| 7 | Organización del código | Mostrar funciones, archivos y decisiones básicas de estructura. |
+| 8 | Validaciones y pruebas | Presentar casos probados, entradas inválidas y resultados esperados. |
+| 9 | Demo en vivo | Ejecutar el flujo principal de la aplicación. |
+| 10 | Aporte individual | Indicar qué hizo cada integrante, si el proyecto es grupal. |
+| 11 | Repositorio y estándares | Mostrar repositorio, topics, estructura, documentación publicada en MkDocs o equivalente, y forma de ejecución. |
+| 12 | Limitaciones y mejoras | Reconocer límites del producto y mejoras posibles. |
