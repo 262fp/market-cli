@@ -157,18 +157,20 @@ Cada componente debe estar conectado con el problema elegido. Por ejemplo, si el
 
 El producto final se evalúa como una aplicación completa, no como una suma de ejercicios. La nota debe reflejar qué tan bien el estudiante convierte un problema simple en una solución CLI funcional, ordenada y sustentable.
 
-| Criterio | Qué se observa |
-|---|---|
-| Problema y alcance | El proyecto responde a una necesidad clara, gestiona un proceso simple con entidad principal y datos relacionados, y mantiene un alcance adecuado para FP. |
-| Funcionalidad | La aplicación permite registrar, listar, buscar, editar, eliminar, consultar y generar reportes básicos según el problema elegido. |
-| Aplicación de fundamentos | El código evidencia uso correcto de variables, operadores, condicionales, bucles, listas/arreglos, funciones, archivos, búsqueda, ordenación y estructuras auxiliares cuando corresponda. |
-| Integración del producto | Las sesiones aportan al mismo proyecto; no hay módulos inconexos ni ejercicios pegados sin relación con el dominio. |
-| Manejo de datos | Los registros se almacenan, recuperan y procesan correctamente; la persistencia permite cerrar y volver a ejecutar la aplicación sin perder la información principal. |
-| Validaciones y control de errores | La aplicación controla entradas incorrectas, opciones inválidas, datos incompletos y casos básicos que podrían romper la ejecución. |
-| Organización del código | Las funciones separan responsabilidades, reducen repetición y permiten entender el flujo principal del programa. |
-| Pruebas y evidencia | El estudiante presenta casos de prueba básicos que demuestran las operaciones principales y situaciones límite simples. |
-| Sustentación técnica | El estudiante explica el problema, el diseño de la solución, el código, las decisiones tomadas y las limitaciones del producto. |
-| Sustentación profesional | El estudiante realiza una exposición ordenada, respeta los tiempos, participa activamente si el trabajo es grupal, demuestra en vivo su aporte, responde preguntas, mantiene una presentación personal adecuada y presenta el repositorio académico disponible desde la primera presentación con los topics mínimos configurados correctamente y evidencia el cumplimiento de estándares básicos de programación, organización del repositorio, documentación y reproducibilidad. |
+Los criterios se organizan según una matriz común de evaluación de proyectos académicos: problema, funcionalidad, diseño o estructura, implementación, datos, integración, calidad, validación y sustentación. Cada criterio se adapta al nivel inicial de FP y se verifica mediante evidencias del producto, el repositorio y la demostración.
+
+| Dimensión común | Criterio del PS | Qué se observa |
+|---|---|---|
+| Problema y alcance | Problema y alcance | El proyecto responde a una necesidad clara, gestiona un proceso simple con entidad principal y datos relacionados, y mantiene un alcance adecuado para FP. |
+| Requerimientos o funcionalidad esperada | Funcionalidad | La aplicación permite registrar, listar, buscar, editar, eliminar, consultar y generar reportes básicos según el problema elegido. |
+| Diseño, modelo o arquitectura | Estructura de la solución | El programa define una organización inicial clara del menú, los datos y el flujo general de la aplicación CLI. |
+| Implementación técnica | Aplicación de fundamentos | El código evidencia uso correcto de variables, operadores, condicionales, bucles, listas/arreglos, funciones, archivos, búsqueda, ordenación y estructuras auxiliares cuando corresponda. |
+| Datos, persistencia o procesamiento | Manejo de datos | Los registros se almacenan, recuperan y procesan correctamente; la persistencia permite cerrar y volver a ejecutar la aplicación sin perder la información principal. |
+| Integración del producto | Integración del producto | Las sesiones aportan al mismo proyecto; no hay módulos inconexos ni ejercicios pegados sin relación con el dominio. |
+| Calidad técnica | Organización del código | Las funciones separan responsabilidades, reducen repetición y permiten entender el flujo principal del programa. |
+| Validación, pruebas o resultados | Validaciones y pruebas | La aplicación controla entradas incorrectas, opciones inválidas, datos incompletos y casos básicos; además se presentan pruebas de las operaciones principales. |
+| Sustentación técnica | Sustentación técnica | El estudiante explica el problema, la estructura de la solución, el código, las decisiones tomadas, las limitaciones y las evidencias generadas. |
+| Sustentación profesional | Sustentación profesional | El estudiante realiza una exposición ordenada, respeta los tiempos, participa activamente si el trabajo es grupal, demuestra en vivo su aporte, responde preguntas, mantiene una presentación personal adecuada y presenta el repositorio académico disponible desde la primera presentación con los topics mínimos configurados correctamente y evidencia el cumplimiento de estándares básicos de programación, organización del repositorio, documentación y reproducibilidad. |
 
 La sustentación profesional forma parte de la evaluación porque el producto final no solo debe funcionar; también debe ser presentado, explicado y defendido con responsabilidad académica.
 
