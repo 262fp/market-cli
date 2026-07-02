@@ -37,3 +37,12 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+### Market CLI generated data ###
+*.class
+pymarket-cli-u2/data/
+pymarket-cli-final/data/
+pymarket-cli-final/reportes/
+market-cli-u2/data/
+market-cli-final/data/
+market-cli-final/reportes/

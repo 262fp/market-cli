@@ -50,6 +50,7 @@ nav:
   - Inicio: index.md
   - Proyecto Sello:
       - Guía del proyecto: proyecto-sello/index.md
+      - Productos por unidad: productos.md
   - Sílabos:
       - Sílabo 2026-1: silabo_fp_2026_1.md
       - Sílabo 2026-2: silabo_fp_2026_2.md
@@ -75,3 +76,5 @@ nav:
   - 4. Anexos:
       - 0 Guía algoritmo a código: S00_Guia_algoritmo_a_codigo.ipynb
       - 17 Equivalencias Java: S17_Java_Equivalencias.ipynb
+      - Instalar Java 21: java21_instalacion.md
+      - Instalar GraalVM 21: graalvm21_instalacion.md
