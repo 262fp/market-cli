@@ -34,7 +34,7 @@ El portafolio contiene programas Java organizados mediante métodos y distribuid
 
 ---
 
-# UNIDAD 2 - Estructuras repetitivas y modularización
+# UNIDAD 2 - Estructuras repetitivas y procesamiento de datos
 
 > **U2 = U1 + repetición + arreglos + operaciones en memoria + modularización**
 
