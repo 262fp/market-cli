@@ -1,4 +1,4 @@
-<!-- Transcripción fiel generada desde: Ciclo 1 Fundamentos de programacion Nelida Huaman ultimo (2).docx -->
+<!-- Versión 2026-2 actualizada de acuerdo con la programación de 16 sesiones. -->
 
 Universidad Peruana Unión
 Carret. Central km. 19.5 Ñaña. Telf. 01-6186300 Casilla 3564 Lima 1, Perú
@@ -81,7 +81,7 @@ Carret. Central km. 19.5 Ñaña. Telf. 01-6186300 Casilla 3564 Lima 1, Perú
 
 ## II. Sumilla
 
-La asignatura de Fundamentos de programación es de carácter teórico-práctico, y pertenece al área de estudio de especialidad de tipo obligatorio. Aporta al perfil de egreso en las competencias generales de desarrollo espiritual en la subcompetencia de aprendizaje del servicio enfocado en la misión, la competencia general pensamiento de orden superior y la competencia específica de gestión y desarrollo de software en el nivel 1. Tiene como propósito que el estudiante construya algoritmos eficientes para la solución de problemas de actividad humana, a través del uso de buenas prácticas de producción de software. Los contenidos de la asignatura a desarrollar son los siguientes: Condicionales, estructuras repetitivas, subprogramas, estructuras de datos.
+La asignatura de Fundamentos de programación es de carácter teórico-práctico, y pertenece al área de estudio de especialidad de tipo obligatorio. Aporta al perfil de egreso en las competencias generales de desarrollo espiritual en la subcompetencia de aprendizaje del servicio enfocado en la misión, la competencia general pensamiento de orden superior y la competencia específica de gestión y desarrollo de software en el nivel 1. Tiene como propósito que el estudiante construya algoritmos eficientes para la solución de problemas de actividad humana, a través del uso de buenas prácticas de producción de software. Los contenidos de la asignatura son: estructuras secuenciales y condicionales; estructuras repetitivas y modularización; estructuras de datos estáticas y dinámicas; e integración del producto.
 
 ## III. Competencia del perfil de egreso con relación a la asignatura
 
@@ -98,10 +98,10 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 ## IV. Resultado de aprendizaje de la asignatura
 
-| Resultado de aprendizaje | Producto Academico |
+| Resultado de aprendizaje | Producto académico |
 |---|---|
-| Al finalizar el curso, el estudiante desarrolla una aplicacion CLI para la gestion de un proceso simple de negocio o informacion, basado en una entidad principal y datos relacionados, integrando de manera progresiva entrada y salida de datos, operadores, decisiones, menus, estructuras repetitivas, listas, busquedas, ordenacion, funciones, archivos, consultas, matrices, diccionarios y reportes mediante programacion estructurada. | Nombre: Aplicacion CLI para la gestion de un proceso simple con entidad principal y datos relacionados. |
-|  | Descripcion: Aplicacion CLI desarrollada por unidades, que incorpora menu interactivo, operaciones CRUD en memoria y archivo, procesamiento de datos y generacion de reportes para registrar, consultar, actualizar, eliminar y presentar informacion del caso trabajado. |
+| Al finalizar el curso, el estudiante desarrolla y sustenta una aplicación CLI para resolver un problema real y acotado, integrando algoritmos, estructuras secuenciales y condicionales, ciclos, funciones, arreglos, persistencia básica y estructuras de datos pertinentes mediante programación estructurada. | Nombre: Proyecto Integrador Final: solución CLI funcional para un problema real y acotado. |
+|  | Descripción: Producto construido a partir de dos portafolios progresivos y consolidado en una aplicación CLI con menú repetitivo, validaciones, operaciones de gestión en memoria, búsqueda, ordenamiento, procesamiento de datos, carga inicial y reemplazo completo de datos mediante archivo. La selección de estructuras estáticas y dinámicas debe responder al problema y no a su incorporación forzada. |
 
 ## V. Unidades de aprendizaje
 
@@ -109,86 +109,88 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| Aplica pensamiento algoritmico, estructuras secuenciales y condicionales para construir la base de una aplicacion CLI orientada a la gestion de un proceso simple, una entidad principal y datos relacionados. | Nombre: Menu basico de gestion CLI con registro, calculos y validaciones iniciales. |
+| Diseña y construye algoritmos interactivos en consola que resuelven problemas de baja complejidad mediante el modelo Entrada-Proceso-Salida, variables, operaciones, estructuras condicionales y funciones, manteniendo un flujo lógico coherente. | Nombre: Portafolio de Soluciones Algorítmicas: de la secuencia a la toma de decisiones. |
 
-| Criterios de evaluacion del producto | Descripcion del producto |
+| Criterios de evaluación del producto | Descripción del producto |
 |---|---|
-| 1 Funcionamiento del menu y navegacion de opciones.<br>2 Registro y validacion inicial de datos de entrada.<br>3 Uso correcto de secuencia y decisiones (`if`, `if-else`, `if-elif-else`).<br>4 Coherencia de reglas de negocio y salidas mostradas.<br>5 Orden, legibilidad y buenas practicas basicas de codigo. | Programa CLI base que captura datos, ejecuta calculos y valida reglas mediante decisiones para soportar un menu inicial del proyecto. |
+| 1 Representación correcta del algoritmo mediante pseudocódigo y el modelo Entrada-Proceso-Salida.<br>2 Uso adecuado de variables, tipos de datos, operadores y conversiones.<br>3 Aplicación correcta de condicionales simples, compuestas, múltiples y anidadas.<br>4 Validación de datos y coherencia entre el problema, el algoritmo y los resultados.<br>5 Organización de las soluciones mediante funciones, con legibilidad y progresión verificable entre los niveles del portafolio. | Portafolio digital presentado como repositorio de código y acompañado de documentación breve, con problemas organizados en tres niveles: inicial, con soluciones secuenciales; intermedio, con condicionales simples y compuestas; y avanzado, con condicionales múltiples y anidadas organizadas mediante funciones. Las soluciones corresponden a operaciones únicas, sin utilizar todavía ciclos. |
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 1 | 10/08/2026-15/08/2026 | Pensamiento algoritmico, datos y variables: algoritmos, entrada-proceso-salida, pseudocodigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos y casos de prueba. | 3 | 4 | Construir un programa base que captura y muestra datos de la entidad principal del proyecto. | Practicar ejercicios de captura de datos y representar su solucion en pseudocodigo y flujo. |
-| 2 | 16/08/2026-22/08/2026 | Expresiones y secuencia: asignacion, operadores aritmeticos, relacionales y logicos, precedencia, conversion de tipos y estructura secuencial. | 3 | 4 | Desarrollar un registro secuencial con calculos basicos para la entidad principal o una operacion simple del caso de negocio. | Resolver ejercicios de secuencia y validar resultados esperados con casos de prueba. |
-| 3 | 23/08/2026-29/08/2026 | Decisiones simples: `if`, `if-else`, condiciones compuestas con `and` y `or`, validacion basica de datos. | 3 | 4 | Integrar validaciones de entrada y reglas condicionales al registro del proyecto. | Reforzar decisiones simples y compuestas con problemas guiados y autoevaluacion. |
-| 4 | 30/08/2026-05/09/2026 | Decisiones multiples y anidadas: `if-elif-else`, control de opciones y menu basico. | 3 | 4 | Implementar menu basico CLI con opciones funcionales del proyecto. | Perfeccionar menu y casos de prueba de navegacion y validacion. |
-| 5 | 06/09/2026-12/09/2026 | Evaluacion Unidad 1: integracion de secuencia, decisiones, validaciones y menu basico. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar el producto de unidad. | Reflexionar y registrar mejoras para la siguiente unidad. |
+| 1 | 10/08/2026-15/08/2026 | Algoritmos, pseudocódigo, modelo Entrada-Proceso-Salida, variables y tipos de datos. | 3 | 4 | Representar y desarrollar algoritmos básicos que capturen, procesen y muestren datos. | Resolver problemas mediante pseudocódigo y el modelo Entrada-Proceso-Salida. |
+| 2 | 16/08/2026-22/08/2026 | Programación secuencial: operadores aritméticos y de asignación, expresiones aritméticas y precedencia, conversión de tipos, entrada y salida. | 3 | 4 | Implementar programas secuenciales con cálculos y conversión de datos. | Resolver ejercicios de programación secuencial y comprobar sus resultados. |
+| 3 | 23/08/2026-29/08/2026 | Programación condicional: operadores relacionales y lógicos, expresiones booleanas; condicionales simples, compuestas, múltiples y anidadas. | 3 | 4 | Implementar decisiones y validaciones para distintos escenarios de un problema. | Reforzar el uso de expresiones booleanas y estructuras condicionales. |
+| 4 | 30/08/2026-05/09/2026 | Funciones y Desarrollo Guiado por Pruebas: funciones, procedimientos, parámetros, retornos y ámbito, aplicados a problemas secuenciales y condicionales. | 3 | 4 | Organizar las soluciones en subprogramas y aplicar el ciclo prueba–implementación–refactorización sobre su lógica. | Refactorizar las soluciones condicionales en funciones y comprobar automáticamente sus casos. |
+| 5 | 06/09/2026-12/09/2026 | Evaluación de la Unidad I. | 3 | 4 | Resolver la evaluación teórico-práctica y presentar el producto de unidad. | Identificar logros y aspectos de mejora para la siguiente unidad. |
 
-### Unidad 2: Estructuras repetitivas, modularizacion y procesamiento de datos
+### Unidad 2: Estructuras repetitivas y modularización
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| Implementa estructuras repetitivas, listas, funciones, busqueda, ordenacion, archivos y consultas para desarrollar una aplicacion CLI con CRUD modular, persistencia basica y procesamiento inicial de datos. | Nombre: Aplicacion CLI con CRUD modular, memoria, archivos basicos y consultas. |
+| Descompone problemas en módulos funcionales y reutilizables, aplicando estructuras repetitivas, arreglos unidimensionales y transferencia de datos mediante parámetros y retornos para gestionar y procesar información en memoria y conservar su estado mediante persistencia básica. | Nombre: Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos. |
 
-| Criterios de evaluacion del producto | Descripcion del producto |
+| Criterios de evaluación del producto | Descripción del producto |
 |---|---|
-| 1 Uso correcto de `for`, `while` y control de flujo del menu interactivo.<br>2 Implementacion de CRUD en memoria con listas y validaciones.<br>3 Modularizacion con funciones, parametros y retorno.<br>4 Aplicacion de busqueda y ordenacion sobre registros.<br>5 Persistencia basica en archivos y consultas con agregaciones. | Aplicacion CLI que evoluciona el menu basico hacia un CRUD modular con almacenamiento en memoria y archivo, incluyendo procesamiento y consulta de informacion. |
+| 1 Control correcto de estructuras repetitivas definidas y condicionales, centinelas, validaciones y condiciones de parada, sin repeticiones infinitas.<br>2 Procesamiento con contadores, acumuladores, series, repeticiones anidadas, totales, promedios, máximos y mínimos.<br>3 Operaciones de registro, consulta, actualización y eliminación sobre arreglos, con búsqueda, control de duplicados y un algoritmo básico de ordenamiento.<br>4 Organización mediante funciones y procedimientos cohesivos, parámetros y retornos, evitando estado global innecesario.<br>5 Evidencias introductorias de recursividad, análisis de complejidad y mejora justificada de algoritmos, con código organizado y legible.<br>6 Carga inicial y reemplazo completo de los datos mediante archivo, sin realizar CRUD directamente sobre este. | Portafolio digital organizado en tres niveles: inicial, con estructuras repetitivas, series, centinelas y validaciones; intermedio, con operaciones y algoritmos sobre arreglos; y avanzado, con una solución CLI organizada mediante funciones, parámetros y retornos, que carga los datos al iniciar y permite guardar el estado completo de los arreglos. El nivel avanzado puede constituir la base del Proyecto Integrador Final. |
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 6 | 13/09/2026-19/09/2026 | Estructura repetitiva `for` y arreglos/listas: recorrido, contadores y acumuladores. | 3 | 4 | Implementar registrar y listar registros en memoria con listas. | Practicar carga y recorrido de colecciones con ejercicios del proyecto. |
-| 7 | 20/09/2026-26/09/2026 | Estructuras repetitivas `while` y `do-while` conceptual para menu interactivo y validaciones. | 3 | 4 | Construir menu interactivo con condicion de salida y validacion de opciones. | Mejorar robustez de entrada de datos y control de errores de usuario. |
-| 8 | 27/09/2026-03/10/2026 | Subprogramas, parametros, retorno y recursividad aplicada. | 3 | 4 | Modularizar operaciones del sistema y resolver laboratorio recursivo. | Refactorizar funciones y preparar pruebas de caja negra por modulo. |
-| 9 | 04/10/2026-10/10/2026 | Algoritmos de busqueda y ordenacion en registros del proyecto. | 3 | 4 | Integrar busqueda lineal/binaria conceptual y ordenacion en el CRUD. | Comparar estrategias de busqueda/ordenacion y documentar decisiones. |
-| 10 | 11/10/2026-17/10/2026 | Archivos: guardar y cargar registros (texto/CSV) para persistencia simple. | 3 | 4 | Implementar guardado/carga de datos para mantener estado del CRUD. | Probar persistencia con diferentes escenarios y datos de prueba. |
-| 11 | 18/10/2026-24/10/2026 | Consultas, agregacion y reportes por terminal desde datos persistidos. | 3 | 4 | Construir filtros, conteos, sumas, promedios y reportes resumidos. | Ajustar consultas y validar consistencia de resultados. |
-| 12 | 25/10/2026-31/10/2026 | Evaluacion Unidad 2: integracion de CRUD modular, busqueda, ordenacion, archivos y consultas. | 3 | 4 | Resolver evaluacion teorico-practica y sustentar producto U2. | Registrar brechas tecnicas y plan de mejora para cierre del curso. |
+| 6 | 13/09/2026-19/09/2026 | Estructuras repetitivas definidas: contadores, acumuladores, series y arreglos unidimensionales. | 3 | 4 | Registrar y listar datos en un arreglo unidimensional mediante recorridos controlados. | Practicar repeticiones definidas, series, contadores y acumuladores con arreglos. |
+| 7 | 20/09/2026-26/09/2026 | Estructuras repetitivas condicionales: centinelas, validación y menús repetitivos. | 3 | 4 | Construir el menú repetitivo de la aplicación y validar opciones y datos de entrada. | Mejorar la navegación, las condiciones de salida y la validación del menú. |
+| 8 | 27/09/2026-03/10/2026 | Ciclos anidados, recursividad y procesamiento acumulativo: algoritmos de búsqueda y ordenamiento; totales, promedios, máximos y mínimos. | 3 | 4 | Implementar funciones probadas para realizar búsquedas y un ordenamiento básico, calcular totales, promedios, máximos y mínimos, y resolver un algoritmo recursivo guiado. | Comparar el comportamiento de soluciones iterativas y recursivas y comprobar sus resultados mediante pruebas. |
+| 9 | 04/10/2026-10/10/2026 | Operaciones con arreglos: consulta, actualización, eliminación y control de duplicados. | 3 | 4 | Integrar las operaciones de gestión sobre los arreglos utilizando los algoritmos desarrollados. | Validar las operaciones con diferentes conjuntos de datos y casos límite. |
+| 10 | 11/10/2026-17/10/2026 | Refactorización, optimización algorítmica y persistencia básica: cohesión y acoplamiento; análisis de complejidad y mejora de algoritmos; carga inicial y reemplazo de datos mediante archivos. | 3 | 4 | Analizar el código y los algoritmos, refactorizar su estructura, aplicar una mejora algorítmica justificada e implementar la carga inicial y el reemplazo completo de los datos del archivo. | Probar las funciones de carga y guardado, comparar la eficiencia antes y después de la mejora y verificar que la refactorización conserve el comportamiento. |
+| 11 | 18/10/2026-24/10/2026 | Evaluación de la Unidad II. | 3 | 4 | Resolver la evaluación teórico-práctica y presentar el producto de unidad. | Identificar brechas técnicas y proponer mejoras para la integración final. |
 
-### Unidad 3: Procesamiento algorítmico avanzado e integracion del producto
+### Unidad 3: Estructuras de datos e integración del producto
 
 | Resultado de aprendizaje | Producto |
 |---|---|
-| Integra estructuras de procesamiento algorítmico avanzado y generacion de salidas en la aplicacion desarrollada durante el curso para consolidar el producto final. | Nombre: Aplicacion CLI completa para la gestion de un proceso simple con entidad principal y datos relacionados. |
+| Selecciona e integra estructuras de datos estáticas y dinámicas pertinentes para desarrollar, demostrar y sustentar una solución CLI funcional orientada a un problema real y acotado. | Nombre: Proyecto Integrador Final: solución CLI funcional para un problema real y acotado. |
 
-| Criterios de evaluacion del producto | Descripcion del producto |
+| Criterios de evaluación del producto | Descripción del producto |
 |---|---|
-| 1 Uso de matrices y diccionarios para procesar informacion.<br>2 Generacion de reportes en formatos de salida del curso (Excel/CSV, PDF/texto, impresion).<br>3 Integracion funcional de modulos y flujo completo del sistema.<br>4 Sustentacion tecnica con evidencia de funcionamiento.<br>5 Dominio conceptual en evaluacion final teorico-practica. | Aplicacion CLI completa que consolida CRUD, persistencia, procesamiento avanzado y reportes, con demostracion funcional y defensa tecnica del producto. |
+| 1 Delimitación de un problema real, identificación de beneficiarios y coherencia de la solución propuesta.<br>2 Funcionamiento del flujo principal: menú, validaciones, operaciones de gestión en memoria, búsqueda, ordenamiento, procesamiento de datos, carga inicial y guardado completo del estado.<br>3 Uso justificado de arreglos multidimensionales o paralelos y de al menos una estructura dinámica lineal.<br>4 Evidencia de comprensión de árboles y grafos mediante una práctica guiada; su integración al producto solo se exige cuando aporte valor al caso.<br>5 Demostración técnica sometida a entradas inválidas y casos límite, además de una sustentación breve del impacto de la solución. | Aplicación CLI para atender una necesidad acotada de una microempresa, actividad productiva, entorno universitario o comunidad. Consolida los aprendizajes de las unidades anteriores, presenta resultados por consola e incorpora persistencia básica por reemplazo completo del archivo, sin exigir bases de datos, exportaciones ni la incorporación artificial de todas las estructuras estudiadas. |
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 13 | 01/11/2026-07/11/2026 | Matrices y diccionarios para procesamiento avanzado y consultas por clave. | 3 | 4 | Implementar procesamiento con matrices/diccionarios para reportes tabulares. | Practicar organizacion de datos y consultas por clave en casos del proyecto. |
-| 14 | 08/11/2026-14/11/2026 | Generacion de reportes: exportacion a Excel/CSV, PDF/texto e impresion. | 3 | 4 | Generar salidas del sistema para reporte y presentacion de informacion. | Ajustar formato de reportes y verificar calidad de salida final. |
-| 15 | 15/11/2026-21/11/2026 | Sustentacion del producto del curso: demostracion funcional y cierre tecnico. | 3 | 4 | Presentar producto final con evidencias y explicacion de arquitectura y logica. | Preparar defensa tecnica y documentar lecciones aprendidas. |
-| 16 | 22/11/2026-28/11/2026 | Evaluacion final teorico-practica. | 3 | 4 | Resolver examen final individual del curso. | Reflexionar sobre logros y oportunidades de mejora del proceso formativo. |
+| 12 | 25/10/2026-31/10/2026 | Estructuras de datos estáticas. Arreglos bidimensionales, tridimensionales y multidimensionales; arreglos paralelos: índices, recorridos, capacidad, registro y listado de datos. | 3 | 4 | Aplicar arreglos bidimensionales o paralelos al producto y explorar arreglos de mayor dimensión mediante ejercicios guiados. | Resolver ejercicios de índices, recorridos, capacidad, registro y listado de datos. |
+| 13 | 01/11/2026-07/11/2026 | Estructuras de datos dinámicas lineales: listas, colas y pilas. | 3 | 4 | Implementar operaciones básicas con listas, colas y pilas en casos del proyecto. | Comparar las operaciones y usos de las estructuras dinámicas lineales. |
+| 14 | 08/11/2026-14/11/2026 | Estructuras de datos dinámicas no lineales: árboles y grafos. | 3 | 4 | Implementar un recorrido básico de árbol y representar un grafo mediante una práctica guiada, integrándolos al producto solo cuando sean pertinentes. | Resolver ejercicios introductorios de representación y recorrido de estructuras no lineales. |
+| 15 | 15/11/2026-21/11/2026 | Sustentación y demostración del Proyecto Integrador Final. | 3 | 4 | Demostrar el funcionamiento del proyecto y sustentar sus decisiones algorítmicas. | Preparar evidencias y la defensa técnica del Proyecto Integrador Final. |
+| 16 | 22/11/2026-28/11/2026 | Evaluación final, sustentaciones y demostraciones pendientes. | 3 | 4 | Resolver la evaluación final y completar las sustentaciones o demostraciones pendientes. | Reflexionar sobre los logros y oportunidades de mejora del proceso formativo. |
 
 ### Evolucion del proyecto
 
 **Unidad 1**
 
-- Proceso, entidad principal y datos relacionados definidos.
-- Entrada, proceso y salida.
-- Registro basico.
-- Calculos secuenciales.
-- Validaciones con decisiones.
-- Menu basico.
+- Portafolio de soluciones algorítmicas organizado por niveles.
+- Definición del problema y del modelo Entrada-Proceso-Salida.
+- Variables, tipos de datos, entrada y salida.
+- Cálculos y conversiones mediante programación secuencial.
+- Validaciones y reglas mediante estructuras condicionales.
+- Funciones, parámetros, retornos y verificación automatizada de casos.
+- Solución integrada de problemas secuenciales y condicionales.
 
 **Unidad 2**
 
-- CRUD basico en memoria.
-- Arreglos/listas.
-- Menu interactivo.
-- Funciones y recursividad.
-- Busqueda y ordenacion.
-- Persistencia en archivos.
-- Consultas y agregaciones.
+- Portafolio de soluciones modulares y procesamiento iterativo.
+- Menú repetitivo con validación y condición de salida.
+- Registro y listado mediante arreglos unidimensionales.
+- Procesamiento acumulativo con ciclos simples y anidados.
+- Consulta, actualización, eliminación y control de duplicados.
+- Búsqueda y ordenamiento.
+- Modularización mediante funciones y procedimientos.
+- Recursividad, análisis básico de complejidad y mejora algorítmica justificada.
 
 **Unidad 3**
 
-- Matrices y diccionarios.
-- Procesamiento avanzado y reportes tabulares.
-- Exportacion a Excel/CSV.
-- Generacion de PDF o reporte de texto.
-- Impresion de comprobantes o reportes.
-- Sustentacion y evaluacion final.
+- Proyecto Integrador Final orientado a un problema real y acotado.
+- Arreglos bidimensionales, tridimensionales, multidimensionales y paralelos.
+- Listas, colas y pilas.
+- Árboles y grafos.
+- Integración funcional del producto.
+- Sustentación, demostración y evaluación final.
 
 ## VI. Estrategias metodológicas
 
@@ -233,11 +235,11 @@ Escenarios de Evaluación:
 
 <table>
   <tr><td>Fecha</td><td>Unidad</td><td>Producto</td><td>Evaluación de proceso y de resultado</td><td>Pesos</td></tr>
-  <tr><td>06/09/2026-12/09/2026</td><td>Unidad 1: Estructuras secuenciales y condicionales</td><td>Menú básico de gestión CLI.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td>06/09/2026-12/09/2026</td><td>Unidad 1: Estructuras secuenciales y condicionales</td><td>Portafolio de Soluciones Algorítmicas: de la secuencia a la toma de decisiones.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>20%</td></tr>
-  <tr><td>25/10/2026-31/10/2026</td><td>Unidad 2: Estructuras repetitivas y subprogramas.</td><td>Aplicación CLI con CRUD modular, memoria, archivos básicos y consultas.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td>18/10/2026-24/10/2026</td><td>Unidad 2: Estructuras repetitivas y modularización</td><td>Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
-  <tr><td>22/11/2026-28/11/2026</td><td>Unidad 3: Procesamiento algorítmico avanzado e integración del producto</td><td>Aplicación CLI completa para la gestión de un proceso simple con entidad principal y datos relacionados.</td><td>Evaluación de sesiones</td><td>10%</td></tr>
+  <tr><td>22/11/2026-28/11/2026</td><td>Unidad 3: Estructuras de datos e integración del producto</td><td>Proyecto Integrador Final: solución CLI funcional para un problema real y acotado.</td><td>Evaluación de sesiones</td><td>10%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
   <tr><td></td><td>Competencia General</td><td>SERVICIO Y MISIÓN: Desarrolla su identidad como hijo de Dios y testifica los principios y valores bíblico-cristianos en todas las esferas de la vida, mostrando coherencia entre conocimiento, actitud y conducta, e inspirando a otros a través del liderazgo servicial.</td><td>Competencia General</td><td>10%</td></tr>
   <tr><td></td><td>Total</td><td></td><td></td><td>100%</td></tr>

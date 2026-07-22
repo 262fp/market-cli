@@ -1,8 +1,14 @@
 # FUNDAMENTOS DE PROGRAMACIÓN 2026-2
 
+## Implementación del curso
+
+El sílabo expresa los contenidos de manera independiente del lenguaje. En este proyecto, las actividades, laboratorios y productos se implementan con **Java** mediante aplicaciones de consola.
+
 ## Producto del curso
 
-**Aplicación CLI para la gestión de un proceso simple de negocio o información, basado en una entidad principal y datos relacionados, desarrollada de manera progresiva con programación estructurada. La aplicación integra entrada y salida de datos, operadores, decisiones, menús, estructuras repetitivas, listas, búsquedas, ordenación, funciones, archivos, consultas, matrices, diccionarios y reportes para registrar, consultar, actualizar, eliminar, procesar y presentar información.**
+**Proyecto Integrador Final: solución CLI desarrollada con Java para atender un problema real y acotado.**
+
+El producto se construye a partir de dos portafolios progresivos y se consolida en una aplicación con menú repetitivo, validaciones, operaciones de gestión en memoria, búsqueda, ordenamiento, procesamiento de datos, carga inicial y reemplazo completo de datos mediante archivo. Las estructuras se incorporan cuando responden a una necesidad del problema, no únicamente para acumular tecnologías.
 
 ---
 
@@ -10,95 +16,101 @@
 
 ### Resultado de aprendizaje
 
-Aplica pensamiento algorítmico, estructuras secuenciales y condicionales para construir la base de una aplicación CLI orientada a la gestión de un proceso simple, una entidad principal y datos relacionados.
+Diseña y construye algoritmos interactivos en consola que resuelven problemas de baja complejidad mediante el modelo Entrada-Proceso-Salida, variables, operaciones, estructuras condicionales y funciones, manteniendo un flujo lógico coherente.
 
 ### Producto de la unidad
 
-**Menú básico de gestión CLI con registro, cálculos y validaciones iniciales.**
+**Portafolio de Soluciones Algorítmicas: de la secuencia a la toma de decisiones.**
 
-| Sesión | Tema | Producto de sesión |
-|--------|------|--------------------|
-| **S1** | **Pensamiento algorítmico, datos y variables:** algoritmos, entrada-proceso-salida, lenguaje natural, pseudocódigo, diagrama de flujo, entorno de trabajo, `print()`, `input()`, tipos de datos, variables, constantes y casos de prueba. | Programa básico que captura y muestra datos estructurados de la entidad principal del proyecto. |
-| **S2** | **Expresiones y secuencia en la solución de problemas:** asignación, operadores aritméticos, relacionales y lógicos, expresiones, precedencia, conversión con `int()` y `float()`, estructura secuencial y verificación de resultados. | Programa secuencial que registra datos de la entidad principal o de una operación simple y calcula resultados básicos del negocio. |
-| **S3** | **Decisiones simples en la lógica del programa:** expresiones condicionales, `if`, `if-else`, condiciones compuestas con `and` y `or`, validación básica de datos y casos de prueba. | Programa que responde de manera diferente según las condiciones de entrada e incorpora validaciones básicas al registro del proyecto. |
-| **S4** | **Decisiones múltiples, anidadas y menú básico:** `if-elif-else`, condicionales anidados, selección de opciones, reglas de negocio y control inicial del flujo del programa. | Menú básico CLI que permite elegir opciones del proyecto y ejecutar acciones según reglas condicionales. |
-| **S5** | **Evaluación Unidad 1:** integración de algoritmos secuenciales, entrada/salida, decisiones, validaciones y menú básico. | **Producto U1:** menú básico de gestión CLI con registro, cálculos y validaciones iniciales. |
+El portafolio contiene programas Java organizados mediante métodos y distribuidos en tres niveles: soluciones secuenciales; condicionales simples y compuestas; y condicionales múltiples y anidadas. En esta unidad cada ejecución resuelve una operación; todavía no se implementan menús repetitivos.
+
+| Sesión | Tema aplicado con Java | Producto de sesión |
+|---|---|---|
+| **S1** | **Algoritmos y fundamentos de Java:** pseudocódigo, modelo Entrada-Proceso-Salida, estructura de una aplicación de consola, método `main`, variables, constantes y tipos de datos primitivos. | Repositorio Java y primeros programas que capturan, procesan y muestran datos. |
+| **S2** | **Programación secuencial con Java:** operadores aritméticos y de asignación, precedencia, expresiones aritméticas, conversión y parseo de tipos, entrada con `Scanner` y salida con `System.out`. | Programas secuenciales con cálculos, conversiones y comprobación de resultados. |
+| **S3** | **Programación condicional con Java:** operadores relacionales (`==`, `!=`, `<`, `>`, `<=`, `>=`), operadores lógicos (`&&`, `||`, `!`), expresiones `boolean`, `if`, `if-else`, cadenas de decisiones, `switch` y condicionales anidadas. | Programas que validan datos y resuelven decisiones simples, compuestas, múltiples y anidadas. |
+| **S4** | **Funciones y TDD con Java:** métodos con retorno y métodos `void`, parámetros y ámbito local, aplicados a problemas secuenciales y condicionales; pruebas con JUnit 5 y ciclo rojo–verde–refactorización. Java utiliza paso por valor, incluso cuando el valor transferido es una referencia. | Catálogo de soluciones Java organizado en métodos y con verificación automatizada de casos normales y límites. |
+| **S5** | **Evaluación de la Unidad I.** | **Producto U1:** Portafolio de Soluciones Algorítmicas. |
 
 ---
 
-# UNIDAD 2 - Estructuras repetitivas, modularización y procesamiento algorítmico de datos
+# UNIDAD 2 - Estructuras repetitivas y modularización
 
-> **U2 = U1 + CRUD en memoria + modularización + archivos básicos + consultas**
+> **U2 = U1 + repetición + arreglos + operaciones en memoria + modularización**
 
 ### Resultado de aprendizaje
 
-Implementa estructuras repetitivas, arreglos/listas, funciones, búsqueda, ordenación, archivos y consultas para desarrollar una aplicación CLI con CRUD modular, persistencia básica y procesamiento algorítmico inicial de información.
+Descompone problemas en módulos funcionales y reutilizables, aplicando estructuras repetitivas, arreglos unidimensionales y transferencia de datos mediante parámetros y retornos para gestionar y procesar información en memoria y conservar su estado mediante persistencia básica.
 
 ### Producto de la unidad
 
-**Aplicación CLI con CRUD modular, memoria, archivos básicos y consultas.**
+**Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos.**
 
-| Sesión | Tema | Producto de sesión |
-|--------|------|--------------------|
-| **S6** | **Estructura repetitiva `for` y arreglos/listas:** de variables sueltas a colecciones lineales, almacenamiento de varios registros, recorrido, contadores y acumuladores. | CRUD básico utilizando arreglos/listas: registrar y listar registros del proyecto. |
-| **S7** | **Estructuras repetitivas `while` y `do-while` conceptual:** menú interactivo, validación de entradas, condición de salida y control del flujo. | Menú interactivo con validaciones que integra las opciones principales del proyecto. |
-| **S8** | **Subprogramas, parámetros, retorno y recursividad:** modularización del CRUD, funciones para operaciones del sistema y laboratorio de algoritmos recursivos. | CRUD modular y laboratorio de algoritmos recursivos. |
-| **S9** | **Algoritmos de búsqueda y ordenación:** búsqueda lineal, búsqueda binaria conceptual, ordenación básica y aplicación sobre registros en memoria. | CRUD modular con búsqueda y ordenación de registros. |
-| **S10** | **Archivos: guardar y cargar registros:** lectura y escritura de archivos de texto/CSV, carga inicial, guardado de cambios y persistencia simple del CRUD. | CRUD persistente en archivos: registrar, listar, buscar, editar y eliminar registros, guardando y cargando información desde archivo. |
-| **S11** | **Consultas, agregación y reportes desde datos persistidos:** filtros, conteos, sumas, promedios, mínimos, máximos, agrupaciones básicas y reportes por terminal. | Aplicación con consultas, agregaciones y reportes generados desde registros cargados desde archivo. |
-| **S12** | **Evaluación Unidad 2:** integración de CRUD modular, listas, menú interactivo, búsqueda, ordenación, archivos básicos, consultas y reportes. | **Producto U2:** aplicación CLI con CRUD modular, memoria, archivos básicos y consultas. |
+El portafolio reúne ejercicios de repetición y una aplicación CLI organizada en métodos Java, capaz de cargar los datos al iniciar y reemplazar el contenido completo del archivo con el estado de los arreglos. Su nivel avanzado constituye la base del Proyecto Integrador Final.
+
+| Sesión | Tema aplicado con Java | Producto de sesión |
+|---|---|---|
+| **S6** | **Estructuras repetitivas definidas con Java:** sentencia `for`, índices, contadores, acumuladores, series y arreglos unidimensionales (`Tipo[]`). | Registro y listado de datos almacenados en un arreglo, además de ejercicios de series y acumulación. |
+| **S7** | **Estructuras repetitivas condicionales con Java:** sentencias `while` y `do-while`, centinelas, validación con `Scanner`, condiciones de parada y menú repetitivo. | Menú de consola que valida las entradas y permite ejecutar repetidamente las opciones principales. |
+| **S8** | **Ciclos anidados, recursividad y procesamiento acumulativo con Java:** algoritmos de búsqueda y ordenamiento; totales, promedios, máximos y mínimos; comparación funcional entre soluciones iterativas y recursivas. | Métodos de búsqueda, ordenamiento y procesamiento acumulativo verificados con JUnit 5, más un algoritmo recursivo guiado. |
+| **S9** | **Operaciones con arreglos en Java:** consulta, actualización, eliminación lógica o desplazamiento, control de capacidad y duplicados, reutilizando los algoritmos desarrollados en S8. | Gestión de los datos almacenados en memoria con operaciones verificadas mediante pruebas. |
+| **S10** | **Refactorización, optimización algorítmica y persistencia básica con Java:** cohesión y acoplamiento; análisis y mejora de recorridos, búsquedas y ordenamientos a partir de su complejidad; carga inicial mediante `Files.readAllLines()` y reemplazo completo mediante `Files.write()`. El CRUD continúa operando únicamente sobre los arreglos en memoria. | Aplicación refactorizada en métodos cohesivos, con una mejora algorítmica justificada y comprobada mediante pruebas, carga automática de datos al iniciar y una opción para guardar el estado completo de los arreglos. |
+| **S11** | **Evaluación de la Unidad II.** | **Producto U2:** Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos. |
 
 ---
 
-# UNIDAD 3 - Procesamiento algorítmico avanzado e integración del producto
+# UNIDAD 3 - Estructuras de datos e integración del producto
 
-> **U3 = U1 + U2 + procesamiento algorítmico avanzado + salidas finales**
+> **U3 = portafolios U1 y U2 + estructuras de datos pertinentes + Proyecto Integrador Final**
 
 ### Resultado de aprendizaje
 
-Integra estructuras de procesamiento algorítmico avanzado y generación de salidas en la aplicación desarrollada durante el curso para consolidar el producto final.
+Selecciona e integra estructuras de datos estáticas y dinámicas pertinentes para desarrollar, demostrar y sustentar una solución CLI funcional orientada a un problema real y acotado.
 
 ### Producto de la unidad
 
-**Aplicación CLI completa para la gestión de un proceso simple con entidad principal y datos relacionados.**
+**Proyecto Integrador Final: solución CLI funcional en Java para un problema real y acotado.**
 
-| Sesión | Tema | Producto de sesión |
-|--------|------|--------------------|
-| **S13** | **Matrices y diccionarios para procesamiento algorítmico avanzado:** organización tabular, estructuras clave-valor, índices simples, consultas por clave y reportes tabulares. | Aplicación que procesa información con matrices y diccionarios para consultas o reportes algorítmicos avanzados. |
-| **S14** | **Generación de reportes:** exportación de información a Excel/CSV, generación de reportes PDF o texto imprimible e impresión de comprobantes o reportes. | Reportes generados en Excel/CSV, PDF/texto e impresión de información. |
-| **S15** | **Sustentación del producto del curso:** presentación técnica, demostración funcional, evidencias, explicación del código y cierre del producto. | **Producto final:** aplicación CLI completa sustentada. |
-| **S16** | **Evaluación final:** evaluación teórico-práctica individual sobre los contenidos del curso y el producto desarrollado. | Examen final. |
+El estudiante puede atender una necesidad de una microempresa, actividad productiva, entorno universitario o comunidad. El proyecto conserva la carga inicial y el guardado completo desarrollados en U2, y debe emplear justificadamente arreglos multidimensionales o paralelos y al menos una estructura dinámica lineal. Árboles y grafos se demuestran en una práctica guiada y solo se integran al producto cuando aportan valor al caso.
+
+| Sesión | Tema aplicado con Java | Producto de sesión |
+|---|---|---|
+| **S12** | **Estructuras estáticas con Java:** arreglos bidimensionales (`Tipo[][]`), tridimensionales (`Tipo[][][]`), multidimensionales y paralelos; índices, recorridos, capacidad, registro y listado. | Aplicación de arreglos bidimensionales o paralelos al proyecto y ejercicios guiados con dimensiones mayores. |
+| **S13** | **Estructuras dinámicas lineales con Java:** `List`/`ArrayList`, `Queue` y `Deque`/`ArrayDeque` para representar listas, colas y pilas mediante operaciones básicas. | Evidencias de uso de listas, colas y pilas; integración justificada de al menos una estructura lineal al proyecto. |
+| **S14** | **Estructuras dinámicas no lineales con Java:** representación introductoria de árboles y grafos, recorrido básico de un árbol y representación guiada de un grafo mediante estructuras proporcionadas o colecciones de Java. | Práctica guiada de árboles y grafos; integración al proyecto únicamente si el caso lo justifica. |
+| **S15** | **Sustentación y demostración del Proyecto Integrador Final:** funcionamiento, decisiones algorítmicas, manejo de parámetros e índices, entradas inválidas, casos límite e impacto de la solución. | **Producto final:** aplicación CLI en Java demostrada y sustentada. |
+| **S16** | **Evaluación final, sustentaciones y demostraciones pendientes.** | Evaluación individual y cierre de presentaciones pendientes. |
 
 ---
 
-# Evolución del proyecto
+# Evolución del producto
 
 ## Unidad 1
-- Proceso, entidad principal y datos relacionados definidos.
+
+- Repositorio de soluciones Java organizado por niveles.
 - Entrada, proceso y salida.
-- Registro básico.
-- Cálculos secuenciales.
-- Validaciones con decisiones.
-- Menú básico.
+- Cálculos y conversiones.
+- Expresiones booleanas y decisiones.
+- Métodos Java con parámetros y retornos.
+- Pruebas con JUnit 5 y aplicación introductoria de TDD.
+- Validación de resultados.
 
 ## Unidad 2
-- CRUD básico en memoria.
-- Arreglos/listas.
-- Menú interactivo.
-- Validaciones repetitivas.
-- Funciones.
-- Recursividad.
-- Búsqueda.
-- Ordenación.
-- Persistencia en archivos.
-- Consultas, agregaciones y reportes desde datos persistidos.
+
+- Repeticiones definidas y condicionales implementadas con `for`, `while` y `do-while`.
+- Arreglos unidimensionales.
+- Menú interactivo con validaciones.
+- Repeticiones anidadas y procesamiento acumulativo.
+- Registro, consulta, actualización y eliminación en memoria.
+- Búsqueda, control de duplicados y ordenamiento básico.
+- Análisis de complejidad y mejora algorítmica justificada aplicada a búsqueda y ordenamiento.
+- Recursividad mediante un ejercicio guiado.
+- Carga inicial y reemplazo completo de datos en un archivo, sin CRUD directo sobre este.
 
 ## Unidad 3
-- Matrices.
-- Diccionarios.
-- Procesamiento algorítmico avanzado y reportes tabulares.
-- Exportación a Excel/CSV.
-- Generación de PDF o reporte de texto.
-- Impresión de reportes o comprobantes.
-- Sustentación del producto.
-- Evaluación final.
+
+- Arreglos multidimensionales o paralelos aplicados de forma justificada.
+- Uso de al menos una estructura dinámica lineal de Java.
+- Prácticas guiadas de árboles y grafos.
+- Integración y estabilización del Proyecto Integrador Final.
+- Demostración técnica y sustentación del impacto.
