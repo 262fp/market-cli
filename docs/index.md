@@ -38,7 +38,7 @@ En esta unidad cada ejecución resuelve una operación. Los menús repetitivos y
 | **S7** | Ciclo `while`, centinelas, validación y menú repetitivo. El patrón `while True` con `break` representa el comportamiento de ejecución previa. | Menú que registra y lista datos en memoria. |
 | **S8** | Ciclos anidados, búsqueda, ordenamiento, totales, promedios, máximos, mínimos y recursividad. | Funciones algorítmicas y solución recursiva guiada. |
 | **S9** | Consulta, registro, actualización, eliminación y control de duplicados sobre listas. | CRUD completo en memoria. |
-| **S10** | Cohesión, acoplamiento, complejidad introductoria, refactorización y persistencia básica con `csv` y `pathlib`. | Aplicación refactorizada que carga al iniciar y reemplaza la instantánea al guardar. |
+| **S10** | Cohesión, acoplamiento, complejidad introductoria, refactorización y persistencia básica mediante archivos de texto o CSV. | Aplicación refactorizada que carga al iniciar, opera en memoria y reemplaza la instantánea al guardar. |
 | **S11** | Evaluación de la Unidad II. | Portafolio integrado y demostrable. |
 
 La persistencia no constituye otro CRUD: el programa carga los datos, trabaja sobre las listas en memoria y guarda una nueva instantánea completa.
@@ -58,15 +58,3 @@ La persistencia no constituye otro CRUD: el programa carga los datos, trabaja so
 | **S16** | Evaluación final y sustentaciones pendientes. | Evidencia individual final. |
 
 Los árboles y grafos se trabajan de forma guiada. Sólo se integran al proyecto cuando aportan valor real al caso; no se exige utilizarlos artificialmente.
-
-## Progresión del producto
-
-```text
-U1: algoritmo + secuencia + decisiones + funciones
-                         ↓
-U2: ciclos + listas + CRUD en memoria + algoritmos + instantánea
-                         ↓
-U3: estructuras pertinentes + integración + sustentación
-```
-
-La implementación de referencia vigente se encuentra en las carpetas `pymarket-cli-u1`, `pymarket-cli-u2` y `pymarket-cli-final`.
