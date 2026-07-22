@@ -2,7 +2,7 @@
 
 ## 1. Propósito
 
-El Proyecto Sello integra las sesiones de **Fundamentos de Programación** alrededor de una misma aplicación CLI desarrollada de forma progresiva. Durante el semestre no se construyen ejercicios independientes; cada nuevo tema fortalece el mismo proyecto hasta convertirlo en una solución funcional, sencilla y sustentable.
+El Proyecto Integrador articula las sesiones de **Fundamentos de Programación** alrededor de un problema común. La Unidad I reúne soluciones algorítmicas pequeñas; desde la Unidad II estas capacidades se integran progresivamente en una aplicación CLI funcional, sencilla y sustentable.
 
 El objetivo es demostrar que el estudiante puede analizar un problema, diseñar una solución, implementarla y explicar su funcionamiento utilizando los fundamentos de programación.
 
@@ -19,7 +19,7 @@ Al finalizar el Proyecto Sello, el estudiante demuestra que puede analizar un pr
 | CE024 | Calidad de Software | Evidencia validaciones, pruebas iniciales, documentación, repositorio y sustentación integral. |
 
 ```text
-Problema -> Algoritmo -> Código -> CRUD -> Persistencia -> Consultas -> Reportes -> Sustentación
+Problema -> Algoritmo -> Funciones -> Ciclos -> CRUD en memoria -> Instantánea -> Estructuras -> Sustentación
 ```
 
 ## 2. El Proyecto
@@ -68,23 +68,21 @@ Cada unidad incorpora nuevas capacidades al producto.
 
 | Unidad | Temas principales | Evolución del proyecto |
 |---|---|---|
-| Unidad 1 | Variables, operadores, entrada/salida, condicionales y menús. | Primera versión funcional con captura de datos, cálculos, validaciones y menú básico. |
-| Unidad 2 | Listas/arreglos, bucles, funciones, búsqueda, ordenación y archivos. | CRUD modular con varios registros, organización del código y persistencia básica. |
-| Unidad 3 | Consultas, reportes, matrices y diccionarios. | Procesamiento de información, generación de reportes y versión final sustentada. |
+| Unidad 1 | EPS, variables, entrada/salida, operaciones, condicionales, funciones y TDD introductorio. | Portafolio de soluciones secuenciales y condicionales; todavía sin menú repetitivo ni CRUD. |
+| Unidad 2 | Ciclos, listas, búsqueda, ordenamiento, acumulados, recursividad, CRUD en memoria, refactorización y archivos. | Portafolio integrado con menú, operaciones en memoria, carga inicial y reemplazo de una instantánea. |
+| Unidad 3 | Estructuras estáticas, listas, pilas, colas, árboles y grafos. | Integración de estructuras pertinentes y versión final documentada y sustentada. |
 
 ```mermaid
 flowchart TB
-    A[Problema] --> B[Entidad principal]
-    B --> C[Registro]
-    C --> D[Validaciones]
-    D --> E[Menú]
-    E --> F[CRUD]
-    F --> G[Funciones]
-    G --> H[Búsqueda y ordenación]
-    H --> I[Archivos]
-    I --> J[Consultas]
-    J --> K[Reportes]
-    K --> L[Sustentación]
+    A[Problema] --> B[Algoritmos EPS]
+    B --> C[Secuencias y decisiones]
+    C --> D[Funciones]
+    D --> E[Ciclos y menú]
+    E --> F[CRUD en memoria]
+    F --> G[Búsqueda y ordenamiento]
+    G --> H[Refactorización e instantánea]
+    H --> I[Estructuras pertinentes]
+    I --> J[Integración y sustentación]
 ```
 
 ### Alineamiento por sesiones
@@ -93,23 +91,23 @@ Este alineamiento muestra cómo cada bloque de sesiones agrega capacidades al mi
 
 | Sesiones | Contenido central | Avance del proyecto |
 |---|---|---|
-| S1-S2 | Datos, variables, entrada/salida, operadores y secuencia. | Brief inicial, entidad principal, datos relacionados y primer registro secuencial. |
-| S3-S4 | Condicionales, validaciones y menú básico. | Reglas iniciales del caso, control de opciones y menú CLI. |
-| S5 | Evaluación U1. | Primera versión funcional con registro, cálculos, validaciones y menú. |
-| S6-S7 | Listas/arreglos, `for`, `while` y menú interactivo. | CRUD en memoria con varios registros y navegación repetitiva. |
-| S8-S9 | Funciones, recursividad, búsqueda y ordenación. | Modularización del CRUD, consulta y organización de registros. |
-| S10-S11 | Archivos, consultas, agregaciones y reportes. | Persistencia básica, filtros, conteos, promedios y reportes por terminal. |
-| S12 | Evaluación U2. | CRUD modular con memoria, archivos, búsqueda, ordenación y consultas. |
-| S13-S14 | Matrices, diccionarios, reportes y exportación. | Procesamiento final y salidas del sistema. |
-| S15-S16 | Sustentación y evaluación final. | Producto CLI sustentado y evaluación individual. |
+| S1-S2 | EPS, datos, tipos, entrada/salida y programación secuencial. | Brief inicial y primeras soluciones algorítmicas. |
+| S3-S4 | Condicionales, funciones y TDD introductorio. | Reglas del caso organizadas en funciones comprobables. |
+| S5 | Evaluación U1. | Portafolio de soluciones algorítmicas, sin menú repetitivo. |
+| S6-S7 | `for`, `while`, listas, validación y menú repetitivo. | Registro y listado de varios elementos en memoria. |
+| S8-S9 | Ciclos anidados, búsqueda, ordenamiento, acumulados, recursividad y operaciones con arreglos. | CRUD completo en memoria y funciones algorítmicas. |
+| S10 | Refactorización, complejidad introductoria y persistencia básica. | Carga inicial y reemplazo completo de la instantánea del programa. |
+| S11 | Evaluación U2. | Portafolio integrado de estructuras repetitivas y operaciones algorítmicas. |
+| S12-S14 | Estructuras estáticas, lineales y no lineales. | Estructuras pertinentes integradas y prácticas guiadas de árboles y grafos. |
+| S15-S16 | Sustentación y evaluación final. | Producto CLI sustentado y evidencia individual. |
 
 ## 4. Cronograma
 
 | Hito | Momento | Producto esperado |
 |---|---|---|
 | S2 | Aprobación del brief | Problema, contexto, entidad principal, datos relacionados, operaciones iniciales y alcance. |
-| S5 | Base funcional | Registro inicial, cálculos, validaciones y menú básico. |
-| S12 | Producto intermedio | CRUD modular con listas/arreglos, funciones, búsqueda, ordenación, archivos y consultas. |
+| S5 | Producto de U1 | Portafolio de algoritmos, decisiones y funciones. |
+| S11 | Producto de U2 | Menú, CRUD en memoria, algoritmos e instantánea de datos. |
 | S15 | Producto final | Aplicación CLI completa, reportes, evidencias y sustentación técnica. |
 | S16 | Cierre individual | Evaluación teórico-práctica y recuperación de competencias pendientes. |
 
@@ -147,10 +145,11 @@ Al finalizar el curso, la aplicación debe incorporar como mínimo:
 - Funciones.
 - Listas o arreglos.
 - Ordenación.
-- Persistencia en archivos.
-- Consultas y agregaciones.
-- Reportes por terminal o archivo.
-- Uso pertinente de matrices o diccionarios cuando el problema lo justifique.
+- Carga inicial y reemplazo completo de una instantánea en archivo.
+- Consultas y resultados acumulados pertinentes.
+- Uso justificado de una estructura estática o dinámica lineal.
+
+Los árboles y grafos se desarrollan como práctica guiada y sólo se incorporan al producto cuando el dominio realmente los necesita.
 
 Artefactos mínimos de entrega:
 
@@ -262,19 +261,15 @@ Al finalizar el curso, el estudiante debe demostrar que puede transformar un pro
 ```text
 Problema
   ↓
-Análisis
+Algoritmos y funciones
   ↓
-Algoritmo
+Ciclos y operaciones en memoria
   ↓
-Programación
+Búsqueda, ordenamiento y acumulados
   ↓
-CRUD
+Refactorización e instantánea de datos
   ↓
-Persistencia
-  ↓
-Consultas
-  ↓
-Reportes
+Estructuras pertinentes
   ↓
 Aplicación CLI funcional
   ↓

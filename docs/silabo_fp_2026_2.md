@@ -160,38 +160,6 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 | 15 | 15/11/2026-21/11/2026 | Sustentación y demostración del Proyecto Integrador Final. | 3 | 4 | Demostrar el funcionamiento del proyecto y sustentar sus decisiones algorítmicas. | Preparar evidencias y la defensa técnica del Proyecto Integrador Final. |
 | 16 | 22/11/2026-28/11/2026 | Evaluación final, sustentaciones y demostraciones pendientes. | 3 | 4 | Resolver la evaluación final y completar las sustentaciones o demostraciones pendientes. | Reflexionar sobre los logros y oportunidades de mejora del proceso formativo. |
 
-### Evolucion del proyecto
-
-**Unidad 1**
-
-- Portafolio de soluciones algorítmicas organizado por niveles.
-- Definición del problema y del modelo Entrada-Proceso-Salida.
-- Variables, tipos de datos, entrada y salida.
-- Cálculos y conversiones mediante programación secuencial.
-- Validaciones y reglas mediante estructuras condicionales.
-- Funciones, parámetros, retornos y verificación automatizada de casos.
-- Solución integrada de problemas secuenciales y condicionales.
-
-**Unidad 2**
-
-- Portafolio de soluciones modulares y procesamiento iterativo.
-- Menú repetitivo con validación y condición de salida.
-- Registro y listado mediante arreglos unidimensionales.
-- Procesamiento acumulativo con ciclos simples y anidados.
-- Consulta, actualización, eliminación y control de duplicados.
-- Búsqueda y ordenamiento.
-- Modularización mediante funciones y procedimientos.
-- Recursividad, análisis básico de complejidad y mejora algorítmica justificada.
-
-**Unidad 3**
-
-- Proyecto Integrador Final orientado a un problema real y acotado.
-- Arreglos bidimensionales, tridimensionales, multidimensionales y paralelos.
-- Listas, colas y pilas.
-- Árboles y grafos.
-- Integración funcional del producto.
-- Sustentación, demostración y evaluación final.
-
 ## VI. Estrategias metodológicas
 
 <table>

@@ -1,5 +1,5 @@
 site_name: Fundamentos de Programación - Libro digital
-site_description: Cuadernos de programación convertidos a libro digital estático con MkDocs.
+site_description: Guías de programación en Python convertidas a libro digital con MkDocs.
 site_author: UPeU
 copyright: Angel Sullon @asullom - UPeU 2026
 
@@ -48,7 +48,7 @@ extra_javascript:
 
 nav:
   - Inicio: index.md
-  - Proyecto Sello:
+  - Proyecto Integrador:
       - Guía del proyecto: proyecto-sello/index.md
       - Productos por unidad: productos.md
   - Sílabos:
@@ -56,25 +56,23 @@ nav:
       - Sílabo 2026-2: silabo_fp_2026_2.md
   - 1. Estructuras secuenciales y condicionales:
       - 1 Algoritmos y datos: S01_Algoritmos_Datos.ipynb
-      - 2 Operadores y algoritmo secuencial: S02_Operadores_Algoritmos_Secuenciales.ipynb
-      - 3 Decisiones: S03_Decisiones.ipynb
-      - 4 Decisiones múltiples: S04_Decisiones_Multiples.ipynb
-      - 5 Evaluación 1: S05_Evaluacion_1.ipynb
-  - 2. Estructuras repetitivas, modularización y procesamiento algorítmico de datos:
-      - 6 For y arreglos/listas: S06_For.ipynb
-      - 7 While y menú interactivo: S07_While.ipynb
-      - 8 Funciones y recursividad: S08_Funciones_Recursividad.ipynb
-      - 9 Búsqueda y ordenación: S09_Busqueda_Ordenacion.ipynb
-      - 10 Archivos y CRUD persistente: S10_Archivos_CRUD.ipynb
-      - 11 Consultas y reportes: S11_Consultas_Agregacion.ipynb
-      - 12 Evaluación 2: S12_Evaluacion_2.ipynb
-  - 3. Procesamiento algorítmico avanzado e integración del producto:
-      - 13 Matrices y diccionarios: S13_Matrices_Diccionarios.ipynb
-      - 14 Reportes y exportación: S14_Reportes_Exportacion.ipynb
-      - 15 Sustentación del producto: S15_Sustentacion_Producto.ipynb
+      - 2 Programación secuencial: S02_Programacion_Secuencial.ipynb
+      - 3 Programación condicional: S03_Programacion_Condicional.ipynb
+      - 4 Funciones y TDD: S04_Funciones_TDD.ipynb
+      - 5 Evaluación de la Unidad I: S05_Evaluacion_Unidad_1.ipynb
+  - 2. Estructuras repetitivas y operaciones algorítmicas:
+      - 6 Estructuras repetitivas definidas: S06_Estructuras_Repetitivas_Definidas.ipynb
+      - 7 Estructuras repetitivas condicionales: S07_Estructuras_Repetitivas_Condicionales.ipynb
+      - 8 Ciclos, recursividad y procesamiento: S08_Ciclos_Recursividad_Procesamiento.ipynb
+      - 9 Operaciones con arreglos: S09_Operaciones_Arreglos.ipynb
+      - 10 Refactorización, optimización y persistencia: S10_Refactorizacion_Optimizacion_Persistencia.ipynb
+      - 11 Evaluación de la Unidad II: S11_Evaluacion_Unidad_2.ipynb
+  - 3. Estructuras de datos e integración del producto:
+      - 12 Estructuras de datos estáticas: S12_Estructuras_Datos_Estaticas.ipynb
+      - 13 Estructuras dinámicas lineales: S13_Estructuras_Dinamicas_Lineales.ipynb
+      - 14 Árboles y grafos: S14_Arboles_Grafos.ipynb
+      - 15 Sustentación del Proyecto Integrador: S15_Sustentacion_Proyecto_Integrador.ipynb
       - 16 Evaluación final: S16_Evaluacion_Final.ipynb
-  - 4. Anexos:
-      - 0 Guía algoritmo a código: S00_Guia_algoritmo_a_codigo.ipynb
-      - 17 Equivalencias Java: S17_Java_Equivalencias.ipynb
-      - Instalar Java 21: java21_instalacion.md
-      - Instalar GraalVM 21: graalvm21_instalacion.md
+  - Anexos:
+      - Guía algoritmo a código: S00_Guia_algoritmo_a_codigo.ipynb
+      - Transición futura a Java 21: Anexo_Transicion_Java_21.ipynb

@@ -1,86 +1,58 @@
-# Productos por Unidad
+# Productos por unidad
 
-Estos productos son implementaciones de referencia para el curso de **Fundamentos de Programación**. Siguen la misma lógica progresiva del Proyecto Sello: cada unidad deja una versión ejecutable y la Unidad 3 corresponde al producto final del curso.
+La implementación de referencia vigente utiliza **Python 3**. Las carpetas Java se conservan únicamente como material para la transición posterior a Java 21.
 
-## Relación con las unidades
+| Unidad | Producto | Implementación vigente |
+|---|---|---|
+| Unidad I | Portafolio de Soluciones Algorítmicas: secuencias, decisiones y funciones. | `pymarket-cli-u1` |
+| Unidad II | Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos. | `pymarket-cli-u2` |
+| Unidad III | Proyecto Integrador Final CLI. | `pymarket-cli-final` |
 
-| Carpeta Java | Carpeta Python | Unidad | Producto |
-|---|---|---|---|
-| `market-cli-u1` | `pymarket-cli-u1` | Unidad 1 | Menú básico de gestión CLI con registro, cálculos y validaciones iniciales. |
-| `market-cli-u2` | `pymarket-cli-u2` | Unidad 2 | Aplicación CLI con CRUD modular, memoria, archivos básicos y consultas. |
-| `market-cli-final` | `pymarket-cli-final` | Unidad 3 | Aplicación CLI completa con persistencia, movimientos, consultas, matrices, diccionarios y reportes. |
-
-## Ubicación en el repositorio
-
-```text
-market-cli/
-  market-cli-u1/
-    App.java
-    README.md
-  market-cli-u2/
-    App.java
-    README.md
-  market-cli-final/
-    App.java
-    README.md
-  pymarket-cli-u1/
-    app.py
-    README.md
-  pymarket-cli-u2/
-    app.py
-    README.md
-  pymarket-cli-final/
-    app.py
-    README.md
-```
-
-## Uso metodológico
-
-La intención no es que el estudiante copie literalmente el producto, sino que tenga una referencia clara de crecimiento:
+## Progresión
 
 ```mermaid
-flowchart TB
-    U1[Unidad 1<br/>Registro, calculos, validaciones y menu basico]
-    U2[Unidad 2<br/>CRUD, listas, funciones, archivos y consultas]
-    U3[Unidad 3<br/>Producto final con reportes y procesamiento]
-
+flowchart LR
+    U1[U1<br/>EPS, secuencias,<br/>decisiones y funciones]
+    U2[U2<br/>ciclos, listas, CRUD en memoria,<br/>algoritmos e instantánea]
+    U3[U3<br/>estructuras pertinentes,<br/>integración y sustentación]
     U1 --> U2 --> U3
 ```
 
-## Ejecución
+## Alcance de cada producto
 
-Cada producto Java se ejecuta desde su propia carpeta:
+### Unidad I
+
+- Soluciones pequeñas e independientes.
+- Modelo Entrada–Proceso–Salida.
+- Programación secuencial y condicional.
+- Funciones con parámetros y retornos.
+- Pruebas breves como apoyo al desarrollo.
+- Sin menús repetitivos ni CRUD.
+
+### Unidad II
+
+- Ciclos definidos y condicionales.
+- Listas como arreglos unidimensionales.
+- Menú repetitivo y validación de entradas.
+- CRUD completo mientras la aplicación está en ejecución.
+- Búsqueda, ordenamiento, acumulados y ejercicio recursivo.
+- Refactorización y análisis introductorio de complejidad.
+- Carga inicial desde CSV y reemplazo completo al guardar; no hay CRUD directo sobre el archivo.
+
+### Unidad III
+
+- Integración y estabilización de la aplicación CLI.
+- Uso justificado de estructuras estáticas o dinámicas.
+- Listas, pilas y colas según el comportamiento requerido.
+- Árboles y grafos como práctica guiada; integración opcional si el caso lo justifica.
+- Documentación, demostración y sustentación técnica.
+
+## Ejecución en Python
+
+Desde la carpeta de cada producto:
 
 ```bash
-cd market-cli-u1
-javac App.java
-java App
+python app.py
 ```
 
-```bash
-cd market-cli-u2
-javac App.java
-java App
-```
-
-```bash
-cd market-cli-final
-javac App.java
-java App
-```
-
-Los productos Python equivalentes conservan el prefijo `py` en la carpeta y se ejecutan con `python app.py`.
-
-## Dominio usado
-
-El ejemplo trabaja con **productos e inventario básico**, porque permite evidenciar una entidad principal, datos relacionados simples, reglas de negocio, persistencia y reportes sin salir del alcance de Fundamentos de Programación.
-
-Los estudiantes pueden elegir otro dominio, siempre que mantengan:
-
-- Problema claro.
-- Entidad principal.
-- Datos relacionados simples cuando correspondan.
-- CRUD o flujo equivalente.
-- Persistencia en archivos.
-- Consultas y reportes.
-- Sustentación del funcionamiento.
+El ejemplo institucional trabaja con productos e inventario básico, pero cada equipo puede resolver otro problema real y acotado. La estructura elegida debe responder al dominio y no a la necesidad de acumular temas.
