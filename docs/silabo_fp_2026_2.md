@@ -81,7 +81,7 @@ Carret. Central km. 19.5 Ñaña. Telf. 01-6186300 Casilla 3564 Lima 1, Perú
 
 ## II. Sumilla
 
-La asignatura de Fundamentos de programación es de carácter teórico-práctico, y pertenece al área de estudio de especialidad de tipo obligatorio. Aporta al perfil de egreso en las competencias generales de desarrollo espiritual en la subcompetencia de aprendizaje del servicio enfocado en la misión, la competencia general pensamiento de orden superior y la competencia específica de gestión y desarrollo de software en el nivel 1. Tiene como propósito que el estudiante construya algoritmos eficientes para la solución de problemas de actividad humana, a través del uso de buenas prácticas de producción de software. Los contenidos de la asignatura son: estructuras secuenciales y condicionales; estructuras repetitivas y procesamiento de datos; estructuras de datos estáticas y dinámicas; e integración del producto.
+La asignatura de Fundamentos de programación es de carácter teórico-práctico, y pertenece al área de estudio de especialidad de tipo obligatorio. Aporta al perfil de egreso en las competencias generales de desarrollo espiritual en la subcompetencia de aprendizaje del servicio enfocado en la misión, la competencia general pensamiento de orden superior y la competencia específica de gestión y desarrollo de software en el nivel 1. Tiene como propósito que el estudiante construya algoritmos eficientes para la solución de problemas de actividad humana, a través del uso de buenas prácticas de producción de software. Los contenidos de la asignatura son: estructuras secuenciales y condicionales; estructuras repetitivas y operaciones algorítmicas; estructuras de datos estáticas y dinámicas; e integración del producto.
 
 ## III. Competencia del perfil de egreso con relación a la asignatura
 
@@ -123,7 +123,7 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 | 4 | 30/08/2026-05/09/2026 | Funciones y Desarrollo Guiado por Pruebas: funciones, procedimientos, parámetros, retornos y ámbito, aplicados a problemas secuenciales y condicionales. | 3 | 4 | Organizar las soluciones en subprogramas y aplicar el ciclo prueba–implementación–refactorización sobre su lógica. | Refactorizar las soluciones condicionales en funciones y comprobar automáticamente sus casos. |
 | 5 | 06/09/2026-12/09/2026 | Evaluación de la Unidad I. | 3 | 4 | Resolver la evaluación teórico-práctica y presentar el producto de unidad. | Identificar logros y aspectos de mejora para la siguiente unidad. |
 
-### Unidad 2: Estructuras repetitivas y procesamiento de datos
+### Unidad 2: Estructuras repetitivas y operaciones algorítmicas
 
 | Resultado de aprendizaje | Producto |
 |---|---|
@@ -237,7 +237,7 @@ Escenarios de Evaluación:
   <tr><td>Fecha</td><td>Unidad</td><td>Producto</td><td>Evaluación de proceso y de resultado</td><td>Pesos</td></tr>
   <tr><td>06/09/2026-12/09/2026</td><td>Unidad 1: Estructuras secuenciales y condicionales</td><td>Portafolio de Soluciones Algorítmicas: de la secuencia a la toma de decisiones.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>20%</td></tr>
-  <tr><td>18/10/2026-24/10/2026</td><td>Unidad 2: Estructuras repetitivas y procesamiento de datos</td><td>Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
+  <tr><td>18/10/2026-24/10/2026</td><td>Unidad 2: Estructuras repetitivas y operaciones algorítmicas</td><td>Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos.</td><td>Evaluación de sesiones</td><td>5%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
   <tr><td>22/11/2026-28/11/2026</td><td>Unidad 3: Estructuras de datos e integración del producto</td><td>Proyecto Integrador Final: solución CLI funcional para un problema real y acotado.</td><td>Evaluación de sesiones</td><td>10%</td></tr>
   <tr><td></td><td></td><td></td><td>Evaluación del producto</td><td>25%</td></tr>
