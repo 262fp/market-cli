@@ -4,34 +4,30 @@ Material del curso de Fundamentos de Programación 2026-2 de la Universidad Peru
 
 ## Implementación vigente
 
-Las 16 guías de sesión y los productos de referencia activos trabajan con **Python 3**. El sílabo mantiene los temas independientes del lenguaje. La adaptación a **Java 21** se realizará en una etapa posterior; las carpetas Java existentes se conservan como material de transición.
+Las 16 guías de sesión trabajan actualmente con **Python 3**. El sílabo mantiene los temas independientes del lenguaje y la adaptación a **Java 21** se realizará posteriormente. El código de aplicación se conserva únicamente para el producto final de la Unidad III.
 
 ## Estructura
 
 ```text
 market-cli/
   docs/                Sílabo, sesiones y documentación del proyecto
-  pymarket-cli-u1/     Referencia Python para la Unidad I
-  pymarket-cli-u2/     Referencia Python para la Unidad II
   pymarket-cli-final/  Referencia Python para el producto final
-  market-cli-u1/       Material Java reservado para la transición
-  market-cli-u2/       Material Java reservado para la transición
   market-cli-final/    Material Java reservado para la transición
   mkdocs.yml           Navegación del libro digital
 ```
 
-## Progresión
+## Productos del curso
 
-- **Unidad I:** algoritmos, programación secuencial y condicional, funciones y TDD introductorio.
-- **Unidad II:** ciclos, listas, operaciones algorítmicas, CRUD en memoria, refactorización e instantánea de datos.
-- **Unidad III:** estructuras estáticas y dinámicas, integración y sustentación del Proyecto Integrador Final.
+- **Unidad I:** portafolio de algoritmos, programación secuencial y condicional, funciones y TDD introductorio.
+- **Unidad II:** portafolio de ciclos, listas, operaciones algorítmicas, CRUD en memoria, refactorización e instantánea de datos.
+- **Unidad III:** Proyecto Integrador Final con estructuras estáticas y dinámicas, integración y sustentación.
 
-La aplicación carga datos al iniciar, trabaja en memoria y reemplaza la instantánea completa cuando se guarda. No se plantea un CRUD directo sobre archivos.
+Los portafolios de U1 y U2 se desarrollan en las guías y entregas del estudiante; no poseen aplicaciones independientes dentro del repositorio. El código de referencia se conserva sólo para el proyecto final de U3.
 
-## Ejecutar una referencia Python
+## Ejecutar el producto final de referencia
 
 ```bash
-cd pymarket-cli-u2
+cd pymarket-cli-final
 python app.py
 ```
 

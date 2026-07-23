@@ -8,7 +8,7 @@ El sílabo expresa los contenidos sin depender de un lenguaje. Durante esta etap
 
 **Proyecto Integrador Final: solución CLI para un problema real y acotado.**
 
-El producto evoluciona desde soluciones algorítmicas pequeñas hasta una aplicación que administra datos en memoria, ejecuta operaciones de búsqueda y ordenamiento, carga una instantánea al iniciar y reemplaza el archivo completo cuando el usuario decide guardar. Las estructuras de datos se incorporan sólo cuando responden a una necesidad del problema.
+El Proyecto Integrador Final se desarrolla durante la Unidad III. Los portafolios de las unidades I y II son productos independientes que preparan las competencias necesarias, pero no constituyen versiones obligatorias del mismo proyecto. En la tercera unidad, el estudiante construye una aplicación que administra datos en memoria, aplica algoritmos pertinentes, conserva una instantánea e integra estructuras justificadas por el problema.
 
 ---
 
@@ -48,6 +48,8 @@ La persistencia no constituye otro CRUD: el programa carga los datos, trabaja so
 ## Unidad III. Estructuras de datos e integración del producto
 
 **Producto:** Proyecto Integrador Final: solución CLI funcional, documentada y sustentada.
+
+El Proyecto Integrador comienza en S12, se construye e integra durante S12–S14, se sustenta en S15 y tiene su cierre individual en S16.
 
 | Sesión | Aplicación con Python | Evidencia |
 |---|---|---|

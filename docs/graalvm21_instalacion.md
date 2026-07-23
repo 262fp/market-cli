@@ -2,7 +2,7 @@
 
 Esta guía permite instalar **GraalVM 21** para compilar programas Java como ejecutables nativos usando `native-image`.
 
-Para el curso, este paso es opcional. Sirve para convertir un producto como `market-cli-u1` en un `.exe` en Windows o en un ejecutable nativo en Linux/macOS.
+Para el curso, este paso es opcional. Sirve para convertir `market-cli-final` en un `.exe` en Windows o en un ejecutable nativo en Linux/macOS.
 
 ## 1. Instalar GraalVM 21
 
@@ -130,50 +130,32 @@ VC\Tools\MSVC\...\bin\Hostx64\x64\cl.exe
 
 Si `where cl` no muestra nada, no continúes con `native-image.cmd`. Abre la terminal correcta: **x64 Native Tools Command Prompt for VS 2022**.
 
-## 5. Generar ejecutable nativo de U1
+## 5. Generar ejecutable nativo del producto final
 
 Desde la carpeta del producto:
-
-```bat
-cd C:\262\262fp\market-cli\market-cli-u1
-javac App.java
-native-image.cmd -cp . App market-cli-u1
-```
-
-Ejecutar:
-
-```bat
-market-cli-u1.exe
-```
-
-## 6. Generar ejecutable nativo en macOS/Linux
-
-```bash
-cd market-cli-u1
-javac App.java
-native-image -cp . App market-cli-u1
-./market-cli-u1
-```
-
-## 7. Aplicar a U2 o producto final
-
-El mismo procedimiento se puede aplicar a las otras carpetas:
-
-```bat
-cd C:\262\262fp\market-cli\market-cli-u2
-javac App.java
-native-image.cmd -cp . App market-cli-u2
-market-cli-u2.exe
-```
 
 ```bat
 cd C:\262\262fp\market-cli\market-cli-final
 javac App.java
 native-image.cmd -cp . App market-cli-final
+```
+
+Ejecutar:
+
+```bat
 market-cli-final.exe
 ```
 
-## 8. Problemas frecuentes
+## 6. Generar ejecutable nativo en macOS/Linux
+
+```bash
+cd market-cli-final
+javac App.java
+native-image -cp . App market-cli-final
+./market-cli-final
+```
+
+## 7. Problemas frecuentes
 
 ### `native-image.cmd` no se reconoce
 

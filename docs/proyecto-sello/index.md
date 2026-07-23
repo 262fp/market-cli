@@ -2,7 +2,7 @@
 
 ## 1. Propósito
 
-El Proyecto Integrador articula las sesiones de **Fundamentos de Programación** alrededor de un problema común. La Unidad I reúne soluciones algorítmicas pequeñas; desde la Unidad II estas capacidades se integran progresivamente en una aplicación CLI funcional, sencilla y sustentable.
+El Proyecto Sello se desarrolla durante la **Unidad III** de Fundamentos de Programación. En este proyecto, el estudiante aplica las competencias alcanzadas en los portafolios de las unidades I y II para construir una aplicación CLI funcional, sencilla y sustentable orientada a un problema real y acotado.
 
 El objetivo es demostrar que el estudiante puede analizar un problema, diseñar una solución, implementarla y explicar su funcionamiento utilizando los fundamentos de programación.
 
@@ -24,9 +24,9 @@ Problema -> Algoritmo -> Funciones -> Ciclos -> CRUD en memoria -> Instantánea 
 
 ## 2. El Proyecto
 
-Durante el semestre desarrollarás una **aplicación CLI** que resuelva un problema simple de negocio, gestión o control de información.
+Durante la Unidad III desarrollarás una **aplicación CLI** que resuelva un problema simple de negocio, gestión o control de información.
 
-El proyecto debe estar basado en una **entidad principal** y puede incorporar **datos relacionados simples**, como cliente, producto, servicio, curso, fecha, estado, categoría o detalle de una operación. No se busca construir un sistema grande, sino una aplicación bien delimitada que permita registrar, consultar, actualizar, eliminar, procesar y reportar información.
+El proyecto debe estar basado en una **entidad principal** y puede incorporar **datos relacionados simples**, como cliente, producto, servicio, curso, fecha, estado, categoría o detalle de una operación. No se busca construir un sistema grande, sino una aplicación bien delimitada que permita registrar, consultar, actualizar, eliminar, procesar y presentar información útil.
 
 El proyecto debe cumplir estas condiciones:
 
@@ -34,14 +34,14 @@ El proyecto debe cumplir estas condiciones:
 - Tener una entidad principal claramente definida.
 - Incorporar datos relacionados solo cuando ayuden al problema.
 - Ejecutarse como aplicación CLI desde la terminal.
-- Crecer de manera progresiva durante el curso.
+- Construirse progresivamente durante la Unidad III.
 - Integrar los temas desarrollados en clase.
 - Ser sustentado por todos los integrantes del equipo.
 
 Antes de programar, define el problema con claridad:
 
 ```text
-En [contexto], se necesita gestionar [proceso o entidad principal] para registrar, consultar y reportar [información importante], evitando [problema actual].
+En [contexto], se necesita gestionar [proceso o entidad principal] para registrar, consultar y procesar [información importante], evitando [problema actual].
 ```
 
 Ejemplos válidos:
@@ -59,65 +59,56 @@ No se considera Proyecto Sello:
 - Un menú que solo llama ejemplos de clase.
 - Un programa sin entidad principal ni problema claro.
 - Una aplicación con datos fijos que no permite registrar información.
-- Un proyecto copiado sin personalización del dominio, datos, reglas y reportes.
+- Un proyecto copiado sin personalización del dominio, datos, reglas y resultados.
 - Una solución que el estudiante no puede explicar durante la sustentación.
 
-## 3. Evolución del Proyecto
+## 3. Desarrollo del Proyecto en la Unidad III
 
-Cada unidad incorpora nuevas capacidades al producto.
+Los productos de las unidades I y II son portafolios independientes. Proporcionan las competencias necesarias, pero no constituyen versiones obligatorias del Proyecto Sello.
 
-| Unidad | Temas principales | Evolución del proyecto |
+| Unidad previa | Producto formativo | Aporte al Proyecto Sello |
 |---|---|---|
-| Unidad 1 | EPS, variables, entrada/salida, operaciones, condicionales, funciones y TDD introductorio. | Portafolio de soluciones secuenciales y condicionales; todavía sin menú repetitivo ni CRUD. |
-| Unidad 2 | Ciclos, listas, búsqueda, ordenamiento, acumulados, recursividad, CRUD en memoria, refactorización y archivos. | Portafolio integrado con menú, operaciones en memoria, carga inicial y reemplazo de una instantánea. |
-| Unidad 3 | Estructuras estáticas, listas, pilas, colas, árboles y grafos. | Integración de estructuras pertinentes y versión final documentada y sustentada. |
+| Unidad I | Portafolio de Soluciones Algorítmicas. | EPS, programación secuencial y condicional, funciones y verificación de resultados. |
+| Unidad II | Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos. | Ciclos, arreglos/listas, CRUD en memoria, algoritmos, refactorización e instantánea de datos. |
+
+El Proyecto Sello comienza en S12 y se desarrolla únicamente durante la Unidad III.
 
 ```mermaid
-flowchart TB
-    A[Problema] --> B[Algoritmos EPS]
-    B --> C[Secuencias y decisiones]
-    C --> D[Funciones]
-    D --> E[Ciclos y menú]
-    E --> F[CRUD en memoria]
-    F --> G[Búsqueda y ordenamiento]
-    G --> H[Refactorización e instantánea]
-    H --> I[Estructuras pertinentes]
-    I --> J[Integración y sustentación]
+flowchart LR
+    S12[S12<br/>Problema, alcance, estructura y primera versión]
+    S13[S13<br/>Operaciones, estructura lineal e integración]
+    S14[S14<br/>Pruebas, estabilización y documentación]
+    S15[S15<br/>Demostración y sustentación]
+    S12 --> S13 --> S14 --> S15
 ```
 
-### Alineamiento por sesiones
+### Alineamiento por sesiones de la Unidad III
 
-Este alineamiento muestra cómo cada bloque de sesiones agrega capacidades al mismo proyecto CLI y prepara al estudiante para trabajar luego con proyectos más estructurados.
-
-| Sesiones | Contenido central | Avance del proyecto |
+| Sesión | Contenido central | Avance del Proyecto Sello |
 |---|---|---|
-| S1-S2 | EPS, datos, tipos, entrada/salida y programación secuencial. | Brief inicial y primeras soluciones algorítmicas. |
-| S3-S4 | Condicionales, funciones y TDD introductorio. | Reglas del caso organizadas en funciones comprobables. |
-| S5 | Evaluación U1. | Portafolio de soluciones algorítmicas, sin menú repetitivo. |
-| S6-S7 | `for`, `while`, listas, validación y menú repetitivo. | Registro y listado de varios elementos en memoria. |
-| S8-S9 | Ciclos anidados, búsqueda, ordenamiento, acumulados, recursividad y operaciones con arreglos. | CRUD completo en memoria y funciones algorítmicas. |
-| S10 | Refactorización, complejidad introductoria y persistencia básica. | Carga inicial y reemplazo completo de la instantánea del programa. |
-| S11 | Evaluación U2. | Portafolio integrado de estructuras repetitivas y operaciones algorítmicas. |
-| S12-S14 | Estructuras estáticas, lineales y no lineales. | Estructuras pertinentes integradas y prácticas guiadas de árboles y grafos. |
-| S15-S16 | Sustentación y evaluación final. | Producto CLI sustentado y evidencia individual. |
+| S12 | Estructuras de datos estáticas. | Aprobación del problema y alcance; estructura del repositorio; primera versión CLI e integración justificada de una matriz o arreglos paralelos. |
+| S13 | Estructuras dinámicas lineales. | Integración del flujo principal, operaciones en memoria, persistencia básica y al menos una lista, pila o cola pertinente. |
+| S14 | Árboles y grafos como práctica guiada. | Integración funcional, pruebas, corrección, documentación y estabilización. Árboles o grafos sólo se incorporan si el problema los necesita. |
+| S15 | Sustentación del Proyecto Integrador Final. | Demostración funcional y defensa técnica del proyecto. |
+| S16 | Evaluación final y sustentaciones pendientes. | Evidencia individual y cierre de presentaciones autorizadas. |
 
 ## 4. Cronograma
 
 | Hito | Momento | Producto esperado |
 |---|---|---|
-| S2 | Aprobación del brief | Problema, contexto, entidad principal, datos relacionados, operaciones iniciales y alcance. |
-| S5 | Producto de U1 | Portafolio de algoritmos, decisiones y funciones. |
-| S11 | Producto de U2 | Menú, CRUD en memoria, algoritmos e instantánea de datos. |
-| S15 | Producto final | Aplicación CLI completa, reportes, evidencias y sustentación técnica. |
+| S12 | Inicio del proyecto | Problema, contexto, beneficiarios, alcance, repositorio y primera versión funcional. |
+| S13 | Producto en integración | Flujo principal, operaciones, estructura dinámica lineal y persistencia básica. |
+| S14 | Producto estabilizado | Integración, pruebas, correcciones, documentación y evidencias. |
+| S15 | Producto final | Aplicación CLI completa, resultados, evidencias y sustentación técnica. |
 | S16 | Cierre individual | Evaluación teórico-práctica y recuperación de competencias pendientes. |
 
-El brief de la semana 2 es obligatorio. Su propósito es validar que el proyecto tiene un problema claro, un alcance viable y una entidad principal adecuada para FP antes de avanzar con el desarrollo.
+El brief se presenta en S12. Su propósito es validar que el proyecto tiene un problema claro, un alcance viable y una entidad principal adecuada antes de avanzar con el desarrollo de la Unidad III.
 
 ## 5. Producto Final
 
 ### Repositorio académico y topics
 
-Desde la primera presentación del proyecto, el repositorio debe estar creado y configurado con los topics académicos mínimos. Esta configuración es obligatoria porque permite identificar campus, semestre, línea, tipo de proyecto, curso, sección y grupo.
+Desde S12, el repositorio del Proyecto Sello debe estar creado y configurado con los topics académicos mínimos. Esta configuración es obligatoria porque permite identificar campus, semestre, línea, tipo de proyecto, curso, sección y grupo.
 
 El detalle oficial del estándar se encuentra en [Estándar transversal de topics para repositorios académicos](https://upeuoficial.github.io/planb/anexos/estandar-topics-repositorios/).
 
@@ -133,7 +124,7 @@ seccion-g1
 grupo-<numero>-<nombre-proyecto>
 ```
 
-Al finalizar el curso, la aplicación debe incorporar como mínimo:
+Al finalizar la Unidad III, la aplicación debe incorporar como mínimo:
 
 - Menú interactivo.
 - Registro de información.
@@ -162,7 +153,7 @@ Artefactos mínimos de entrega:
 - Reporte o resumen del proyecto.
 - Sustentación técnica.
 
-Cada componente debe estar conectado con el problema elegido. Por ejemplo, si el proyecto gestiona productos, las búsquedas, validaciones, reportes y archivos deben trabajar con productos, stock, categorías o movimientos reales del caso.
+Cada componente debe estar conectado con el problema elegido. Por ejemplo, si el proyecto gestiona productos, las búsquedas, validaciones, resultados y archivos deben trabajar con productos, stock, categorías o movimientos reales del caso.
 
 ## 6. Evaluación por competencias
 
@@ -173,11 +164,11 @@ Los criterios se organizan según una matriz común de evaluación de proyectos 
 | Dimensión común | Criterio del PS | Capacidad evaluada | Evidencias esperadas |
 |---|---|---|---|
 | 1. Problema y alcance | Problema y alcance | Analiza una necesidad simple y delimita una solución viable para una aplicación CLI inicial. | Brief del proyecto, problema, entidad principal, datos relacionados y alcance. |
-| 2. Requerimientos o funcionalidad esperada | Funcionalidad | Traduce la necesidad en operaciones funcionales verificables. | Registro, listado, búsqueda, edición, eliminación, consultas o reportes básicos. |
+| 2. Requerimientos o funcionalidad esperada | Funcionalidad | Traduce la necesidad en operaciones funcionales verificables. | Registro, listado, búsqueda, edición, eliminación, consultas o resultados acumulados pertinentes. |
 | 3. Diseño, modelo o arquitectura | Estructura de la solución | Organiza la solución mediante menú, flujo de ejecución y estructura básica de datos. | Menú principal, flujo del programa, datos definidos y organización inicial del código. |
 | 4. Implementación técnica | Aplicación de fundamentos | Aplica fundamentos de programación para construir una solución funcional. | Código con variables, operadores, condicionales, bucles, listas/arreglos, funciones, archivos, búsqueda y ordenación cuando corresponda. |
 | 5. Datos, persistencia o procesamiento | Manejo de datos | Gestiona datos de forma básica, recuperable y útil para el problema. | Archivo de datos, carga, guardado, consulta, actualización y procesamiento simple de registros. |
-| 6. Integración del producto y calidad técnica | Integración del producto y calidad técnica | Integra los avances de las sesiones en una sola aplicación coherente, ordenada y reproducible. | Evidencia de evolución del mismo proyecto, sin módulos inconexos; organización, documentación mínima y forma de ejecución. |
+| 6. Integración del producto y calidad técnica | Integración del producto y calidad técnica | Integra los avances de la Unidad III en una sola aplicación coherente, ordenada y reproducible. | Evidencias de construcción entre S12 y S15, sin componentes inconexos; organización, documentación mínima y forma de ejecución. |
 | 7. Validación, pruebas o resultados | Validaciones y pruebas | Verifica el funcionamiento y controla errores básicos de entrada o flujo. | Casos de prueba, entradas inválidas, resultados esperados y evidencia de ejecución. |
 | 8. Sustentación técnica y profesional | Sustentación integral | Defiende técnica y profesionalmente el producto, evidenciando autoría, comprensión y responsabilidad académica. | Demo, introducción oral breve, defensa técnica, aporte individual, repositorio, topics y documentación publicada cuando corresponda. |
 
@@ -212,7 +203,7 @@ La sustentación profesional forma parte de la evaluación porque el producto fi
 
 ## 7. Sustentación
 
-La sustentación no consiste únicamente en hablar del programa ni en mostrar diapositivas. El estudiante debe demostrar que comprende lo que construyó, ejecutar el producto en vivo y explicar cómo evolucionó durante el curso.
+La sustentación no consiste únicamente en hablar del programa ni en mostrar diapositivas. El estudiante debe demostrar que comprende lo que construyó, ejecutar el producto en vivo y explicar cómo fue desarrollado durante la Unidad III.
 
 La sustentación inicia con una introducción oral breve de 1 a 3 minutos para presentar el problema, la solución, el valor del producto y la participación del equipo o estudiante.
 
@@ -227,7 +218,7 @@ Durante la sustentación se debe:
 - Explicar las principales funciones de la aplicación CLI.
 - Mostrar registro, consulta/listado, búsqueda, edición o eliminación.
 - Evidenciar carga y guardado de información en archivos.
-- Mostrar una consulta, agregación o reporte relacionado con el problema.
+- Mostrar una consulta o resultado acumulado relacionado con el problema.
 - Explicar al menos una validación y una decisión importante del código.
 - Reconocer limitaciones del producto y posibles mejoras.
 
@@ -240,7 +231,7 @@ Para la exposición, el estudiante o equipo debe preparar:
 - Archivo de datos con registros de prueba.
 - Casos de prueba mínimos.
 - Diapositivas breves o guía visual de apoyo.
-- Evidencia del avance por hitos: S2, S5, S12 y S15.
+- Evidencia del avance del proyecto por hitos: S12, S13, S14 y S15.
 - Distribución clara de responsabilidades por integrante.
 
 La presentación personal también comunica responsabilidad y respeto por el trabajo realizado. No se evalúa la marca de la ropa ni el estilo personal, pero sí se espera una apariencia limpia, ordenada y adecuada para una exposición académica.
@@ -256,27 +247,19 @@ Para la sustentación se recomienda:
 
 ## 8. Resultado Esperado
 
-Al finalizar el curso, el estudiante debe demostrar que puede transformar un problema simple en una aplicación CLI funcional utilizando los fundamentos de programación.
+Al finalizar la Unidad III, el estudiante debe demostrar que puede transformar un problema simple en una aplicación CLI funcional utilizando los fundamentos adquiridos en el curso.
 
 ```text
-Problema
+S12: problema, alcance y primera versión
   ↓
-Algoritmos y funciones
+S13: operaciones, persistencia y estructura lineal
   ↓
-Ciclos y operaciones en memoria
+S14: integración, pruebas y documentación
   ↓
-Búsqueda, ordenamiento y acumulados
-  ↓
-Refactorización e instantánea de datos
-  ↓
-Estructuras pertinentes
-  ↓
-Aplicación CLI funcional
-  ↓
-Sustentación
+S15: aplicación CLI funcional y sustentación
 ```
 
-El Proyecto Sello representa la integración de los conocimientos adquiridos durante el curso. Más que desarrollar un sistema complejo, el propósito es evidenciar la capacidad para analizar un problema, implementar una solución coherente y explicar técnicamente las decisiones tomadas durante su construcción.
+El Proyecto Sello representa la aplicación integrada, durante la Unidad III, de los conocimientos adquiridos previamente. Más que desarrollar un sistema complejo, el propósito es evidenciar la capacidad para analizar un problema, implementar una solución coherente y explicar técnicamente las decisiones tomadas durante su construcción.
 
 ## Anexo. Secuencia sugerida de presentación
 
@@ -287,8 +270,8 @@ La presentación puede organizarse con una secuencia breve de apoyo visual. En F
 | 1 | Título del proyecto y equipo | Identificar el proyecto, integrantes y dominio elegido. | CE024 |
 | 2 | Problema y contexto | Explicar qué necesidad simple se busca resolver. | CE023 |
 | 3 | Solución propuesta | Presentar la aplicación CLI y su alcance. | CE023 |
-| 4 | Evolución del proyecto | Mostrar cómo creció desde las primeras sesiones hasta el producto final. | CE023 + CE024 |
-| 5 | Funcionalidades principales | Resumir registro, listado, búsqueda, edición, eliminación, consultas o reportes. | CE023 |
+| 4 | Construcción en la Unidad III | Mostrar los avances logrados desde S12 hasta el producto sustentado en S15. | CE023 + CE024 |
+| 5 | Funcionalidades principales | Resumir registro, listado, búsqueda, edición, eliminación, consultas y resultados pertinentes. | CE023 |
 | 6 | Datos y persistencia | Explicar qué datos se guardan, cómo se cargan y cómo se procesan. | CE022 |
 | 7 | Organización del código | Mostrar funciones, archivos y decisiones básicas de estructura. | CE023 + CE024 |
 | 8 | Validaciones y pruebas | Presentar casos probados, entradas inválidas y resultados esperados. | CE024 |
@@ -314,7 +297,7 @@ La documentación publicada no reemplaza al informe. Su función es permitir que
 | 5. Repositorio y estándares | Topics académicos, estructura, commits, ramas si aplica y criterios de reproducibilidad. | Cumplimiento de estándares técnicos. |
 | Limitaciones y mejoras | Restricciones del producto y mejoras futuras priorizadas. | Cierre reflexivo y realista. |
 
-La documentación debe estar disponible desde las primeras presentaciones y crecer con el proyecto. Para FP puede ser una documentación sencilla; para proyectos integradores y cursos avanzados debe ser más completa y técnica.
+La documentación debe crearse desde S12 y actualizarse durante S13 y S14 para llegar completa a la sustentación de S15. Para FP puede ser sencilla, pero debe permitir comprender, ejecutar y verificar el producto.
 ## Anexo. Plantilla sugerida de informe del proyecto
 
 El informe debe documentar el producto de manera breve, verificable y alineada a las competencias evaluadas. No reemplaza la demo ni la sustentación; organiza las evidencias del proyecto.

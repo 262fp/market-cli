@@ -1,22 +1,14 @@
 # Productos por unidad
 
-La implementación de referencia vigente utiliza **Python 3**. Las carpetas Java se conservan únicamente como material para la transición posterior a Java 21.
+Las sesiones se implementan actualmente con **Python 3**. Los portafolios de las unidades I y II se evidencian mediante las guías, ejercicios y entregas de los estudiantes; no tienen una aplicación de referencia independiente dentro del repositorio.
 
-| Unidad | Producto | Implementación vigente |
+| Unidad | Producto | Evidencia en el repositorio |
 |---|---|---|
-| Unidad I | Portafolio de Soluciones Algorítmicas: secuencias, decisiones y funciones. | `pymarket-cli-u1` |
-| Unidad II | Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos. | `pymarket-cli-u2` |
-| Unidad III | Proyecto Integrador Final CLI. | `pymarket-cli-final` |
+| Unidad I | Portafolio de Soluciones Algorítmicas: secuencias, decisiones y funciones. | Guías S1–S5 y portafolio del estudiante. |
+| Unidad II | Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos. | Guías S6–S11 y portafolio del estudiante. |
+| Unidad III | Proyecto Integrador Final CLI. | `pymarket-cli-final` y futura transición en `market-cli-final`. |
 
-## Progresión
-
-```mermaid
-flowchart LR
-    U1[U1<br/>EPS, secuencias,<br/>decisiones y funciones]
-    U2[U2<br/>ciclos, listas, CRUD en memoria,<br/>algoritmos e instantánea]
-    U3[U3<br/>estructuras pertinentes,<br/>integración y sustentación]
-    U1 --> U2 --> U3
-```
+Los productos de las unidades I y II son portafolios independientes. El Proyecto Integrador Final comienza en la Unidad III y aplica las competencias adquiridas previamente, sin exigir que los portafolios se conviertan en versiones anteriores del mismo proyecto.
 
 ## Alcance de cada producto
 
@@ -41,17 +33,20 @@ flowchart LR
 
 ### Unidad III
 
+- Inicio del Proyecto Integrador Final en S12.
 - Integración y estabilización de la aplicación CLI.
 - Uso justificado de estructuras estáticas o dinámicas.
 - Listas, pilas y colas según el comportamiento requerido.
 - Árboles y grafos como práctica guiada; integración opcional si el caso lo justifica.
-- Documentación, demostración y sustentación técnica.
+- Construcción e integración durante S12–S14.
+- Demostración y sustentación técnica en S15.
 
 ## Ejecución en Python
 
-Desde la carpeta de cada producto:
+Desde la carpeta del producto final:
 
 ```bash
+cd pymarket-cli-final
 python app.py
 ```
 

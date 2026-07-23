@@ -76,25 +76,9 @@ openjdk version "21.x.x"
 javac 21.x.x
 ```
 
-## 4. Compilar un producto del curso
+## 4. Compilar el producto final del curso
 
 Desde la carpeta del producto:
-
-```bash
-cd market-cli-u1
-javac App.java
-java App
-```
-
-Para Unidad 2:
-
-```bash
-cd market-cli-u2
-javac App.java
-java App
-```
-
-Para el producto final:
 
 ```bash
 cd market-cli-final
