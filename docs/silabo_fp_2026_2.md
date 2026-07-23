@@ -64,7 +64,7 @@ Carret. Central km. 19.5 Ñaña. Telf. 01-6186300 Casilla 3564 Lima 1, Perú
   <tr>
     <td>07</td>
     <td>Docente</td>
-    <td>Huamán Paco Nélida</td>
+    <td>Condori Angel Rosendo</td>
     <td></td>
     <td></td>
     <td></td>
@@ -117,11 +117,11 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 1 | 10/08/2026-15/08/2026 | Algoritmos, pseudocódigo, modelo Entrada-Proceso-Salida, variables y tipos de datos. | 3 | 4 | Representar y desarrollar algoritmos básicos que capturen, procesen y muestren datos. | Resolver problemas mediante pseudocódigo y el modelo Entrada-Proceso-Salida. |
+| 1 | 10/08/2026-15/08/2026 | Introducción a la programación: algoritmos, pseudocódigo, modelo Entrada-Proceso-Salida, variables y tipos de datos. | 3 | 4 | Representar y desarrollar algoritmos básicos que capturen, procesen y muestren datos. | Resolver problemas mediante pseudocódigo y el modelo Entrada-Proceso-Salida. |
 | 2 | 16/08/2026-22/08/2026 | Programación secuencial: operadores aritméticos y de asignación, expresiones aritméticas y precedencia, conversión de tipos, entrada y salida. | 3 | 4 | Implementar programas secuenciales con cálculos y conversión de datos. | Resolver ejercicios de programación secuencial y comprobar sus resultados. |
 | 3 | 23/08/2026-29/08/2026 | Programación condicional: operadores relacionales y lógicos, expresiones booleanas; condicionales simples, compuestas, múltiples y anidadas. | 3 | 4 | Implementar decisiones y validaciones para distintos escenarios de un problema. | Reforzar el uso de expresiones booleanas y estructuras condicionales. |
 | 4 | 30/08/2026-05/09/2026 | Funciones y Desarrollo Guiado por Pruebas: funciones, procedimientos, parámetros, retornos y ámbito, aplicados a problemas secuenciales y condicionales. | 3 | 4 | Organizar las soluciones en subprogramas y aplicar el ciclo prueba–implementación–refactorización sobre su lógica. | Refactorizar las soluciones condicionales en funciones y comprobar automáticamente sus casos. |
-| 5 | 06/09/2026-12/09/2026 | Evaluación de la Unidad I. | 3 | 4 | Resolver la evaluación teórico-práctica y presentar el producto de unidad. | Identificar logros y aspectos de mejora para la siguiente unidad. |
+| 5 | 06/09/2026-12/09/2026 | Introducción a la programación, tipos de datos, operadores, estructuras secuenciales y condicionales, y funciones. | 3 | 4 | Evaluación de la Unidad I:<br>1. Resolver el examen teórico-práctico de los temas de la Unidad I.<br>2. Presentar y sustentar el Portafolio de Soluciones Algorítmicas. | Reflexionar sobre los logros y dificultades identificados en la evaluación y sustentación. |
 
 ### Unidad 2: Estructuras repetitivas y operaciones algorítmicas
 
@@ -140,7 +140,7 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 | 8 | 27/09/2026-03/10/2026 | Ciclos anidados, recursividad y procesamiento acumulativo: algoritmos de búsqueda y ordenamiento; totales, promedios, máximos y mínimos. | 3 | 4 | Implementar funciones probadas para realizar búsquedas y un ordenamiento básico, calcular totales, promedios, máximos y mínimos, y resolver un algoritmo recursivo guiado. | Comparar el comportamiento de soluciones iterativas y recursivas y comprobar sus resultados mediante pruebas. |
 | 9 | 04/10/2026-10/10/2026 | Operaciones con arreglos: consulta, actualización, eliminación y control de duplicados. | 3 | 4 | Integrar las operaciones de gestión sobre los arreglos utilizando los algoritmos desarrollados. | Validar las operaciones con diferentes conjuntos de datos y casos límite. |
 | 10 | 11/10/2026-17/10/2026 | Refactorización, optimización algorítmica y persistencia básica: cohesión y acoplamiento; análisis de complejidad y mejora de algoritmos; carga inicial y reemplazo de datos mediante archivos. | 3 | 4 | Analizar el código y los algoritmos, refactorizar su estructura, aplicar una mejora algorítmica justificada e implementar la carga inicial y el reemplazo completo de los datos del archivo. | Probar las funciones de carga y guardado, comparar la eficiencia antes y después de la mejora y verificar que la refactorización conserve el comportamiento. |
-| 11 | 18/10/2026-24/10/2026 | Evaluación de la Unidad II. | 3 | 4 | Resolver la evaluación teórico-práctica y presentar el producto de unidad. | Identificar brechas técnicas y proponer mejoras para la integración final. |
+| 11 | 18/10/2026-24/10/2026 | Estructuras repetitivas, arreglos, búsqueda, ordenamiento, procesamiento acumulativo, recursividad, refactorización y persistencia básica. | 3 | 4 | Evaluación de la Unidad II:<br>1. Resolver el examen teórico-práctico de los temas de la Unidad II.<br>2. Presentar y sustentar el Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos. | Reflexionar sobre los logros y dificultades identificados en la evaluación y sustentación. |
 
 ### Unidad 3: Estructuras de datos e integración del producto
 
@@ -154,11 +154,11 @@ La asignatura de Fundamentos de programación es de carácter teórico-práctico
 
 | N° | Fecha | Contenido | HT | HP | Actividad practica | Actividad autonoma |
 |---|---|---|---|---|---|---|
-| 12 | 25/10/2026-31/10/2026 | Estructuras de datos estáticas. Arreglos bidimensionales, tridimensionales y multidimensionales; arreglos paralelos: índices, recorridos, capacidad, registro y listado de datos. | 3 | 4 | Aplicar arreglos bidimensionales o paralelos al producto y explorar arreglos de mayor dimensión mediante ejercicios guiados. | Resolver ejercicios de índices, recorridos, capacidad, registro y listado de datos. |
-| 13 | 01/11/2026-07/11/2026 | Estructuras de datos dinámicas lineales: listas, colas y pilas. | 3 | 4 | Implementar operaciones básicas con listas, colas y pilas en casos del proyecto. | Comparar las operaciones y usos de las estructuras dinámicas lineales. |
-| 14 | 08/11/2026-14/11/2026 | Estructuras de datos dinámicas no lineales: árboles y grafos. | 3 | 4 | Implementar un recorrido básico de árbol y representar un grafo mediante una práctica guiada, integrándolos al producto solo cuando sean pertinentes. | Resolver ejercicios introductorios de representación y recorrido de estructuras no lineales. |
-| 15 | 15/11/2026-21/11/2026 | Sustentación y demostración del Proyecto Integrador Final. | 3 | 4 | Demostrar el funcionamiento del proyecto y sustentar sus decisiones algorítmicas. | Preparar evidencias y la defensa técnica del Proyecto Integrador Final. |
-| 16 | 22/11/2026-28/11/2026 | Evaluación final, sustentaciones y demostraciones pendientes. | 3 | 4 | Resolver la evaluación final y completar las sustentaciones o demostraciones pendientes. | Reflexionar sobre los logros y oportunidades de mejora del proceso formativo. |
+| 12 | 25/10/2026-31/10/2026 | Estructuras de datos estáticas: arreglos bidimensionales, tridimensionales y multidimensionales; arreglos paralelos: índices, recorridos, capacidad, registro y listado de datos. | 3 | 4 | Aplicar arreglos bidimensionales o paralelos al producto y explorar arreglos de mayor dimensión mediante ejercicios guiados. Participar en el concurso de programación (viaje de estudios, de ser requerido). | Resolver ejercicios de índices, recorridos, capacidad, registro y listado de datos. |
+| 13 | 01/11/2026-07/11/2026 | Estructuras de datos dinámicas lineales: listas, colas y pilas. | 3 | 4 | Implementar operaciones básicas con listas, colas y pilas en casos del proyecto. | Comparar las operaciones y usos de las estructuras dinámicas lineales. Elaborar el informe de participación en el concurso de programación. |
+| 14 | 08/11/2026-14/11/2026 | Estructuras de datos dinámicas no lineales: árboles y grafos. | 3 | 4 | Implementar un recorrido básico de árbol y representar un grafo mediante una práctica guiada, integrándolos al producto solo cuando sean pertinentes. | Resolver ejercicios introductorios de representación y recorrido de estructuras no lineales. Preparar el guion de demostración, verificar el flujo principal, organizar las evidencias y preparar la explicación técnica del producto. |
+| 15 | 15/11/2026-21/11/2026 | Integración de una solución CLI: estructuras de datos, flujo principal, validaciones, persistencia básica, pruebas y documentación. | 3 | 4 | Evaluación de la Unidad III:<br>1. Resolver la evaluación teórico-práctica de los temas de la Unidad III.<br>2. Presentar y sustentar el Proyecto Integrador Final. | Registrar las observaciones del docente y actualizar las evidencias y la entrega final del producto. |
+| 16 | 22/11/2026-28/11/2026 | Integración de fundamentos de programación: algoritmos, estructuras de control, funciones, arreglos, estructuras de datos y persistencia básica. | 3 | 4 | Continuación de la evaluación de la Unidad III:<br>Realizar, según corresponda, la evaluación final individual o las presentaciones y sustentaciones pendientes mediante demostración, preguntas técnicas y revisión de evidencias. | Actualizar la entrega final y reflexionar sobre los logros y oportunidades de mejora del proceso formativo. |
 
 ## VI. Estrategias metodológicas
 

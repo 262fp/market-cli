@@ -18,7 +18,7 @@ El Proyecto Integrador Final se desarrolla durante la Unidad III. Los portafolio
 
 | Sesión | Aplicación con Python | Evidencia |
 |---|---|---|
-| **S1** | Algoritmos, pseudocódigo, modelo EPS, variables y tipos de datos. | Algoritmo documentado y primer programa Python. |
+| **S1** | Introducción a la programación: algoritmos, pseudocódigo, modelo EPS, variables y tipos de datos. | Algoritmo documentado y primer programa Python. |
 | **S2** | Programación secuencial: operadores aritméticos y de asignación, expresiones, precedencia, conversión, `input` y `print`. | Programa secuencial con cálculos y conversiones. |
 | **S3** | Programación condicional: operadores relacionales y lógicos, expresiones booleanas, `if`, `elif`, decisiones simples, compuestas, múltiples y anidadas. | Programa que aplica y valida reglas. |
 | **S4** | Funciones, parámetros, retornos y ámbito; TDD mediante pruebas pequeñas con `assert` o `unittest`. | Soluciones secuenciales y condicionales organizadas en funciones. |
