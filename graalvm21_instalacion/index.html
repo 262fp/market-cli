@@ -1343,10 +1343,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#5-generar-ejecutable-nativo-de-u1" class="md-nav__link">
+  <a href="#5-generar-ejecutable-nativo-del-producto-final" class="md-nav__link">
     <span class="md-ellipsis">
       
-        5. Generar ejecutable nativo de U1
+        5. Generar ejecutable nativo del producto final
       
     </span>
   </a>
@@ -1365,26 +1365,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#7-aplicar-a-u2-o-producto-final" class="md-nav__link">
+  <a href="#7-problemas-frecuentes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        7. Aplicar a U2 o producto final
+        7. Problemas frecuentes
       
     </span>
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#8-problemas-frecuentes" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        8. Problemas frecuentes
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="8. Problemas frecuentes">
+    <nav class="md-nav" aria-label="7. Problemas frecuentes">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -1444,7 +1433,7 @@
 
 <h1 id="instalacion-de-graalvm-21-y-native-image">Instalación de GraalVM 21 y Native Image<a class="headerlink" href="#instalacion-de-graalvm-21-y-native-image" title="Permanent link">&para;</a></h1>
 <p>Esta guía permite instalar <strong>GraalVM 21</strong> para compilar programas Java como ejecutables nativos usando <code>native-image</code>.</p>
-<p>Para el curso, este paso es opcional. Sirve para convertir un producto como <code>market-cli-u1</code> en un <code>.exe</code> en Windows o en un ejecutable nativo en Linux/macOS.</p>
+<p>Para el curso, este paso es opcional. Sirve para convertir <code>market-cli-final</code> en un <code>.exe</code> en Windows o en un ejecutable nativo en Linux/macOS.</p>
 <h2 id="1-instalar-graalvm-21">1. Instalar GraalVM 21<a class="headerlink" href="#1-instalar-graalvm-21" title="Permanent link">&para;</a></h2>
 <h3 id="windows-con-chocolatey">Windows con Chocolatey<a class="headerlink" href="#windows-con-chocolatey" title="Permanent link">&para;</a></h3>
 <p>Abre PowerShell como administrador:</p>
@@ -1518,34 +1507,22 @@ cl
 <div class="highlight"><pre><span></span><code>VC\Tools\MSVC\...\bin\Hostx64\x64\cl.exe
 </code></pre></div>
 <p>Si <code>where cl</code> no muestra nada, no continúes con <code>native-image.cmd</code>. Abre la terminal correcta: <strong>x64 Native Tools Command Prompt for VS 2022</strong>.</p>
-<h2 id="5-generar-ejecutable-nativo-de-u1">5. Generar ejecutable nativo de U1<a class="headerlink" href="#5-generar-ejecutable-nativo-de-u1" title="Permanent link">&para;</a></h2>
+<h2 id="5-generar-ejecutable-nativo-del-producto-final">5. Generar ejecutable nativo del producto final<a class="headerlink" href="#5-generar-ejecutable-nativo-del-producto-final" title="Permanent link">&para;</a></h2>
 <p>Desde la carpeta del producto:</p>
-<div class="highlight"><pre><span></span><code><span class="k">cd</span> C:\262\262fp\market-cli\market-cli-u1
-javac App.java
-native-image.cmd -cp . App market-cli-u1
-</code></pre></div>
-<p>Ejecutar:</p>
-<div class="highlight"><pre><span></span><code>market-cli-u1.exe
-</code></pre></div>
-<h2 id="6-generar-ejecutable-nativo-en-macoslinux">6. Generar ejecutable nativo en macOS/Linux<a class="headerlink" href="#6-generar-ejecutable-nativo-en-macoslinux" title="Permanent link">&para;</a></h2>
-<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>market-cli-u1
-javac<span class="w"> </span>App.java
-native-image<span class="w"> </span>-cp<span class="w"> </span>.<span class="w"> </span>App<span class="w"> </span>market-cli-u1
-./market-cli-u1
-</code></pre></div>
-<h2 id="7-aplicar-a-u2-o-producto-final">7. Aplicar a U2 o producto final<a class="headerlink" href="#7-aplicar-a-u2-o-producto-final" title="Permanent link">&para;</a></h2>
-<p>El mismo procedimiento se puede aplicar a las otras carpetas:</p>
-<div class="highlight"><pre><span></span><code><span class="k">cd</span> C:\262\262fp\market-cli\market-cli-u2
-javac App.java
-native-image.cmd -cp . App market-cli-u2
-market-cli-u2.exe
-</code></pre></div>
 <div class="highlight"><pre><span></span><code><span class="k">cd</span> C:\262\262fp\market-cli\market-cli-final
 javac App.java
 native-image.cmd -cp . App market-cli-final
-market-cli-final.exe
 </code></pre></div>
-<h2 id="8-problemas-frecuentes">8. Problemas frecuentes<a class="headerlink" href="#8-problemas-frecuentes" title="Permanent link">&para;</a></h2>
+<p>Ejecutar:</p>
+<div class="highlight"><pre><span></span><code>market-cli-final.exe
+</code></pre></div>
+<h2 id="6-generar-ejecutable-nativo-en-macoslinux">6. Generar ejecutable nativo en macOS/Linux<a class="headerlink" href="#6-generar-ejecutable-nativo-en-macoslinux" title="Permanent link">&para;</a></h2>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>market-cli-final
+javac<span class="w"> </span>App.java
+native-image<span class="w"> </span>-cp<span class="w"> </span>.<span class="w"> </span>App<span class="w"> </span>market-cli-final
+./market-cli-final
+</code></pre></div>
+<h2 id="7-problemas-frecuentes">7. Problemas frecuentes<a class="headerlink" href="#7-problemas-frecuentes" title="Permanent link">&para;</a></h2>
 <h3 id="native-imagecmd-no-se-reconoce"><code>native-image.cmd</code> no se reconoce<a class="headerlink" href="#native-imagecmd-no-se-reconoce" title="Permanent link">&para;</a></h3>
 <p>GraalVM no está en el <code>Path</code> o no está activo como <code>JAVA_HOME</code>.</p>
 <p>Verifica:</p>

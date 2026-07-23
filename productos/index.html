@@ -393,17 +393,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#progresion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Progresión
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#alcance-de-cada-producto" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1372,17 +1361,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#progresion" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Progresión
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#alcance-de-cada-producto" class="md-nav__link">
     <span class="md-ellipsis">
       
@@ -1461,39 +1439,34 @@
 
 
 <h1 id="productos-por-unidad">Productos por unidad<a class="headerlink" href="#productos-por-unidad" title="Permanent link">&para;</a></h1>
-<p>La implementación de referencia vigente utiliza <strong>Python 3</strong>. Las carpetas Java se conservan únicamente como material para la transición posterior a Java 21.</p>
+<p>Las sesiones se implementan actualmente con <strong>Python 3</strong>. Los portafolios de las unidades I y II se evidencian mediante las guías, ejercicios y entregas de los estudiantes; no tienen una aplicación de referencia independiente dentro del repositorio.</p>
 <table>
 <thead>
 <tr>
 <th>Unidad</th>
 <th>Producto</th>
-<th>Implementación vigente</th>
+<th>Evidencia en el repositorio</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>Unidad I</td>
 <td>Portafolio de Soluciones Algorítmicas: secuencias, decisiones y funciones.</td>
-<td><code>pymarket-cli-u1</code></td>
+<td>Guías S1–S5 y portafolio del estudiante.</td>
 </tr>
 <tr>
 <td>Unidad II</td>
 <td>Portafolio de Soluciones Modulares y Procesamiento Iterativo de Datos.</td>
-<td><code>pymarket-cli-u2</code></td>
+<td>Guías S6–S11 y portafolio del estudiante.</td>
 </tr>
 <tr>
 <td>Unidad III</td>
 <td>Proyecto Integrador Final CLI.</td>
-<td><code>pymarket-cli-final</code></td>
+<td><code>pymarket-cli-final</code> y futura transición en <code>market-cli-final</code>.</td>
 </tr>
 </tbody>
 </table>
-<h2 id="progresion">Progresión<a class="headerlink" href="#progresion" title="Permanent link">&para;</a></h2>
-<pre class="mermaid"><code>flowchart LR
-    U1[U1&lt;br/&gt;EPS, secuencias,&lt;br/&gt;decisiones y funciones]
-    U2[U2&lt;br/&gt;ciclos, listas, CRUD en memoria,&lt;br/&gt;algoritmos e instantánea]
-    U3[U3&lt;br/&gt;estructuras pertinentes,&lt;br/&gt;integración y sustentación]
-    U1 --&gt; U2 --&gt; U3</code></pre>
+<p>Los productos de las unidades I y II son portafolios independientes. El Proyecto Integrador Final comienza en la Unidad III y aplica las competencias adquiridas previamente, sin exigir que los portafolios se conviertan en versiones anteriores del mismo proyecto.</p>
 <h2 id="alcance-de-cada-producto">Alcance de cada producto<a class="headerlink" href="#alcance-de-cada-producto" title="Permanent link">&para;</a></h2>
 <h3 id="unidad-i">Unidad I<a class="headerlink" href="#unidad-i" title="Permanent link">&para;</a></h3>
 <ul>
@@ -1516,15 +1489,18 @@
 </ul>
 <h3 id="unidad-iii">Unidad III<a class="headerlink" href="#unidad-iii" title="Permanent link">&para;</a></h3>
 <ul>
+<li>Inicio del Proyecto Integrador Final en S12.</li>
 <li>Integración y estabilización de la aplicación CLI.</li>
 <li>Uso justificado de estructuras estáticas o dinámicas.</li>
 <li>Listas, pilas y colas según el comportamiento requerido.</li>
 <li>Árboles y grafos como práctica guiada; integración opcional si el caso lo justifica.</li>
-<li>Documentación, demostración y sustentación técnica.</li>
+<li>Construcción e integración durante S12–S14.</li>
+<li>Demostración y sustentación técnica en S15.</li>
 </ul>
 <h2 id="ejecucion-en-python">Ejecución en Python<a class="headerlink" href="#ejecucion-en-python" title="Permanent link">&para;</a></h2>
-<p>Desde la carpeta de cada producto:</p>
-<div class="highlight"><pre><span></span><code>python<span class="w"> </span>app.py
+<p>Desde la carpeta del producto final:</p>
+<div class="highlight"><pre><span></span><code><span class="nb">cd</span><span class="w"> </span>pymarket-cli-final
+python<span class="w"> </span>app.py
 </code></pre></div>
 <p>El ejemplo institucional trabaja con productos e inventario básico, pero cada equipo puede resolver otro problema real y acotado. La estructura elegida debe responder al dominio y no a la necesidad de acumular temas.</p>
 
